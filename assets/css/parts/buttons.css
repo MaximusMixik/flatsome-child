@@ -1,0 +1,61 @@
+.button.primary {
+    display: inline-flex;
+    align-items: center;
+}
+
+.button.is-xlarge {
+    padding-left: 44px;
+    padding-right: 44px;
+}
+
+.button span {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+}
+
+ a.button.primary span 
+	{
+		font-style: normal;
+		font-weight: 500;
+		font-size: 16px;
+		/* identical to box height */
+	}
+
+a.white.button.is-outline {
+	border-color: white;
+}
+
+a.white.button.is-outline:hover span {
+	color: black
+}
+
+a.white.button span{
+	color: white
+}
+
+/* .button span{
+	min-height: 46px;
+	line-height: 46px;
+} */
+
+a.white.button i {
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 5px;
+    width: 24px;
+    height: 24px;
+    font-size: 9px;
+}
+
+a.white.button:hover i {
+	border-color: black;
+}
+
+a.white.button:hover i:before {
+	color: black
+}
+
+a.white.button i:before {
+	color: white;
+}

@@ -1,147 +1,8 @@
-/*Typography*/
 
-h1{
-	font-variant-numeric: lining-nums proportional-nums;
-	color: #333333;
-	font-size: 72px;
-	font-style: normal;
-	line-height: 109%;
-}
 
-/*Buttons*/
 
-.button span {
-	font-weight: 400;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 14px;
-/* 	color: #1F0C01; */
-}
 
- a.button.primary span 
-	{
-		font-style: normal;
-		font-weight: 500;
-		font-size: 16px;
-		/* identical to box height */
-	}
 
-a.white.button.is-outline {
-	border-color: white;
-}
-
-a.white.button.is-outline:hover span {
-	color: black
-}
-
-a.white.button span{
-	color: white
-}
-
-.button span{
-	min-height: 46px;
-	line-height: 46px;
-}
-
-a.white.button i {
-    border: 2px solid white;
-    border-radius: 50%;
-    padding: 5px;
-    width: 24px;
-    height: 24px;
-    font-size: 9px;
-}
-
-a.white.button:hover i {
-	border-color: black;
-}
-
-a.white.button:hover i:before {
-	color: black
-}
-
-a.white.button i:before {
-	color: white;
-}
-
-/*Header info section */
-
-.header-info-section{
-    margin-top: -65px;
-    padding: 0 !important;
-    margin-bottom: -65px;
-		
-}
-
-.header-info-section .row{
-	background: var(--color-white, #FFF);
-	box-shadow: 0px 1.53704px 2.28241px 0px rgba(0, 0, 0, 0.01), 0px 6.76296px 4.72593px 0px rgba(0, 0, 0, 0.02), 0px 16.6px 9.425px 0px rgba(0, 0, 0, 0.02), 0px 31.97037px 18.47407px 0px rgba(0, 0, 0, 0.02), 0px 53.7963px 33.96759px 0px rgba(0, 0, 0, 0.03), 0px 83px 58px 0px rgba(0, 0, 0, 0.04);
-	padding:25px 80px;
-	border-radius: 14px;
-}
-
-.header-info-section  .col{
-	padding:0 !important;
-}
-
-.header-info-section  .col h4{
-	color: var(--color-back, #3E3E3E);
-	
-	font-size: 24px;
-	font-style: normal;
-	font-weight: 600;
-	line-height: normal;
-	margin-bottom: 5px;
-}
-
-.header-info-section  .col p{
-	color: var(--color-back, #3E3E3E);
-	
-	font-size: 16px;
-	font-style: normal;
-	font-weight: 400;
-	line-height: normal;
-}
-
-.header-info-section .icon-box-left .icon-box-img+.icon-box-text {
-    padding-left: 30px;
-}
-
-.header-info-section .icon{
-	width:70px;
-	height:70px;
-}
-
-.header-info-section  .col-inner{
-	border-right:1px solid rgba(0, 0, 0, 0.20);
-}
-
-.header-info-section  .col{
-    width: calc(33%);
-    flex-basis: calc(33%);
-}
-
-.header-info-section  .col:nth-child(3) .col-inner{
-	border-right:initial;
-}
-
-@media(max-width:1000px){
-	.header-info-section .col {
-    margin-right: 0;
-    max-width: 100%;
-    flex-basis: 100%;
-    margin-left: 0;
-	}
-	
-	.header-info-section .row{
-		padding: 25px 20px;
-	}
-	
-	.header-info-section .col-inner{
-		border:initial !important;
-		padding: 20px 0;
-	}
-}
 
 
 /*Footer*/
@@ -1147,57 +1008,7 @@ body .header-full-width .container {
 
 
 
-.header-info-section{
-    margin-top: -65px;
-    padding: 0 !important;
-    margin-bottom: -65px;
-}
 
-.header-info-section .row{
-	background: var(--color-white, #FFF);
-	box-shadow: 0px 1.53704px 2.28241px 0px rgba(0, 0, 0, 0.01), 0px 6.76296px 4.72593px 0px rgba(0, 0, 0, 0.02), 0px 16.6px 9.425px 0px rgba(0, 0, 0, 0.02), 0px 31.97037px 18.47407px 0px rgba(0, 0, 0, 0.02), 0px 53.7963px 33.96759px 0px rgba(0, 0, 0, 0.03), 0px 83px 58px 0px rgba(0, 0, 0, 0.04);
-	padding:25px 80px;
-}
-
-.header-info-section  .col{
-	padding:0 !important;
-}
-
-.header-info-section  .col h4{
-	color: var(--color-back, #3E3E3E);
-	
-	font-size: 24px;
-	font-style: normal;
-	font-weight: 600;
-	line-height: normal;
-	margin-bottom: 5px;
-}
-
-.header-info-section  .col p{
-	color: var(--color-back, #3E3E3E);
-	
-	font-size: 16px;
-	font-style: normal;
-	font-weight: 400;
-	line-height: normal;
-}
-
-.header-info-section .icon-box-left .icon-box-img+.icon-box-text {
-    padding-left: 30px;
-}
-
-.header-info-section .icon{
-	width:70px;
-	height:70px;
-}
-
-.header-info-section  .col-inner{
-	border-right:1px solid rgba(0, 0, 0, 0.20);
-}
-
-.header-info-section  .col:nth-child(3) .col-inner{
-	border-right:initial;
-}
 
 .product-small.box{
 	border-radius: 0px 0px 24px 24px;
@@ -2356,13 +2167,7 @@ line-height: 116%;
     flex-basis: 100%;
     padding: 20px 30px !important;
 	}
-	
-	.header-info-section .col {
-    margin-right: 0;
-    max-width: 100%;
-    flex-basis: 100%;
-    margin-left: 0;
-	}
+
 	
 	.header-info-section .row{
 		padding: 25px 20px;

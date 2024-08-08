@@ -2,3 +2,8 @@
 @import url(./legacy/all-screens-advanced-tab.css);
 @import url(./legacy/tablet-and-down.css);
 @import url(./legacy/mobile-only.css);
+
+
+@import url(./global/typography.css);
+@import url(./parts/buttons.css);
+@import url(./blocks/homepage/header-info.css);

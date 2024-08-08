@@ -1,0 +1,9 @@
+/*Typography*/
+
+body h1{
+	font-variant-numeric: lining-nums proportional-nums;
+	color: #333333;
+	font-size: 72px;
+	font-style: normal;
+	line-height: 109%;
+}
