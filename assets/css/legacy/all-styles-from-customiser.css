@@ -2173,11 +2173,6 @@ line-height: 116%;
 		padding: 25px 20px;
 	}
 	
-	.header-info-section .col-inner{
-		border:initial !important;
-		padding: 20px 0;
-	}
-	
 	.home .content-area .section:nth-child(1) .col-inner{
 		padding:0 !important;
 	}

@@ -1,8 +1,10 @@
 /*Header info section */
 
 .header-info-section {
-	margin-top: -65px;
-	margin-bottom: -65px;
+    margin-top: -65px;
+    margin-bottom: -65px;	
+    max-width: calc(100% - 50px);
+    margin-inline: auto;
 }
 
 .header-info-section .row {
@@ -14,13 +16,13 @@
 }
 
 .header-info-section .col {
-	padding-bottom: 0;
-	border-right: 1px solid rgba(0, 0, 0, 0.20);
-	padding-left: 65px;
-	padding-right: 65px;
+    padding-bottom: 0;
+    border-right: 1px solid rgba(0, 0, 0, 0.20);
+    padding-left: 65px;
+    padding-right: 65px;
 }
 
-.header-info-section .col:nth-child(3) .col {
+.header-info-section  .col:nth-child(3) {
 	border-right: initial;
 }
 
@@ -47,23 +49,87 @@
 	height: 70px;
 }
 
+@media(max-width: 1440px){
+    .header-info-section .col {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
+
+@media(max-width: 1200px){
+    .header-info-section .icon{
+        width: 60px;
+        height: 60px;
+    }
+
+    .header-info-section .icon-box-left .icon-box-img+.icon-box-text {
+        padding-left: 0;
+        margin-top: 20px;
+    }
+
+    .header-info-section .icon-box-left {
+        flex-direction: column;
+    }
+    
+}
+
+@media(max-width: 1000px){
+    .header-info-section br {
+        display: none;
+    }
+}
+
+@media(max-width: 768px){
+
+    .header-info-section .col {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .header-info-section .col p {
+        font-size: 14px;
+    }
+
+    .header-info-section .col-inner {
+        padding: 10px 0;
+    }
+
+    .header-info-section .row {
+        padding: 0;
+    }
+
+    .header-info-section  .col h4 {
+        font-size: 20px;
+    } 
+}
 
 
 
 
-@media(max-width:1000px) {
-	.header-info-section .col {
-		margin-right: 0;
-		max-width: 100%;
-		flex-basis: 100%;
-		margin-left: 0;
-	}
+@media(max-width: 576px){
 
-	.header-info-section .row {
-		padding: 25px 20px;
-	}
+    .header-info-section .col {
+        max-width: 100%;
+        flex-basis: 100%;
+        border-right: 0;
+        
+    }
 
-	.header-info-section .col-inner {
-		padding: 20px 0;
-	}
+    .header-info-section .col-inner {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.20);
+        padding: 25px 0;
+    } 
+
+    .header-info-section .col:nth-child(3) .col-inner { 
+        border-bottom: 0;
+    }
+
+    .header-info-section .icon-box {
+        text-align: center;
+        align-items: center;
+    }
+
+    .header-info-section .icon-box-text  {
+        max-width: 230px;
+    }
 }
