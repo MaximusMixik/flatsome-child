@@ -63,61 +63,14 @@
   <span class="back-btn-menu">Back to menu</span>
 
   <div class="category-list-box">
-<?php
-wp_nav_menu(array(
-    'theme_location' => 'all_products_menu', // Используем зарегистрированное местоположение
-    'menu_class'     => 'all-products-menu', // Класс для <ul> элемента
-    'container'      => 'nav',               // Обертка меню
-    'container_class'=> 'all-products-nav'   // Класс для обертки
-));
-
-
-function custom_woocommerce_menu_items($items, $args) {
-    if ($args->theme_location == 'all_products_menu') {
-        $product_categories = get_terms('product_cat', array(
-            'orderby'    => 'name',
-            'order'      => 'ASC',
-            'hide_empty' => false,
-            'parent'     => 0,
+    <?php
+        wp_nav_menu(array(
+            'theme_location' => 'all_products_menu', 
+            'menu_class'     => 'all-products-menu', 
+            'container'      => 'nav',               
+            'container_class'=> 'all-products-nav' 
         ));
-
-        foreach ($product_categories as $category) {
-            $items .= '<li class="menu-item"><a href="' . esc_url(get_term_link($category)) . '">' . esc_html($category->name) . '</a></li>';
-
-            $products = new WP_Query(array(
-                'post_type' => 'product',
-                'posts_per_page' => 5,
-                'tax_query' => array(
-                    array(
-                        'taxonomy' => 'product_cat',
-                        'field'    => 'term_id',
-                        'terms'    => $category->term_id,
-                    ),
-                ),
-            ));
-
-            if ($products->have_posts()) {
-                $items .= '<ul class="sub-menu">';
-                while ($products->have_posts()) {
-                    $products->the_post();
-                    $product_title = get_the_title();
-                    $clean_title = preg_replace('/\s*\(.*?\)\s*|\s*,.*$/', '', $product_title);
-                    $clean_title = trim($clean_title); 
-
-                    if (!empty($clean_title)) {
-                        $items .= '<li><a href="' . esc_url(get_permalink()) . '">' . esc_html($clean_title) . '</a></li>';
-                    }
-                }
-                $items .= '</ul>';
-                wp_reset_postdata();
-            }
-        }
-    }
-
-    return $items;
-}
-add_filter('wp_nav_menu_items', 'custom_woocommerce_menu_items', 10, 2);
-?>
+    ?>
     <a href="/shop/ " class="shop-btn">Go to shop</a>
   </div>
 </div>
