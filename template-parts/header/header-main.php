@@ -55,7 +55,10 @@
 </div>
 
 <div class="category-burger-menu-section">
-  <?php echo do_shortcode('[fibosearch]');?>
+  <div class="category-burger-menu-section__header">
+    <?php echo do_shortcode('[fibosearch]');?>
+    <div  class="category-burger-menu-section__button" aria-label="close categories button"></div>
+  </div>
 
   <span class="back-btn-menu">Back to menu</span>
 

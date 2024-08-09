@@ -13,12 +13,13 @@ jQuery(document).ready(function ($) {
     // Дождемся загрузки DOM, чтобы убедиться, что все элементы доступны
 
     // Находим кнопку меню, элемент body, элемент #main и элемент .shop-link
-    var menuBtn = document.querySelector('.menuburger-btn');
-    var body = document.body;
-    var main = document.querySelector('#main');
-    var shopLink = document.querySelector('.shop-link');
-    var backMenuBtn = document.querySelector('.back-btn-menu');
-    var closeMenuBtn = document.querySelector('.close-menu-burger');
+    const menuBtn = document.querySelector('.menuburger-btn');
+    const body = document.body;
+    const main = document.querySelector('#main');
+    const shopLink = document.querySelector('.shop-link');
+    // var backMenuBtn = document.querySelector('.back-btn-menu');
+    const backMenuBtnList = document.querySelectorAll('.back-btn-menu, .category-burger-menu-section__button');
+    const closeMenuBtn = document.querySelector('.close-menu-burger');
 
 
     // Проверяем, что кнопка меню, body, элемент #main и .shop-link существуют
@@ -35,15 +36,21 @@ jQuery(document).ready(function ($) {
             body.classList.toggle('active-burger-menu-category');
         });
 
-        backMenuBtn.addEventListener('click', function () {
-            // Переключаем класс у body
-            body.classList.remove('active-burger-menu-category');
-        });
+        // backMenuBtn.addEventListener('click', function () {
+        //     // Переключаем класс у body
+        //     body.classList.remove('active-burger-menu-category');
+        // });
+        backMenuBtnList.forEach(button => {
+            button.onclick = () => {
+                body.classList.remove('active-burger-menu-category');
+            }
+        })
 
         closeMenuBtn.addEventListener('click', function () {
             // Переключаем класс у body
             body.classList.remove('active-burger-menu');
         });
+
 
         // Добавляем обработчик события клика на элемент #main
         main.addEventListener('click', function () {
