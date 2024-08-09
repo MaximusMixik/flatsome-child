@@ -21,7 +21,7 @@ max-width: 1440px;
     padding: 11px 34px;
 	color: #fff;
 	font-style: normal;
-	background: #88AD09;
+	background: var(--primary-color);
     border-radius: 5px;
 }
 
@@ -44,8 +44,8 @@ button.expand.wp-element-button
 	line-height: 24px;
 	color: #1F0C01;
 	width:100%;
-	background: #88AD09;
-    border-color: #88AD09;
+	background: var(--primary-color);
+    border-color: var(--primary-color);
 }
 .woocommerce-form-login .button
 {
@@ -155,15 +155,12 @@ form.woocommerce-widget-layered-nav-dropdown
 
 a.button.secondary {
 /*     background: #34c560; */
-	    background: #88AD09;
-    background-color: #88AD09;
+	    background: var(--primary-color);
+    background-color: var(--primary-color);
 /*     background-image: linear-gradient(270deg, rgba(92, 215, 47, 1) -35%, rgba(52, 197, 96, 1) 118%); */
 }
 
-.product-small.box .name.product-title.woocommerce-loop-product__title
-{
-	clear:both;
-}
+
 
 
 .text.slider-lead
@@ -261,10 +258,7 @@ h1, h2, h3, h4, h5, h6
 
 
 
-.product-small.col .box-image img, .product-small.box .box-image
-{
-	border-radius: 5%;
-}
+
 
 .callout.badge.badge-circle
 {
@@ -305,12 +299,12 @@ li.tab.has-icon.active a span
 }
 
 #tab-sale a {
-	border: 1px solid #88AD09;
-	color: #88AD09;
+	border: 1px solid var(--primary-color);
+	color: var(--primary-color);
 }
 
  li#tab-sale.active>a {
-	background-color: #88AD09;
+	background-color: var(--primary-color);
 }
 
 #tab-best-sellers a {
@@ -356,14 +350,14 @@ li.tab.has-icon.active a span
 
 input#button-subscribe
 {
-	background: #88AD09;
+	background: var(--primary-color);
 	border-radius: 8px;
 color:#1F0C01;
 }
 
 a.button.is-outline
 {
-	border: 2px solid #88AD09;
+	border: 2px solid var(--primary-color);
 }
 
 a.button.is-outline > i[class^="icon-"]
@@ -414,8 +408,8 @@ a.woocommerce-button.wp-element-button.button.view,
 .button.primary.wc-backward.wp-element-button,
 .button.wp-element-button
 {
-	background-color: #88AD09 !important;
-    border-color: #88AD09;
+	background-color: var(--primary-color) !important;
+    border-color: var(--primary-color);
 }
 
 .button.wc-forward.wp-element-button,
@@ -507,12 +501,6 @@ form.searchform .button.wp-element-button,
 		bottom: -14px;
 		right: -11px;
 	}
-/*	
-	.product-small.box .box-image
-	{
-		width: 264px;
-	}
-*/	
 	
 	
 	.text.slider-lead

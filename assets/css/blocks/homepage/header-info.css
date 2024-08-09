@@ -2,7 +2,6 @@
 
 .header-info-section {
     margin-top: -65px;
-    margin-bottom: -65px;	
     max-width: calc(100% - 30px);
     margin-inline: auto;
 }
@@ -77,6 +76,16 @@
     .header-info-section br {
         display: none;
     }
+
+    .header-info-section .row {
+		padding: 25px 20px;
+	}
+
+    .header-info-section {
+		margin-top: 0;
+		padding: 0 !important;
+		margin-bottom: 0;
+	}
 }
 
 @media(max-width: 768px){

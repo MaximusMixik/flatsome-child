@@ -5,9 +5,14 @@
 
 @import url(./global/typography.css);
 @import url(./global/layout.css);
+@import url(./global/global.css);
+@import url(./global/icons.css);
 
 @import url(./parts/buttons.css);
 @import url(./parts/header.css);
+@import url(./parts/sliders.css);
+@import url(./parts/product-boxes.css);
+
 
 @import url(./blocks/homepage/header-info.css);
 @import url(./blocks/homepage/home-hero.css);

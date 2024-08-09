@@ -1,3 +1,7 @@
+.button, button {
+    transition: .3s all;
+}
+
 .button.primary {
     display: inline-flex;
     align-items: center;
@@ -14,13 +18,21 @@
 	font-size: 16px;
 }
 
- a.button.primary span 
-	{
-		font-style: normal;
-		font-weight: 500;
-		font-size: 16px;
-		/* identical to box height */
-	}
+.button.is-outline span {
+    color: black;
+}
+
+.button.is-outline:hover span {
+    color: white;
+}
+
+.button.primary.is-outline:hover .icon-angle-right:before {
+    background: url(./../../images/homepage/arrow-narrow-right-white.svg);
+}
+
+.button.secondary.is-link:hover::after {
+    transform: translateX(10px);
+}
 
 a.white.button.is-outline {
 	border-color: white;
@@ -58,6 +70,31 @@ a.white.button:hover i:before {
 
 a.white.button i:before {
 	color: white;
+}
+
+
+.button.secondary:after {
+	content: "";
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+    transition: .3s all;
+	background: url(./../../images/homepage/arrow-narrow-right.svg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+    margin-left: 10px;
+}
+
+.button.secondary {
+	margin: 0;
+	display: flex;
+    align-items: center;
+}
+
+.button.secondary span {
+	color: #000;
+	font-size: 16px;
 }
 
 @media (max-width: 549px) {

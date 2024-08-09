@@ -1,0 +1,52 @@
+.section-header--with-button .col-inner {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-header--with-button .button {
+    margin-left: 24px;
+}
+
+.header-section h3 {
+	color: #000;
+	font-variant-numeric: lining-nums proportional-nums;
+
+	font-size: 42px;
+	font-style: normal;
+	
+	line-height: 116%;
+}
+
+.header-section--sale {
+    color: var(--primary-color);
+    display: flex;
+    align-items: center;
+   
+}
+
+.header-section--sale + .button {
+    margin-bottom: 0;
+}
+
+.header-section--sale h3 {
+    color: var(--primary-color);
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+.header-section--sale::before {
+    content: "";
+    width: 36px;
+    height: 36px;
+    margin-right: 16px;
+    background: url(./../../images/homepage/shop-sale-label.svg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+.column--button-end .col-inner{
+ display: flex;
+ justify-content: flex-end;
+}

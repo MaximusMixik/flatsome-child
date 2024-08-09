@@ -1,0 +1,10 @@
+.icon-angle-right:before {
+    content: "";
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url(./../../images/homepage/arrow-narrow-right.svg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}

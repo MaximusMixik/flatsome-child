@@ -1,0 +1,117 @@
+.product-small.box {
+	border-radius: 0px 0px 24px 24px;
+	background: #FFF;
+	padding: 20px 15px 10px;
+    border: 1px solid #E0E0E0;
+}
+
+.product-small.box .image-tools {
+	display: none;
+}
+
+.product-small.box .box-image {
+	width: 90%;
+}
+
+.product-small.box .product-title a {
+	color: #292929;
+	text-align: center;
+
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.product-small.box .price-wrapper {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.product-small.box .price-wrapper span.amount {
+	color: var(--Green, #539C17);
+
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-align: center;
+}
+
+.product-small.box .box-text {
+	display: grid;
+}
+
+.product-small.box .price-wrapper {
+	order: 2;
+}
+
+.product-small.box .title-wrapper {
+	order: 1;
+}
+
+.product-small.box .product-title {
+	height: 60px;
+	margin-top: 5px;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+.product-small.box .category {
+	color: rgba(41, 41, 41, 0.50);
+	text-align: center;
+
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	text-overflow: initial;
+	white-space: initial;
+	text-transform: uppercase;
+	overflow: hidden;
+	height: 16px;
+}
+
+.product-small.col .box-image img, .product-small.box .box-image
+{
+	border-radius: 5%;
+}
+
+.product-small.box .name.product-title.woocommerce-loop-product__title
+{
+	clear:both;
+}
+
+@media(max-width:1000px) {
+    .related .product-small.box .product-title,
+	.home .product-small.box .product-title {
+		height: 86px;
+	}
+
+	.product-small.box .price-wrapper span.amount {
+		font-size: 16px;
+	}
+
+	.product-small.box .product-title {
+		height: auto;
+	}
+
+    .product-small .col-inner,
+	.product-small.box {
+		height: 100%;
+	}
+
+    .post-type-archive-product .product-small.box .product-title {
+		height: auto;
+		margin-top: 5px;
+		overflow: initial;
+		margin-bottom: 20px;
+	}
+}
