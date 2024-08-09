@@ -15,6 +15,8 @@ add_action( 'wp_enqueue_scripts', 'codelibry_name_scripts' );
 add_filter('wpcf7_skip_spam_check', '__return_true');
 
 
+
+// header custom menu
 function register_my_menus() {
     register_nav_menus(
         array(
@@ -22,8 +24,16 @@ function register_my_menus() {
         )
     );
 }
-add_action('init', 'register_my_menus');
 
+function custom_trim_menu_items($items, $args) {
+    if ($args->theme_location !== 'all_products_menu')   return $items;
+    $pattern = '/\s*\(.*?\)\s*|\s*,.*$/';
+    foreach ($items as &$item)  $item->title = trim(preg_replace($pattern, '', $item->title));
+    return $items;
+}
+
+add_action('init', 'register_my_menus');
+add_filter('wp_nav_menu_objects', 'custom_trim_menu_items', 10, 2);
 
 add_action( 'wp_footer', 'single_add_to_cart_event_text_replacement' );
 function single_add_to_cart_event_text_replacement() {

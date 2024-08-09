@@ -289,7 +289,7 @@
 .menu-burger-menu-container {
   margin-top: 40px;
   /* height: 100%; */
-  height: 90%;
+  height: 95%;
 }
 
 .burger-menu {
@@ -363,7 +363,6 @@
 
 .category-burger-menu-section__header:not(:last-child) {
   margin-bottom: 30px;
-
 }
 
 .category-burger-menu-section__button {
@@ -410,7 +409,16 @@
 
 .menu-item-object-category .menu-item a {
   font-family: inherit;
-  color: #808080;
+  /* color: #808080; */
+  color: rgba(0, 0, 0, 0.50);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.28px;
+}
+
+.menu-item-object-category .menu-item:not(:last-child) {
+  margin-bottom: 4px;
+
 }
 
 .category-list-box {
@@ -446,7 +454,7 @@
 
 .shop-btn::after {
   content: "";
-  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none"><path stroke="%2389AF08" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5 12h14m0 0-7-7m7 7-7 7" /></svg>') no-repeat center center;
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none"><path stroke="%2389AF08" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5 12h14m0 0-7-7m7 7-7 7" /></svg>') no-repeat;
   width: 24px;
   height: 24px;
   flex: 24px;
