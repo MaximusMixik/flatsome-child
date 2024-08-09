@@ -3,8 +3,11 @@
 @import url(./legacy/tablet-and-down.css);
 @import url(./legacy/mobile-only.css);
 
-
 @import url(./global/typography.css);
+@import url(./global/layout.css);
+
 @import url(./parts/buttons.css);
-@import url(./blocks/homepage/header-info.css);
 @import url(./parts/header.css);
+
+@import url(./blocks/homepage/header-info.css);
+@import url(./blocks/homepage/home-hero.css);

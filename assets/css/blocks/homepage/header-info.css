@@ -3,7 +3,7 @@
 .header-info-section {
     margin-top: -65px;
     margin-bottom: -65px;	
-    max-width: calc(100% - 50px);
+    max-width: calc(100% - 30px);
     margin-inline: auto;
 }
 

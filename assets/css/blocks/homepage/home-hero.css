@@ -1,0 +1,44 @@
+.home-hero .button {
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+
+.home-hero::after,
+.home-hero::before {
+    content: "";
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.home-hero::after {
+    width: 36%;
+    height: auto;
+    aspect-ratio: 612 / 408;
+    z-index: 1;
+    max-height: 408px;
+    right: 0%;
+    top: 5%;
+    background-image: url(./../../../images/homepage/hero-leaf-1.png);
+    background-position: right;
+    
+}
+
+.home-hero::before {
+    width: 50%;
+    height: auto;
+    aspect-ratio: 850 / 556;
+    z-index: 1;
+    max-height: 566px;
+    left: 0%;
+    top: 0;
+    background-image: url(./../../../images/homepage/hero-leaf-2.png);
+    background-position: left;
+}
+
+@media (max-width: 1240px) {
+    .home-hero::after,
+    .home-hero::before {
+        display: none;
+    }
+}

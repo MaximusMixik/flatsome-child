@@ -881,13 +881,6 @@ body.woocommerce-checkout .woocommerce-checkout .row.pt-0 {
 	border: initial;
 }
 
-h1 {
-	font-variant-numeric: lining-nums proportional-nums;
-	font-size: 72px;
-	font-style: normal;
-	line-height: 109%;
-}
-
 .quantity {
 	border-radius: 33px;
 	border: 1px solid rgba(0, 0, 0, 0.20);
@@ -2184,29 +2177,6 @@ label[for=woof_checkbox_sales]:before {
 		padding: 25px 20px;
 	}
 
-	.home .content-area .section:nth-child(1) .col-inner {
-		padding: 0 !important;
-	}
-
-	.home .content-area .section:nth-child(1) .col-inner h1 {
-		font-size: 28px;
-	}
-
-
-	.home .content-area .section:nth-child(1) .col-inner p {
-		font-size: 14px;
-	}
-
-	.home #content>.section:nth-child(1) {
-		height: 400px;
-		min-height: auto;
-		padding-top: 100px;
-	}
-
-	.button.primary span {
-		padding: 13px 20px;
-	}
-
 	.slider-nav-reveal {
 		width: 100% !important;
 		margin: 0 0px !important;
@@ -2303,11 +2273,6 @@ label[for=woof_checkbox_sales]:before {
 	footer .menu-colum:nth-child(3) {
 		flex-basis: 50%;
 		max-width: 50%;
-	}
-
-	.page h1 {
-		font-size: 26px;
-		padding-top: 40px;
 	}
 
 	.product-info {
