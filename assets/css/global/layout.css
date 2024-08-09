@@ -1,0 +1,20 @@
+body {
+    max-width: 2560px;
+    margin-inline: auto;
+}
+
+.container-width, .full-width .ubermenu-nav, .container, .row {
+    width: 85%;
+}
+
+@media (max-width: 576px) {
+    .container-width, .full-width .ubermenu-nav, .container, .row {
+        width: 95%;
+    }
+}
+
+@media (max-width: 450px) {
+    .container-width, .full-width .ubermenu-nav, .container, .row {
+        width: 100%;
+    }
+}

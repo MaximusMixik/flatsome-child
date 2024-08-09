@@ -59,3 +59,9 @@ a.white.button:hover i:before {
 a.white.button i:before {
 	color: white;
 }
+
+@media (max-width: 549px) {
+    .button.is-xlarge {
+        font-size: 1.2em;
+    }
+}
