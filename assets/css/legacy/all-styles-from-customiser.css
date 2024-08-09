@@ -436,10 +436,10 @@ del .woocommerce-Price-amount {
 	text-decoration: initial;
 }
 
-.category-tab-title {
+/* .category-tab-title {
 	margin-top: 50px;
 	margin-bottom: 30px;
-}
+} */
 
 .category-box-home .col-inner {
 	border-radius: 24px;
@@ -1059,59 +1059,7 @@ body .header-full-width .container {
 
 
 
-.category-tab-title h3,
-.catalog-section h3 {
-	color: #000;
-	font-variant-numeric: lining-nums proportional-nums;
 
-	font-size: 48px;
-	font-style: normal;
-	font-weight: 600;
-	line-height: 116%;
-}
-
-.category-tab-title p,
-.catalog-section p {
-	color: var(--color-back, #3E3E3E);
-	text-align: center;
-
-	font-size: 20px;
-	font-style: normal;
-	font-weight: 400;
-	line-height: normal;
-	width: 70%;
-	margin: 0 auto;
-}
-
-.tabbed-content {
-	margin-top: 52px;
-}
-
-.tabbed-content .nav {
-	margin-bottom: 40px;
-}
-
-.tabbed-content .tab span {
-	color: rgba(0, 0, 0, 0.68);
-	text-align: center;
-
-	font-size: 14px !important;
-	font-style: normal !important;
-	font-weight: 500 !important;
-	line-height: 16px !important;
-	margin: 0 10px !important;
-	width: 100px;
-}
-
-.tabbed-content .tab.active {
-	background: #fff;
-	border-radius: 20px;
-}
-
-.tabbed-content .tab.active span {
-	font-weight: 700 !important;
-	color: #000 !important;
-}
 
 .about-section,
 .about-section .col {
@@ -1141,15 +1089,7 @@ body .header-full-width .container {
 	margin-bottom: 50px;
 }
 
-.blog-section .post-title {
-	color: #292929;
-	text-align: center;
 
-	font-size: 14px;
-	font-style: normal;
-	font-weight: 500;
-	line-height: normal;
-}
 
 .stuck,
 .woocommerce-page .header-wrapper,
@@ -1787,22 +1727,11 @@ label[for=woof_checkbox_sales]:before {
 		width: 100%;
 	}
 
-	.home .catalog-section .flickity-enabled.is-draggable .flickity-viewport {
-		width: 100% !important;
-		margin-left: 0px;
-	}
 
-	.home .catalog-section .flickity-enabled.is-draggable .flickity-viewport .box-image img {
-		margin: 7px auto 0;
-		max-width: 100%;
-		width: 70%;
-		display: block;
-	}
 
-	.home .catalog-section .gallery-item,
-	.home .catalog-section .gallery-col {
-		padding: 0 0px;
-	}
+
+
+
 
 	.page-id-5880 .row-box-shadow-1 .post-item:nth-child(1) {
 		margin-bottom: 40px;
@@ -1938,14 +1867,6 @@ label[for=woof_checkbox_sales]:before {
 		padding-top: 100px;
 	}
 
-	/* 	.single #main, .page-id-6080 #main {
-    padding-top: 70px;
-	} */
-
-	.tabbed-content .nav {
-		margin-bottom: 0;
-	}
-
 	.checkout-page-title {
 		padding-top: 40px;
 	}
@@ -1994,17 +1915,9 @@ label[for=woof_checkbox_sales]:before {
 		padding: 0 0px !important;
 	}
 
-	.category-tab-title h3,
-	.catalog-section h3 {
-		font-size: 28px;
-	}
 
-	.category-tab-title p,
-	.catalog-section p {
-		font-size: 16px;
-		width: 100%;
-		margin: 0 auto;
-	}
+
+
 
 	.about-section .col:nth-child(1) .col-inner {
 		padding: 30px 20px;
@@ -2021,37 +1934,6 @@ label[for=woof_checkbox_sales]:before {
 
 	.about-section h3 {
 		font-size: 28px;
-	}
-
-	.blog-section .col-inner {
-		padding: 0 !important;
-	}
-
-	.home .content-area .section:nth-child(3) .col-inner,
-	.home .content-area .section:nth-child(4) .col-inner,
-	.home .content-area .section:nth-child(5) .col-inner {
-		padding: 0px 0 0 !important;
-	}
-
-
-
-	.home .content-area .section:nth-child(3) .col-inner .button.secondary,
-	.home .content-area .section:nth-child(4) .col-inner .button.secondary {
-		float: left;
-	}
-
-
-	.slider-nav-reveal .flickity-prev-next-button,
-	.slider-nav-reveal .flickity-prev-next-button:hover {
-		border: initial;
-		width: 35px !important;
-	}
-
-	.catalog-section .slider-nav-reveal {
-		width: 100% !important;
-		margin: 0 !important;
-		padding: 0 0 !important;
-		max-width: initial;
 	}
 
 	.tab-panels button.previous,
@@ -2093,19 +1975,13 @@ label[for=woof_checkbox_sales]:before {
 		margin-bottom: 10px;
 	}
 
-	footer .menu-colum:nth-child(3) {
-		padding-top: 50px !important;
-	}
 
 	.slider-nav-reveal .flickity-prev-next-button.next {
 		left: auto !important;
 		right: -10px !important;
 	}
 
-	.slider-nav-reveal .flickity-prev-next-button.previous {
-		left: -10px !important;
-		right: auto !important;
-	}
+
 
 }
 

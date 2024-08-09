@@ -46,6 +46,16 @@ a.white.button span{
 	color: white
 }
 
+a.button.is-outline
+{
+	border: 1px solid var(--color-green-2);
+}
+
+a.button.is-outline > i[class^="icon-"]
+{
+	color:#000000;
+}
+
 /* .button span{
 	min-height: 46px;
 	line-height: 46px;
@@ -95,6 +105,15 @@ a.white.button i:before {
 .button.secondary span {
 	color: #000;
 	font-size: 16px;
+}
+
+footer .button.white.is-outline {
+    display: inline-flex;
+    align-items: center;
+}
+
+footer .button.white.is-outline i {
+    margin-left: 15px;
 }
 
 @media (max-width: 549px) {

@@ -292,11 +292,7 @@ li.tab.has-icon.active a span
 	height: 37px;
 }
 
-.tabbed-content .nav-pills>li
-{
-	margin-bottom:30px;
-	margin-right:5px;
-}
+
 
 #tab-sale a {
 	border: 1px solid var(--primary-color);
@@ -343,10 +339,6 @@ li.tab.has-icon.active a span
 .is-divider {
 	display:none;
 }
-.attachment-medium.size-medium.wp-post-image
-{
-	border-radius: 12px;
-}
 
 input#button-subscribe
 {
@@ -355,15 +347,7 @@ input#button-subscribe
 color:#1F0C01;
 }
 
-a.button.is-outline
-{
-	border: 2px solid var(--primary-color);
-}
 
-a.button.is-outline > i[class^="icon-"]
-{
-	color:#000000;
-}
 
 .slider-nav-circle .flickity-prev-next-button:hover svg
 {

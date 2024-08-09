@@ -1,19 +1,49 @@
+:root {
+    --color-green-2: #89AF08
+}
+
 .section-header--with-button .col-inner {
     display: flex;
     flex-wrap: wrap;
+}
+
+@media (max-width: 576px) {
+    .section-header--with-button .col-inner {
+        justify-content: center;
+    }
 }
 
 .section-header--with-button .button {
     margin-left: 24px;
 }
 
+.section-header--with-button-center {
+    margin-bottom: 26px;
+}
+
+.section-header--with-button-center .col-inner{
+    justify-content: center;
+    align-items: center;
+}
+
+.section-header--with-button-center .header-section h3, .section-header--with-button-center .button {
+    margin-bottom: 0;
+}
+
+@media (max-width: 576px) {
+    .section-header--with-button-center .header-section h3 {
+       margin-bottom: .5em;
+    }
+}
+
+
 .header-section h3 {
 	color: #000;
 	font-variant-numeric: lining-nums proportional-nums;
-
+    font-family: 'Avenir Next', sans-serif;
 	font-size: 42px;
 	font-style: normal;
-	
+	font-weight: 600;
 	line-height: 116%;
 }
 
@@ -34,6 +64,13 @@
     font-weight: 600;
 }
 
+
+@media (max-width: 576px) {
+    .header-section--sale {
+       margin-bottom: 20px;
+    }
+}
+
 .header-section--sale::before {
     content: "";
     width: 36px;
@@ -47,6 +84,22 @@
 
 
 .column--button-end .col-inner{
- display: flex;
- justify-content: flex-end;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.blog-section .post-title {
+    font-family: 'Avenir', sans-serif;
+	color: #292929;
+	text-align: center;
+
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+
+.blog-section .box-text {
+    padding-left: 0;
+    padding-right: 0;
 }

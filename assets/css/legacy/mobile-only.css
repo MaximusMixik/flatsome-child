@@ -94,13 +94,7 @@ span.amount, p.name.product-title.woocommerce-loop-product__title a
 line-height: 100% !important;
 }
 
-.sector-tab .tabbed-content .tab-panels .row.show-for-small, 
-.row-products .row.show-for-small,
-.container .related .row-small
-{
-margin-left: 0px;
-margin-right: 0px
-}
+
 
 .row-small > .col
 {
