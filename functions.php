@@ -15,7 +15,14 @@ add_action( 'wp_enqueue_scripts', 'codelibry_name_scripts' );
 add_filter('wpcf7_skip_spam_check', '__return_true');
 
 
-
+function register_my_menus() {
+    register_nav_menus(
+        array(
+            'all_products_menu' => __('All Products Menu'),
+        )
+    );
+}
+add_action('init', 'register_my_menus');
 
 
 add_action( 'wp_footer', 'single_add_to_cart_event_text_replacement' );
