@@ -95,9 +95,6 @@
     color: rgba(0, 0, 0, 0.50);
   }
 
-  .category-link:hover a {
-    color: #FF5C00;
-  }
 
   .logo__burger-menu {
     position: relative;
@@ -107,63 +104,13 @@
     margin-top: 40px;
   }
 
-  .burger-menu li {
-    display: block;
-    color: #000;
-    font-family: Avenir Next;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    padding: 0 0 10px;
-  }
 
-  .burger-menu .home-link,
-  .burger-menu .shop-link,
-  .burger-menu .sale-link {
-    font-family: Avenir Next;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-transform: uppercase;
-    padding: 18px 0px;
-    margin: 0;
-  }
-
-  .burger-menu .sale-link:before {
-    content: "";
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    background: url(/wp-content/uploads/2023/11/sale-icon.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
-    margin: 0 5px 0 0;
-  }
-
-  .privacy-link {
-    position: absolute;
-    bottom: 40px;
-  }
-
-  .privacy-link a {
-    color: rgba(0, 0, 0, 0.30);
-  }
-
-  .home-link a,
-  .shop-link a {
-    color: #000;
-  }
 
   .active-burger-menu-category .shop-link a {
     color: #89AF08;
   }
 
-  .sale-link a {
-    color: #FF5C00;
-  }
+
 
   .burger-menu .sale-link {
     margin-bottom: 48px;
@@ -232,16 +179,131 @@
     margin: 7px 0 -6px 5px;
   }
 
-  .mobile-nav-login-icon {
-    display: none;
-  }
-
+  .mobile-nav-login-icon,
   .valu,
   .back-btn-menu,
   .close-menu-burger {
     display: none;
   }
 
+
+  /* !!! */
+  /* .home #header {
+    background: initial;
+  } */
+
+
+  #header .header-main .nav-left {
+    justify-content: space-evenly;
+    flex-flow: nowrap;
+  }
+
+  /* .header {
+    min-height: 134px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  } */
+
+  /* .header-wrapper {
+    position: static !important;
+  }
+
+  .sticky-add-to-cart--active,
+  #wrapper,
+  #main,
+  #main.dark {
+    background-color: transparent !important;
+  }
+
+  .header.header-full-width.has-sticky.sticky-jump {
+    background-color: rgba(0, 128, 0, 0.48);
+  }
+
+  .header.header-full-width.has-sticky.sticky-jump .header-wrapper {
+    background-color: rgba(0, 0, 255, 0.402);
+  }
+
+  .masthead {
+    background-color: rgba(255, 0, 0, 0.477);
+  } */
+
+
+
+  .burger-menu .menu-item {
+    color: #000;
+    font-family: "Avenir Next";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    display: block;
+    line-height: 1.2;
+    padding: 10px 0;
+  }
+
+  .menu-item a {
+    transition: color 0.3s ease;
+  }
+
+  .burger-menu .home-link,
+  .burger-menu .shop-link,
+  .burger-menu .sale-link {
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 18px 0;
+    margin: 0;
+  }
+
+  .burger-menu .sale-link:not(:last-child) {
+    margin-bottom: 38px;
+  }
+
+  .shop-link a,
+  .sale-link a {
+    color: #539C17;
+  }
+
+  .burger-menu .sale-link:before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" fill="none"><path fill="%23539C17" stroke="%23539C17" d="M11.3896 2.00631c-.5662-.0298-1.1184.1821-1.51936.583L1.66112 10.7982c-.781074.781-.781084 2.0474-.00003 2.8284l4.24264 4.2427c.78104.781 2.04736.781 2.82841 0l8.20916-8.20889c.4009-.40092.6128-.95316.583-1.51936l-.2121-4.03049c-.0538-1.02188-.8702-1.83833-1.8921-1.89212l-4.0305-.21213Z" /><circle cx="12.2679" cy="7.2627" r="2" fill="%23fff" transform="rotate(-45 12.2679 7.2627)" /></svg>') no-repeat;
+    /* background: url(/wp-content/uploads/2023/11/sale-icon.svg); */
+    /* margin: 0 5px 0 0; */
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    /* background-size: 100%; */
+    margin-right: 12px;
+  }
+
+  .privacy-link {
+    position: absolute;
+    bottom: 20px;
+    margin-bottom: 0;
+  }
+
+  .privacy-link a {
+    color: rgba(0, 0, 0, 0.30);
+  }
+
+  .active-burger-menu .shop-link a {
+    color: #5dc10b;
+  }
+
+  /* .home-link a,
+  .shop-link a {
+    color: #000;
+  } */
+  @media (any-hover:hover) {
+
+    .menu-item a,
+    .shop-link a,
+    .category-link:hover a {
+      color: #5dc10b;
+    }
+  }
 
   @media(max-width:1000px) {
 
