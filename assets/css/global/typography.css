@@ -1,9 +1,21 @@
 /*Typography*/
 
-body h1{
+h1{
 	font-variant-numeric: lining-nums proportional-nums;
 	color: #333333;
 	font-size: 72px;
 	font-style: normal;
 	line-height: 109%;
+}
+
+@media (max-width: 1240px) {
+    h1 {
+        font-size: 54px;
+    }
+}
+
+@media (max-width: 850px) {
+    h1 {
+        font-size: 40px;
+    }
 }
