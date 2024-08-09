@@ -64,17 +64,7 @@ function custom_redirection_after_registration( $redirection_url ){
 }
 
 
-add_action( 'wp_head', function () {
-	if(get_theme_mod('site_width')) {
-		$site_width = intval(get_theme_mod('site_width'));
-        ?>
-            <style>
-                div.row.row-small{max-width: <?php echo $site_width; ?>px}
-				footer .is-border {max-width: <?php echo $site_width-20; ?>px}
-            </style>
-        <?php
-    };
-});
+
 
 add_filter( 'woocommerce_product_description_tab_title', 'rename_description_product_tab_label' );
 function rename_description_product_tab_label() {
