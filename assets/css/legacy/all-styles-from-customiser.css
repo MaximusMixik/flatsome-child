@@ -264,14 +264,6 @@ body.woocommerce-checkout #main {
 	background: #F2F2F2;
 }
 
-.header-cart-link.icon.primary.button.round.is-small {
-	width: auto;
-	height: 38px;
-	background-color: initial !important;
-	justify-content: center;
-	align-items: center;
-	padding: 3px 3px;
-}
 
 .dgwt-wcas-style-pirx .dgwt-wcas-sf-wrapp input[type=search].dgwt-wcas-search-input::placeholder {
 	color: #fff;
@@ -1192,10 +1184,6 @@ body .header-full-width .container {
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
-}
-
-.header-main .header-button>.button:hover {
-	background-color: initial !important;
 }
 
 .home .header-wrapper .account-item .icon-user:before {

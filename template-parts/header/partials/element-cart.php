@@ -65,13 +65,13 @@ else { ?>
  <ul class="nav-dropdown <?php flatsome_dropdown_classes(); ?>">
     <li class="html widget_shopping_cart">
         <!-- Add your custom HTML-->
-        <h3>Cart</h3><span>Close</span>
+      <h3>Cart</h3>
       <div class="widget_shopping_cart_content">
         <?php woocommerce_mini_cart(); ?>
       </div>
     </li>
     <?php if($custom_cart_content){
-      echo '<li class="html">'.do_shortcode($custom_cart_content).'</li>';
+      echo '<li class="html">'. do_shortcode($custom_cart_content).'</li>';
       }
     ?>
  </ul>
