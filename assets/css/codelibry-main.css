@@ -21,4 +21,5 @@
 @import url(./blocks/homepage/catalog-section.css);
 
 
-@import url(./blocks/blog/blog-hero.css);
+@import url(./blocks/blog/blog-main.css);
+@import url(./blocks/blog/blog-single.css);

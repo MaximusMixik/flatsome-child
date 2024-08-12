@@ -299,42 +299,8 @@ body.woocommerce-checkout #main {
 	padding-top: 100px;
 }
 
-
-.article-inner .entry-image.relative {
-	width: 100%;
-	float: initial;
-	padding-right: initial;
-	padding-bottom: 50px;
-}
-
 .message-container a+.showlogin {
 	display: none;
-}
-
-.single .entry-header-text.entry-header-text-top {
-	padding: 0 0 30px;
-}
-
-.single .entry-title {
-	color: #000;
-	font-variant-numeric: lining-nums proportional-nums;
-	/* 	 */
-	font-size: 32px;
-	font-style: normal;
-	font-weight: 500;
-	line-height: 116%;
-	text-align: left;
-}
-
-.entry-content.single-page,
-.entry-content.single-page p {
-	color: #000;
-
-	/*  */
-	font-size: 16px;
-	font-style: normal;
-	font-weight: 400;
-	line-height: 150%;
 }
 
 .price del,
