@@ -1292,32 +1292,7 @@ label[for=woof_checkbox_sales]:before {
 	z-index: -1;
 }
 
-.woocommerce-breadcrumb,
-.rank-math-breadcrumb,
-.rank-math-breadcrumb span,
-.rank-math-breadcrumb a {
-	color: rgba(0, 0, 0, 0.50);
 
-	font-size: 14px;
-	font-style: normal;
-	font-weight: 500;
-	line-height: 16px;
-	/* 114.286% */
-	letter-spacing: -0.28px;
-}
-
-.rank-math-breadcrumb .separator {
-	font-weight: 300;
-	margin: 0 0.3em;
-	opacity: .35;
-	position: relative;
-	top: 0;
-}
-
-.rank-math-breadcrumb a {
-	color: hsla(0, 0%, 40%, .7);
-	font-weight: 400;
-}
 
 .breadcrumbs-section .col {
 	padding-bottom: 0;

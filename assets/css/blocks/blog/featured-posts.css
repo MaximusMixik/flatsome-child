@@ -1,10 +1,27 @@
+.blog .header-main,
+.blog__header,
 .blog .blog-wrapper {
   background-color: #F2F2F2;
 }
 
+.blog .container,
 .blog .row {
   max-width: 1412px;
   width: 100%;
+}
+
+.blog__header>:not(:last-child) {
+  margin-bottom: 4px;
+}
+
+.blog h1 {
+  color: #000;
+  font-family: "Avenir Next";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.16;
+  margin-bottom: 0;
 }
 
 
@@ -31,11 +48,11 @@
   object-fit: cover;
   transition: transform 0.6s ease;
   transform: scale(1.001);
-
 }
 
 .featured-post__content {
-  display: grid;
+  display: flex;
+  flex-direction: column;
 }
 
 .featured-post__category {
@@ -95,8 +112,13 @@
 
 @media (min-width: 1000px) {
 
+  .blog__header {
+    padding-top: 48px;
+    padding-bottom: 24px;
+  }
+
   .blog .blog-wrapper {
-    padding-top: 50px;
+    padding-top: 24px;
     padding-bottom: 120px;
   }
 
@@ -131,9 +153,14 @@
 }
 
 @media (max-width: 1000px) {
-  .blog .blog-wrapper {
+  .blog__header {
     padding-top: 30px;
-    padding-bottom: 40px;
+    padding-bottom: 12px;
+  }
+
+  .blog .blog-wrapper {
+    padding-top: 12px;
+    padding-bottom: 30px;
   }
 
   .featured-post:not(:last-child) {

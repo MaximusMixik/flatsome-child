@@ -54,7 +54,21 @@
   overflow: hidden;
   transform: scale(1.001);
   transition: transform 0.3s ease;
+}
 
+.archive-posts .cat-label {
+  color: #000;
+  font-family: "Avenir Next";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+
+.archive-posts .cat-label:not(:last-child) {
+  margin-bottom: 18px;
 }
 
 .archive-posts .from_the_blog_excerpt {

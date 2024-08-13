@@ -1,0 +1,66 @@
+.rank-math-breadcrumb p {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  min-height: 18px;
+  gap: 12px;
+  margin-bottom: 0;
+}
+
+.woocommerce-breadcrumb,
+.rank-math-breadcrumb,
+.rank-math-breadcrumb span,
+.rank-math-breadcrumb a {
+  color: rgba(0, 0, 0, 0.50);
+  font-size: 14px;
+  font-weight: 500;
+  /* line-height: 1.14; */
+  line-height: 1.5;
+  letter-spacing: -0.28px;
+  transition: color 0.3s ease;
+}
+
+.rank-math-breadcrumb span {
+  pointer-events: none;
+}
+
+.rank-math-breadcrumb .separator {
+  /* font-weight: 300;
+  margin: 0 0.3em;
+  opacity: .35;
+  top: 0; */
+  display: inline-flex;
+  align-items: center;
+  width: 18px;
+  height: 18px;
+  position: relative;
+  font-size: 0;
+  transition: transform 0.3s ease;
+
+}
+
+.rank-math-breadcrumb .separator::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"><path stroke="%23000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".5" stroke-width="1.125" d="m6.75 13.5 4.5-4.5-4.5-4.5" /></svg>') center / contain no-repeat;
+}
+
+/* .rank-math-breadcrumb a {
+  color: hsla(0, 0%, 40%, .7);
+  font-weight: 400;
+} */
+
+
+@media (any-hover:hover) {
+  .rank-math-breadcrumb a:hover {
+    color: #89AF08;
+  }
+
+  .rank-math-breadcrumb a:hover+.separator {
+    transform: scale(-1);
+  }
+}
