@@ -133,6 +133,7 @@
 .product_list_widget .mini_cart_item img {
   margin: 0;
   left: 24px;
+  object-fit: contain;
 }
 
 /* price */
