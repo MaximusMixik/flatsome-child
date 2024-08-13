@@ -14,13 +14,10 @@ do_action( 'flatsome_before_page' );
 <div id="content" class="blog-wrapper blog-single page-wrapper">
 	<?php get_template_part( 'template-parts/posts/layout', get_theme_mod('blog_post_layout','right-sidebar') ); ?>
 	<?php
-// Параметры запроса для получения 6 последних постов
 $args = array(
-    'posts_per_page' => 6, // количество постов
-    'post_status'    => 'publish', // только опубликованные посты
+    'posts_per_page' => 6, 
+    'post_status'    => 'publish', 
 );
-
-// Создание нового запроса
 $query = new WP_Query($args);
 
 if ($query->have_posts()) : ?>

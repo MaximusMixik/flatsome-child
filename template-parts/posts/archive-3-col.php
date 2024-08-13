@@ -18,7 +18,6 @@ if ( have_posts() ) : ?>
 ?>
 
     <div class="custom-wrapper">
-
 	<?php
 	echo flatsome_apply_shortcode( 'blog_posts', array(
 		'type'        => get_theme_mod( 'blog_style_type', 'masonry' ),
