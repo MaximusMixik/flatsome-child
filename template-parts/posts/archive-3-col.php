@@ -17,8 +17,7 @@ if ( have_posts() ) : ?>
 	$ids = implode(',', $ids);
 ?>
 
-    <div class="custom-wrapper">
-
+    <div class="archive-posts">
 	<?php
 	echo flatsome_apply_shortcode( 'blog_posts', array(
 		'type'        => get_theme_mod( 'blog_style_type', 'masonry' ),
