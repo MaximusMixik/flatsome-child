@@ -8,6 +8,8 @@
 
 get_header();
 
+echo do_shortcode('[rank_math_breadcrumb]');
+
 do_action( 'flatsome_before_page' );?>
 
 <div id="content" class="blog-wrapper blog-archive page-wrapper">

@@ -28,6 +28,7 @@ if ( have_posts() ) : ?>
 		'columns'     => '4',
 		'show_date'   => get_theme_mod( 'blog_badge', 1 ) ? 'true' : 'false',
 		'ids'         => $ids,
+		'show_category' => 'true',
 	) );
 	?>
 
