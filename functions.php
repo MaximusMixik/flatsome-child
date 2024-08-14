@@ -1,7 +1,7 @@
 <?php
 
-// Scripts and styles
-//require get_stylesheet_directory_uri().'/inc/theme-enqueue.php';
+// Custom shortcodes
+require get_stylesheet_directory().'/inc/theme-shortcodes.php';
 
 function codelibry_name_scripts() {
 	wp_enqueue_style( 'codelibry-main-css', get_stylesheet_directory_uri() . '/assets/css/codelibry-main.css', array('flatsome-main') );
