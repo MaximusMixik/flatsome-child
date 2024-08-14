@@ -29,4 +29,6 @@
 @import url(./blocks/blog/archive-posts.css);
 @import url(./blocks/blog/blog-single.css);
 
+@import url(./woocommerce/single-product/layout.css);
+
 @import url(./blocks/contact/contact.css);

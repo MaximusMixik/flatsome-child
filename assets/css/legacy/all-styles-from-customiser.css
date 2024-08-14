@@ -149,24 +149,10 @@ header+.message-wrapper {
 	left: 20px;
 }
 
-.post-type-archive-product .shop-page-title .page-title-inner:after {
-	content: '';
-	position: relative;
-	width: 100%;
-	height: 234px;
-	background: url(/wp-content/uploads/2023/11/banner-archive-min-scaled.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	display: block;
-	border-radius: 24px;
-	margin-top: -290px;
-	margin-bottom: 60px;
-}
 
-.post-type-archive-product .woocommerce-ordering {
+/* .post-type-archive-product .woocommerce-ordering {
 	margin-top: 270px;
-}
+} */
 
 .post-type-archive-product #wrapper {
 	background: #f2f2f2;
@@ -1334,9 +1320,7 @@ label[for=woof_checkbox_sales]:before {
 }
 
 .single-product .related.related-products-wrapper {
-	padding: 100px 0px 100px;
 	border-top: 1px solid rgba(0, 0, 0, 0.14);
-	margin-top: 100px;
 }
 
 .single-product .tabs li a:before {
