@@ -4,6 +4,15 @@
 require get_stylesheet_directory().'/inc/acf.php';
 require get_stylesheet_directory().'/inc/theme-shortcodes.php';
 
+
+
+function woocommerce_catalog_promo_banner_big() {
+    get_template_part( 'template-parts/header/partials/element-shop-promo-banner' );
+}
+
+add_action( 'flatsome_category_title_alt', 'woocommerce_catalog_promo_banner_big', 25 );
+
+
 function codelibry_name_scripts() {
 	wp_enqueue_style( 'codelibry-main-css', get_stylesheet_directory_uri() . '/assets/css/codelibry-main.css', array('flatsome-main') );
 

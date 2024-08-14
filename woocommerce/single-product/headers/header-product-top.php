@@ -14,7 +14,7 @@
 	  		<?php do_action('flatsome_product_title') ;?>
 	  </div>
 
-	   <div class="flex-col medium-text-center">
+	   <div class="flex-col medium-text-center flatsome_product_title_tools_shortcode">
 		   	<?php do_action('flatsome_product_title_tools') ;?>
 	   </div>
 	</div>
