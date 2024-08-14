@@ -1,15 +1,16 @@
-.button, button {
-    transition: .3s all;
+.button,
+button {
+	transition: .3s all;
 }
 
 .button.primary {
-    display: inline-flex;
-    align-items: center;
+	display: inline-flex;
+	align-items: center;
 }
 
 .button.is-xlarge {
-    padding-left: 44px;
-    padding-right: 44px;
+	padding-left: 44px;
+	padding-right: 44px;
 }
 
 .button span {
@@ -19,19 +20,19 @@
 }
 
 .button.is-outline span {
-    color: black;
+	color: black;
 }
 
 .button.is-outline:hover span {
-    color: white;
+	color: white;
 }
 
 .button.primary.is-outline:hover .icon-angle-right:before {
-    background: url(./../../images/homepage/arrow-narrow-right-white.svg);
+	background: url(./../../images/homepage/arrow-narrow-right-white.svg);
 }
 
 .button.secondary.is-link:hover::after {
-    transform: translateX(10px);
+	transform: translateX(10px);
 }
 
 a.white.button.is-outline {
@@ -42,18 +43,16 @@ a.white.button.is-outline:hover span {
 	color: black
 }
 
-a.white.button span{
+a.white.button span {
 	color: white
 }
 
-a.button.is-outline
-{
+a.button.is-outline {
 	border: 1px solid var(--color-green-2);
 }
 
-a.button.is-outline > i[class^="icon-"]
-{
-	color:#000000;
+a.button.is-outline>i[class^="icon-"] {
+	color: #000000;
 }
 
 /* .button span{
@@ -62,12 +61,12 @@ a.button.is-outline > i[class^="icon-"]
 } */
 
 a.white.button i {
-    border: 2px solid white;
-    border-radius: 50%;
-    padding: 5px;
-    width: 24px;
-    height: 24px;
-    font-size: 9px;
+	border: 2px solid white;
+	border-radius: 50%;
+	padding: 5px;
+	width: 24px;
+	height: 24px;
+	font-size: 9px;
 }
 
 a.white.button:hover i {
@@ -88,18 +87,18 @@ a.white.button i:before {
 	display: inline-block;
 	width: 24px;
 	height: 24px;
-    transition: .3s all;
+	transition: .3s all;
 	background: url(./../../images/homepage/arrow-narrow-right.svg);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
-    margin-left: 10px;
+	margin-left: 10px;
 }
 
 .button.secondary {
 	margin: 0;
 	display: flex;
-    align-items: center;
+	align-items: center;
 }
 
 .button.secondary span {
@@ -108,16 +107,44 @@ a.white.button i:before {
 }
 
 footer .button.white.is-outline {
-    display: inline-flex;
-    align-items: center;
+	display: inline-flex;
+	align-items: center;
 }
 
 footer .button.white.is-outline i {
-    margin-left: 15px;
+	margin-left: 15px;
+}
+
+.wpforms-container-full button[type=submit].wpforms-submit,
+.button.button--green {
+	width: 100%;
+	height: initial;
+	min-height: 48px;
+	color: #FFF;
+	font-family: "Avenir Next";
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 1.1;
+	text-transform: uppercase;
+	border-radius: 33px;
+	background-color: #539C17 !important;
+	box-shadow: 0 25px 29px 0 rgba(137, 175, 8, 0.18), 0px 5px 4.713px 0px rgba(137, 175, 8, 0.09);
+	padding: 13px 20px;
+	margin: 0;
+	transition: background-color 0.3s ease;
+}
+
+@media (any-hover:hover) {
+
+	div.wpforms-container-full button[type=submit].wpforms-submit:hover,
+	.button.button--green:hover {
+		background: #60ba16 !important;
+	}
+
 }
 
 @media (max-width: 549px) {
-    .button.is-xlarge {
-        font-size: 1.2em;
-    }
+	.button.is-xlarge {
+		font-size: 1.2em;
+	}
 }

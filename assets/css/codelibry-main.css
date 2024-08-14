@@ -16,6 +16,7 @@
 @import url(./parts/tabbed-content.css);
 @import url(./parts/breadcrumbs.css);
 @import url(./parts/form-login.css);
+@import url(./parts/form-items.css);
 
 
 @import url(./blocks/homepage/header-info.css);
@@ -27,3 +28,5 @@
 @import url(./blocks/blog/featured-posts.css);
 @import url(./blocks/blog/archive-posts.css);
 @import url(./blocks/blog/blog-single.css);
+
+@import url(./blocks/contact/contact.css);

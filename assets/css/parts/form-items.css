@@ -1,0 +1,39 @@
+/* input */
+.account-popup .woocommerce-form-row input,
+#wpforms-6077 input,
+#wpforms-6077 textarea {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  font-family: "Avenir Next";
+
+  border-radius: 24px;
+  border: 1px solid rgba(0, 0, 0, 0.20);
+  background: #fff;
+  min-height: 40px;
+  padding: 10px 16px;
+  line-height: 1.42;
+}
+
+.account-popup .woocommerce-form-row input:focus-visible,
+#wpforms-6077 input:focus-visible,
+#wpforms-6077 textarea:focus-visible {
+  outline: 1px solid #89AF08;
+}
+
+
+/* label */
+.contact-section .wpforms-container-full .wpforms-field-label,
+.woocommerce-form-row label {
+  padding-left: 16px;
+  color: #000;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.contact-section .wpforms-field-label:not(:last-child),
+.woocommerce-form-row label:not(:last-child) {
+  margin-bottom: 2px;
+}

@@ -203,4 +203,7 @@
     background-color: rgba(221, 221, 221, 0.30) !important;
   }
 
+  .cart-item .button.wc-forward:not(.checkout):not(.checkout-button):hover {
+    background: #60ba16 !important;
+  }
 }

@@ -1,0 +1,152 @@
+.contact-section {
+  color: #000;
+}
+
+
+.contact-action h1 {
+  font-family: "Avenir Next";
+  font-weight: 500;
+  line-height: 1.16;
+}
+
+.contact-action h1:not(:last-child) {
+  margin-bottom: 44px;
+}
+
+/* !!! form items */
+.contact-section .wpforms-field {
+  display: grid;
+}
+
+.wpforms-field-container {
+  display: grid;
+  gap: 18px;
+}
+
+.contact-section .wpforms-container-full .wpforms-field-description {
+  color: #000;
+  font-family: "Avenir Next";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+  margin-top: 0;
+  order: -1;
+}
+
+.contact-section .wpforms-container .wpforms-field {
+  padding: 0;
+}
+
+.contact-section .wpforms-container-full .wpforms-form .wpforms-submit-container,
+.contact-section .wpforms-container.wpforms-container-full {
+  margin: 0;
+}
+
+.contact-section .wpforms-container-full .wpforms-submit-container {
+  margin: 0;
+  padding: 0;
+}
+
+/*! contact info*/
+.contact-section h4 {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-transform: uppercase;
+  font-family: "Avenir Next";
+}
+
+.contact-section h4:not(:last-child) {
+  margin-bottom: 18px;
+}
+
+.contact-section p {
+  color: rgba(0, 0, 0, 0.80);
+  font-family: "Avenir Next";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.contact-section h4+p {
+  margin-bottom: 0;
+}
+
+.contact-section p+p {
+  margin-top: 6px;
+}
+
+.contact-section p a {
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+
+@media (any-hover:hover) {
+  .contact-section p a:hover {
+    color: #89AF08;
+  }
+}
+
+@media (min-width: 1000px) {
+  .section.contact-section {
+    padding-top: 50px;
+    padding-bottom: 120px;
+  }
+
+  .contact-section .row {
+    margin-inline: auto;
+    max-width: 1035px;
+  }
+
+  .contact-section .col.medium-8.large-8 {
+    padding-right: 24px;
+    padding-bottom: 0;
+  }
+
+  .contact-section .col.medium-4.large-4 {
+    padding-top: 80px;
+    padding-left: 24px;
+  }
+
+  .contact-action h1 {
+    font-size: 32px;
+  }
+
+  .contact-action h1:not(:last-child) {
+    margin-bottom: 44px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .section.contact-section {
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+
+  .contact-action h1 {
+    font-size: 24px;
+  }
+
+  /* .contact-section .row {
+    flex-direction: column-reverse;
+  } */
+  .contact-action h1:not(:last-child) {
+    margin-bottom: 24px;
+  }
+
+  .contact-section .col.medium-4.large-4,
+  .contact-section .col.medium-8.large-8 {
+    margin: 0;
+  }
+
+  .breadcrumbs-section:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  .contact-section h4 {
+    margin-top: 0;
+  }
+}
