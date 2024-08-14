@@ -599,14 +599,14 @@ body.woocommerce-checkout .woocommerce-checkout .row.pt-0 {
 	padding: 0;
 }
 
-.woocommerce-privacy-policy-text p {
+/* .woocommerce-privacy-policy-text p {
 	color: #000;
 
 	font-size: 14px;
 	font-style: normal;
 	font-weight: 600;
 	line-height: normal;
-}
+} */
 
 .adress_inf,
 .adress_inf p {

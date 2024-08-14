@@ -1,0 +1,251 @@
+/* main */
+.account-popup .woocommerce-form-description,
+.account-popup .woocommerce-privacy-policy-text p,
+.account-popup .woocommerce-form-row input,
+.account-popup .woocommerce-form__label,
+.account-popup .lost_password {
+  color: #000;
+  font-family: "Avenir Next";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+}
+
+/* !!! */
+.lightbox-content .lightbox-inner {
+  padding: 0;
+}
+
+.lightbox-content {
+  max-width: 506px;
+  background-color: #fff;
+  box-shadow: 0 100px 138px 0 rgba(0, 0, 0, 0.05), 0 51px 60px 0px rgba(0, 0, 0, 0.03), 0 20px 23px 0 rgba(0, 0, 0, 0.03), 0 4px 8px 0 rgba(0, 0, 0, 0.02);
+}
+
+.account-popup__header {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: center;
+  min-height: 50px;
+}
+
+.account-popup__button {
+  display: grid;
+  place-items: center;
+
+  color: #000;
+  font-size: 14px;
+  line-height: 1;
+
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid #D9D9D9;
+  transition: background-color 0.4s linear;
+}
+
+.account-popup__header>:not(:last-child) {
+  border-right: 1px solid #D9D9D9;
+}
+
+.account-popup .woocommerce-form {
+  margin: 0;
+  display: grid;
+}
+
+.account-popup input,
+.account-popup form p {
+  margin-bottom: 0;
+}
+
+
+.account-popup .woocommerce-form-row label {
+  padding-left: 16px;
+  color: #000;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.account-popup .woocommerce-form-row label:not(:last-child) {
+  margin-bottom: 2px;
+
+}
+
+.account-popup .woocommerce-form-row label .required {
+  color: #E10000;
+}
+
+.account-popup .woocommerce-form-row input {
+  border-radius: 24px;
+  border: 1px solid rgba(0, 0, 0, 0.20);
+  background: #fff;
+  min-height: 40px;
+  padding: 10px 16px;
+
+  line-height: 1.42;
+}
+
+.account-popup .password-input {
+  position: relative;
+}
+
+.account-popup .show-password-input {
+  padding: 0;
+  height: 100%;
+  position: absolute;
+  width: 50px;
+  height: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  display: grid;
+  place-items: center;
+}
+
+.account-popup .show-password-input::after {
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+
+.account-popup .woocommerce-form-row input::placeholder {
+  color: rgba(0, 0, 0, 0.25);
+  font-size: inherit;
+  font-weight: inherit;
+  transition: opacity 0.3s ease;
+}
+
+.account-popup .woocommerce-form-row input:focus-visible::placeholder {
+  opacity: 0;
+}
+
+/* checkbox */
+.account-popup .woocommerce-form__label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+
+  margin-bottom: 0;
+  position: relative;
+
+}
+
+.account-popup .woocommerce-form__label::before {
+  content: "";
+  border-radius: 7px;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease;
+}
+
+.account-popup .woocommerce-form__label:has(:checked)::before {
+  border: 1px solid #6D8A07;
+  background: #88AD09 url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 7" fill="none"><path stroke="%23fff" d="m1 3 3 3 5-5" /></svg>') center / 10px 7px no-repeat;
+}
+
+.account-popup .woocommerce-form__input-checkbox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+
+/* button */
+.account-popup .woocommerce-form-login__submit {
+  width: 100%;
+  height: initial;
+  min-height: 48px;
+  color: #FFF;
+  font-family: "Avenir Next";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.1;
+  text-transform: uppercase;
+  border-radius: 33px;
+  background-color: #539C17 !important;
+  box-shadow: 0 25px 29px 0 rgba(137, 175, 8, 0.18), 0px 5px 4.713px 0px rgba(137, 175, 8, 0.09);
+  padding: 13px 20px;
+  margin: 0;
+  transition: background-color 0.3s ease;
+}
+
+.account-popup .lost_password {
+  transition: color 0.3s ease;
+}
+
+/* ! register tab*/
+.account-popup .woocommerce-form-content>:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.account-popup .woocommerce-form-description {
+  font-weight: 600;
+}
+
+.account-popup .woocommerce-form-register .woocommerce-privacy-policy-text {
+  margin-bottom: 0;
+}
+
+.account-popup .woocommerce-privacy-policy-text p {
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.account-popup .woocommerce-privacy-policy-link {
+  text-decoration: underline;
+  transition: color 0.3s ease;
+
+}
+
+/*all popup media */
+@media (any-hover:hover) {
+  .account-popup__button:hover {
+    background-color: #88AD09;
+  }
+
+  .account-popup .woocommerce-form__label:hover::before {
+    box-shadow: inset 0 0 6px 0 #88AD09;
+  }
+
+  .account-popup .woocommerce-form-login__submit:hover {
+    background-color: #60ba16 !important;
+  }
+
+  .account-popup .woocommerce-privacy-policy-link:hover,
+  .account-popup .lost_password a:hover {
+    color: #88AD09;
+  }
+}
+
+@media (min-width: 500px) {
+  .account-popup .woocommerce-form {
+    padding: 24px;
+    gap: 18px;
+  }
+}
+
+@media (max-width: 500px) {
+  .mfp-container {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .account-popup .woocommerce-form {
+    padding: 24px 16px;
+    gap: 14px;
+  }
+}
+
+/*! tabs action */
+.account-popup__button.active-tab {
+  border-bottom: 4px solid #88AD09;
+  pointer-events: none;
+}
+
+.account-popup__wrapper {
+  display: none;
+}

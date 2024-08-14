@@ -60,4 +60,36 @@ jQuery(document).ready(function ($) {
     }
     // });
 
+
+    //! popup form tabs
+    function activeTab(list) {
+        list.forEach(item => {
+            item.addEventListener('click', function () {
+                const targetForm = item.getAttribute('data-tab-button');
+                const forms = document.querySelectorAll('[data-tab-form]');
+                const buttons = document.querySelectorAll('[data-tab-button]');
+
+                forms.forEach(form => form.style.display = 'none');
+                buttons.forEach(button => button.classList.remove('active-tab'));
+
+                document.querySelector(`[data-tab-form="${targetForm}"]`).style.display = 'block';
+                item.classList.add('active-tab');
+            });
+        });
+    }
+
+    function initTabs() {
+        const popupBody = document.querySelector('.account-popup');
+        if (!popupBody) return;
+
+        const buttonsList = document.querySelectorAll('[data-tab-button]');
+        activeTab(buttonsList);
+
+        document.querySelector('.account-popup__button.active-tab').click();
+    }
+
+    initTabs();
+
+    //! add new scripts ...
+
 });
