@@ -3,6 +3,7 @@
 // Custom shortcodes
 require get_stylesheet_directory().'/inc/acf.php';
 require get_stylesheet_directory().'/inc/theme-shortcodes.php';
+require get_stylesheet_directory().'/inc/theme-woo.php';
 
 
 
