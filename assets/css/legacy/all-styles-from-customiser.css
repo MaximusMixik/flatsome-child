@@ -1377,9 +1377,7 @@ label[for=woof_checkbox_sales]:before {
 }
 
 .single-product .related.related-products-wrapper {
-	padding: 100px 0px 100px;
 	border-top: 1px solid rgba(0, 0, 0, 0.14);
-	margin-top: 100px;
 }
 
 .single-product .tabs li a:before {

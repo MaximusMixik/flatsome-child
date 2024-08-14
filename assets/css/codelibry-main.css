@@ -27,3 +27,5 @@
 @import url(./blocks/blog/featured-posts.css);
 @import url(./blocks/blog/archive-posts.css);
 @import url(./blocks/blog/blog-single.css);
+
+@import url(./woocommerce/single-product/layout.css);
