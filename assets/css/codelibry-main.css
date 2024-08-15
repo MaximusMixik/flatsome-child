@@ -19,6 +19,8 @@
 @import url(./parts/form-items.css);
 
 
+@import url(./blocks/banner/banner.css);
+
 @import url(./blocks/homepage/header-info.css);
 @import url(./blocks/homepage/home-hero.css);
 @import url(./blocks/homepage/catalog-section.css);
@@ -28,7 +30,6 @@
 @import url(./blocks/blog/featured-posts.css);
 @import url(./blocks/blog/archive-posts.css);
 @import url(./blocks/blog/blog-single.css);
+@import url(./blocks/contact/contact.css);
 
 @import url(./woocommerce/single-product/layout.css);
-
-@import url(./blocks/contact/contact.css);

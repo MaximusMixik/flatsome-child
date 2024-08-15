@@ -17,6 +17,9 @@ add_action( 'flatsome_category_title_alt', 'woocommerce_catalog_promo_banner_big
 function codelibry_name_scripts() {
 	wp_enqueue_style( 'codelibry-main-css', get_stylesheet_directory_uri() . '/assets/css/codelibry-main.css', array('flatsome-main') );
 
+	wp_enqueue_style( 'swiper-css','https://unpkg.com/swiper/swiper-bundle.min.css', array('codelibry-main-css') );
+
+	wp_enqueue_script( 'swiper-script', 'https://unpkg.com/swiper/swiper-bundle.min.js', array(), false );
 	wp_enqueue_script( 'codelibry-main-script', get_stylesheet_directory_uri() . '/assets/js/custom.js', array(), false );
 }
 add_action( 'wp_enqueue_scripts', 'codelibry_name_scripts' );

@@ -1,3 +1,1 @@
-<div>
-    I am the banner
-</div>
+<?php get_template_part('template-parts/header/partials/element-shop-promo-slider-top'); ?>

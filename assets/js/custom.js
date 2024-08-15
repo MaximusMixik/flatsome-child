@@ -90,6 +90,31 @@ jQuery(document).ready(function ($) {
 
     initTabs();
 
+    // ! banner slider-swiper
+    const swiper = new Swiper('.swiper-poster', {
+        loop: true,
+        navigation: {
+            nextEl: '.navigation-swiper__button--next',
+            prevEl: '.navigation-swiper__button--prev',
+        },
+        pagination: {
+            el: '.navigation-swiper__pagination',
+            clickable: true,
+            dynamicBullets: true,
+        },
+        slidesPerView: 1,
+        spaceBetween: 50,
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+        },
+        breakpoints: {
+            500: {
+                spaceBetween: 30,
+            },
+        },
+    });
+
     //! add new scripts ...
 
 });
