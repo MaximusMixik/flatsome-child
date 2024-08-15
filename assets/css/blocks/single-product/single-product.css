@@ -172,17 +172,17 @@
   }
 }
 
-/* !!!! other*/
-.single-product .flickity-viewport {
-  /* height: 300px  */
-  /* width: 488px; */
+/* .single-product .flickity-viewport {
+  width: 488px;
   height: 389px !important;
 }
 
 .single-product .flickity-viewport .wp-post-image {
   object-fit: contain;
-}
+} */
 
+
+/* !!!! other*/
 /* .product-container .price-wrapper .price {
   display: block;
   height: auto;

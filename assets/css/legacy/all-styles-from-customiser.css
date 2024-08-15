@@ -26,6 +26,10 @@ footer .menu-colum .button {
 }
 
 
+.shop-page-title .page-title-inner {
+	display: block;
+	/* padding: 40px 16px 0; */
+}
 
 .footer_socials,
 .payment-methods-footer {
