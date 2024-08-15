@@ -1,0 +1,141 @@
+.promo-banner__wrapper {
+  overflow: hidden;
+  border-radius: 24px;
+  background: linear-gradient(246deg, #539C17 7.06%, #1D3608 87.31%);
+}
+
+.promo-banner__container {
+  padding: 0;
+}
+
+.promo-banner__content {
+  color: #fff;
+  position: relative;
+  z-index: 2;
+  text-align: left;
+}
+
+.promo-banner__decoration {
+  position: absolute;
+  width: 420px;
+  height: 420px;
+  top: 50%;
+  left: 48%;
+  transform: translateY(-50%);
+  z-index: -1;
+}
+
+.promo-banner__logo:not(:last-child) {
+  margin-bottom: 17px;
+}
+
+.promo-banner__title {
+  font-family: "Avenir Next";
+  font-style: normal;
+  /* font-weight: 600; */
+  font-weight: 400;
+  line-height: 1.16;
+  color: #fff;
+}
+
+.promo-banner__image {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+
+.promo-banner__image img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+/* logo component */
+.logo {
+  display: inline-flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.logo__icon {
+  flex: 0 0 34px;
+  width: 34px;
+  height: 34px;
+}
+
+.logo__title {
+  /* color: #474747; */
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+
+@media (min-width:1000px) {
+  .promo-banner {
+    padding-top: 38px;
+    padding-bottom: 100px;
+  }
+
+  .promo-banner__wrapper {
+    display: flex;
+    align-items: center;
+  }
+
+  .promo-banner__content::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-18%, -27%) rotate(15.181deg);
+    border-radius: 50%;
+    width: 718px;
+    height: 608px;
+    background: linear-gradient(246deg, #539C17 7.06%, #1D3608 87.31%);
+    z-index: -1;
+  }
+
+  .promo-banner__content {
+    flex: 1 1 40%;
+    padding: 50px 64px;
+  }
+
+  .promo-banner__image {
+    flex: 1 1 60%;
+    min-height: 234px;
+  }
+
+  .promo-banner__title {
+    font-size: 36px;
+    max-width: 380px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .page-title-inner.medium-flex-wrap:has(>.flex-col>.promo-banner) {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .promo-banner {
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+
+  .promo-banner__content {
+    flex: 1 1 40%;
+    padding: 20px;
+  }
+
+  .promo-banner__image {
+    padding-bottom: 50%;
+  }
+
+  .promo-banner__title {
+    font-size: 24px;
+    max-width: 280px;
+  }
+}

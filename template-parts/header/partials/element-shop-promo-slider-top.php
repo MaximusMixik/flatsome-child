@@ -1,6 +1,4 @@
 <?php 
-
-
 /**
  * Add ACF PRO
  * Register Shop Promo Slider tab

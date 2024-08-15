@@ -8,7 +8,7 @@
 
 ?>
 <?php echo do_shortcode('[shop_promo_slider_top]');?>
-<div class="page-title shop-page-title product-page-title 11111">
+<div class="page-title shop-page-title product-page-title ">
 	<div class="page-title-inner flex-row medium-flex-wrap container">
 	  <div class="flex-col flex-grow medium-text-center">
 	  		<?php do_action('flatsome_product_title') ;?>

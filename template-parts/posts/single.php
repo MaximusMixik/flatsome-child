@@ -9,7 +9,7 @@
 if ( have_posts() ) : ?>
 
 <?php /* Start the Loop */ ?>
-
+<?php echo do_shortcode('[shop_promo_slider_top]');?>
 <?php echo do_shortcode('[rank_math_breadcrumb]');?>
 
 <?php while ( have_posts() ) : the_post(); ?>
