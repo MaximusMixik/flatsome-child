@@ -10,7 +10,6 @@ get_header();
 do_action( 'flatsome_before_page' );
 
 ?>
-<?php echo do_shortcode('[shop_promo_slider_top]');?>
 <div id="content" class="blog-wrapper blog-single page-wrapper">
 	<?php get_template_part( 'template-parts/posts/layout', get_theme_mod('blog_post_layout','right-sidebar') ); ?>
 	<?php

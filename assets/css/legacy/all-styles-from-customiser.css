@@ -26,6 +26,7 @@ footer .menu-colum .button {
 }
 
 
+
 .shop-page-title .page-title-inner {
 	display: block;
 	/* padding: 40px 16px 0; */
@@ -254,7 +255,7 @@ body.woocommerce-checkout #main {
 }
 
 
-.single #main,
+/* .single #main, */
 .page-id-6080 #main,
 .error404 #main {
 	/* background: #F2F2F2; */
@@ -709,10 +710,10 @@ body .header-full-width .container {
 
 
 
+/* .woocommerce-page .header-wrapper, */
+/* .single .header-wrapper, */
 .stuck,
-.woocommerce-page .header-wrapper,
 .page-id-5880 .header-wrapper,
-.single .header-wrapper,
 .page-id-6080 .header-wrapper {
 	background: #fff;
 }
