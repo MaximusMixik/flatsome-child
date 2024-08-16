@@ -1,5 +1,7 @@
+.navigation-swiper__button.big-white,
 .slider-nav-reveal .flickity-prev-next-button,
 .slider-nav-reveal .flickity-prev-next-button:hover {
+	flex: 0 0 72px;
 	width: 72px;
 	height: 72px;
 	border-radius: 50px;
@@ -7,7 +9,7 @@
 	background: #FFF;
 	box-shadow: 1px 1px 3.14815px 0px rgba(0, 0, 0, 0.01), -5px 0px 10px 0px rgba(0, 0, 0, 0.02), -10px 1px 13px 0px rgba(0, 0, 0, 0.03), 0px 27.34815px 25.48148px 0px rgba(0, 0, 0, 0.03), 0px 0px 1px 0px rgba(0, 0, 0, 0.04), 1px 1px 12px 0px rgba(0, 0, 0, 0.05);
 	opacity: 1 !important;
-	transform: translateX(0%) !important;
+	transform: translateX(0%);
 	top: calc(50% - 45px);
 }
 
@@ -59,21 +61,76 @@
 }
 
 @media(max-width:1000px) {
-    .slider-nav-reveal .flickity-prev-next-button,
+
+	.slider-nav-reveal .flickity-prev-next-button,
 	.slider-nav-reveal .flickity-prev-next-button:hover {
 		margin: 0;
 	}
 
-    .slider-nav-reveal .flickity-prev-next-button,
-    .slider-nav-reveal .flickity-prev-next-button:hover {
-        width: 38px !important;
-        height: 38px !important;
-        transform: translateX(0%) !important;
-        top: calc(50% - 15px);
-    }
+	.navigation-swiper__button.big-white,
+	.slider-nav-reveal .flickity-prev-next-button,
+	.slider-nav-reveal .flickity-prev-next-button:hover {
+		flex: 0 0 38px;
+		width: 38px;
+		height: 38px;
+		/* transform: translateX(0%) ;
+		top: calc(50% - 15px); */
+	}
 
-    .flickity-prev-next-button:before {
-        margin: 0;
-    }
+	.flickity-prev-next-button:before {
+		margin: 0;
+	}
 
+}
+
+
+/* swiper navigation */
+.navigation-swiper {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 20px;
+	z-index: 2;
+	pointer-events: none;
+}
+
+.navigation-swiper__button {
+	flex: 0 0 36px;
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+
+	display: grid;
+	place-items: center;
+
+	pointer-events: all;
+	padding: 0;
+	margin: 0;
+	min-height: initial;
+	transform: scale(1.001);
+	transition: all 0.3s ease;
+}
+
+/* 
+.navigation-swiper__pagination {}
+.navigation-swiper__button svg {}
+.navigation-swiper_button--prev {}
+.navigation-swiper__button--next {} */
+
+@media (any-hover:hover) {
+
+	.navigation-swiper__button:hover {
+		transform: scale(1.2);
+		background-color: rgba(83, 156, 23, 0.7);
+	}
+
+	.navigation-swiper__button:hover:active {
+		transform: scale(1);
+		background-color: rgba(83, 156, 23, 0.3);
+	}
 }

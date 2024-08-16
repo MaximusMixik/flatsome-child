@@ -35,4 +35,5 @@
 
 @import url(./blocks/contact/contact.css);
 
+@import url(./woocommerce/single-product/recently-viewed-products.css);
 @import url(./woocommerce/single-product/layout.css);

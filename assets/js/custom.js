@@ -115,6 +115,27 @@ jQuery(document).ready(function ($) {
         },
     });
 
+    // ! recently-viewed-products slider-swiper
+
+    const swiperViewed = new Swiper('.swiper-viewed-products', {
+        loop: true,
+        navigation: {
+            nextEl: '.recently-viewed-products .navigation-swiper__button--next',
+            prevEl: '.recently-viewed-products .navigation-swiper__button--prev',
+        },
+        pagination: {
+            el: '.recently-viewed-products .navigation-swiper__pagination',
+            clickable: true,
+            dynamicBullets: true,
+        },
+        slidesPerView: 'auto',
+        spaceBetween: 8,
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+        },
+    });
+
     //! add new scripts ...
 
 });
