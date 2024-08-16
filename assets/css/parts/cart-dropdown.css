@@ -176,7 +176,15 @@
   text-decoration: line-through; */
 }
 
-.woocommerce-Price-amount.amount {
+.woocommerce-mini-cart-item .woocommerce-Price-amount.amount {
+  color: #89AF08;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.2;
+
+}
+
+.cart-item .total .woocommerce-Price-amount.amount {
   font-size: 24px;
   font-weight: 700;
   line-height: 1.16;

@@ -92,10 +92,10 @@ footer .menu-colum .button {
 	overflow-x: auto;
 }
 
-.discount-total,
+/* .discount-total,
 .discount-total .woocommerce-Price-amount.amount {
 	color: #f9700d !important;
-}
+} */
 
 .widget_shopping_cart .price del,
 .widget_shopping_cart .product_list_widget del,
@@ -274,12 +274,6 @@ body.woocommerce-checkout #main {
 	display: none;
 }
 
-.price del,
-.product_list_widget del,
-del .woocommerce-Price-amount {
-	color: rgb(184 206 125);
-	text-decoration: initial;
-}
 
 /* .category-tab-title {
 	margin-top: 50px;
@@ -306,13 +300,10 @@ del .woocommerce-Price-amount {
 	padding-bottom: 10px;
 }
 
-.price del span {
-	text-decoration-line: line-through;
-}
 
-.woocommerce-Price-currencySymbol {
+/* .woocommerce-Price-currencySymbol {
 	text-decoration-line: initial !important;
-}
+} */
 
 .woocommerce-product-gallery__wrapper .flickity-button svg {
 	display: none;
@@ -566,19 +557,7 @@ body.woocommerce-checkout .woocommerce-checkout .row.pt-0 {
 }
 
 
-.badge-inner.on-sale {
-	border-radius: 16.25px;
-	background: #FF5C00;
-	color: var(--color-white, #FFF);
-	text-align: center;
 
-	font-size: 15px;
-	font-style: normal;
-	font-weight: 500;
-	line-height: 17.5px;
-	height: auto;
-	display: inline-block;
-}
 
 .wpforms-submit {
 	outline: initial !important;
@@ -591,14 +570,6 @@ div.wpforms-container-full .wpforms-page-button:focus:after {
 }
 
 
-p {
-	font-variant-numeric: lining-nums proportional-nums;
-
-	font-size: 24px;
-	font-style: normal;
-	font-weight: 400;
-	line-height: 150%;
-}
 
 .header-bg-color {
 	background-color: initial;
@@ -1164,31 +1135,6 @@ label[for=woof_checkbox_sales]:before {
 	margin-top: -60px;
 }
 
-.woocommerce-Tabs-panel p,
-.woocommerce-Tabs-panel h3 {
-	color: #000;
-
-	font-size: 18px;
-	font-weight: 400;
-	line-height: 170%;
-}
-
-.tabs li a {
-	color: #000 !important;
-
-	font-size: 16px !important;
-	font-style: normal !important;
-	font-weight: 500 !important;
-	line-height: 170% !important;
-	text-transform: uppercase;
-	padding: 16px 18px;
-}
-
-
-.tabs li.active a {
-	font-weight: 600 !important;
-}
-
 .checkout_coupon.woocommerce-form-coupon {
 	border-color: var(--primary-color);
 }
@@ -1383,13 +1329,6 @@ label[for=woof_checkbox_sales]:before {
 
 
 
-	.slider-nav-reveal {
-		width: 100% !important;
-		margin: 0 0px !important;
-		padding: 0 0px !important;
-	}
-
-
 
 
 
@@ -1450,10 +1389,6 @@ label[for=woof_checkbox_sales]:before {
 	}
 
 
-	.slider-nav-reveal .flickity-prev-next-button.next {
-		left: auto !important;
-		right: -10px !important;
-	}
 
 
 

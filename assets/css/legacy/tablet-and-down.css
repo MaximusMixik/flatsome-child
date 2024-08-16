@@ -1,20 +1,15 @@
 @media (max-width: 1000px) {
 
 
-    .banner-about-us
-    {
+    .banner-about-us {
         padding-top: calc(330px + (400 - 200) * (100vw - 400px) / (1200 - 400)) !important;
     }
 
-    .logo-slider-main .slider-nav-outside .flickity-page-dots
-    {
+    .logo-slider-main .slider-nav-outside .flickity-page-dots {
         bottom: -30px;
     }
 
-    span.amount, p.name.product-title.woocommerce-loop-product__title a
-    {
-        line-height: 100% !important;
-    }
+
 
     .form-submit-subscribe input#button-subscribe {
         margin: 0px 0px 0px 0px !important;
@@ -23,12 +18,11 @@
     }
 
     .form-email-subscribe input:not([type="submit"]) {
-    width: 100%;
+        width: 100%;
     }
 
-    label.woof_checkbox_label 
-    {
-        font-size:13px;
+    label.woof_checkbox_label {
+        font-size: 13px;
         width: 83%;
     }
 
