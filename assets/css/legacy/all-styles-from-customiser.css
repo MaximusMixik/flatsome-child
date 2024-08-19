@@ -169,13 +169,6 @@ header+.message-wrapper {
 	color: #89ad09 !important;
 }
 
-.icheckbox_square-orange,
-.iradio_square-orange {
-	background-image: url(/wp-content/uploads/2023/11/orange@2x.png);
-	-webkit-background-size: 240px 24px;
-	background-size: 240px 24px;
-}
-
 .home .header-wrapper .selectron23-container[data-opened="0"]>span {
 	border: initial !important;
 	width: 24px;
@@ -979,16 +972,6 @@ footer .wpforms-submit:before {
 	padding-top: 100px;
 } */
 
-label[for=woof_checkbox_sales] {
-	font-size: 0;
-}
-
-label[for=woof_checkbox_sales]:before {
-	content: "Sale";
-	font-size: 16px !important;
-	color: #FF5C00;
-}
-
 /* .post-type-archive-product .shop-page-title,
 .post-type-archive-product #main,
 .tax-product_cat .shop-page-title,
@@ -998,41 +981,12 @@ label[for=woof_checkbox_sales]:before {
 	background: #F2F2F2;
 } */
 
-.irs-grid {
-	display: none !important;
-}
-
-.irs--big .irs-handle,
-.irs-bar,
-.irs--big .irs-from,
-.irs--big .irs-to,
-.irs--big .irs-single,
-.irs--big .irs-grid-pol {
-	background: var(--primary-color) !important;
-}
 
 .widget a {
 	font-size: 24px;
 	color: #000 !important;
 }
 
-.woof_container {
-	padding-bottom: 10px;
-	margin-bottom: 10px;
-	margin-top: 10px;
-	padding-top: 10px;
-	border-bottom: 1px solid rgba(0, 0, 0, 0.10);
-}
-
-.woof_container_inner h4 {
-	color: #000 !important;
-	font-variant-numeric: lining-nums proportional-nums;
-
-	font-size: 16px !important;
-	font-style: normal;
-	font-weight: 600 !important;
-	line-height: 24px !important;
-}
 
 
 .woocommerce-result-count.hide-for-medium {
@@ -1060,20 +1014,6 @@ label[for=woof_checkbox_sales]:before {
 	padding: 0 15px 0 0;
 }
 
-.woocommerce-page .orderby {
-	background: initial;
-	border: initial;
-	color: #000;
-
-	font-size: 14px;
-	font-style: normal;
-	font-weight: 500;
-	line-height: 24px;
-	text-transform: uppercase;
-	box-shadow: initial;
-	padding: 0 30px 0 0;
-}
-
 .woocommerce-page .woocommerce-ordering:after {
 	content: '';
 	display: block;
@@ -1096,43 +1036,6 @@ label[for=woof_checkbox_sales]:before {
 
 .woocommerce-pagination {
 	margin: 35px 0 40px;
-}
-
-.woocommerce-pagination .page-number {
-	border-radius: 50px !important;
-	background: #FFF;
-	color: #000 !important;
-	text-align: center !important;
-
-	font-size: 14px !important;
-	font-style: normal;
-	font-weight: 500 !important;
-	border: initial !important;
-	line-height: 36px !important;
-	letter-spacing: -0.28px !important;
-	padding: 0 !important;
-	height: 36px !important;
-	width: 36px !important;
-}
-
-.woocommerce-pagination .page-number.current {
-	background-color: #89AF08 !important;
-	color: #fff !important;
-}
-
-.widget-title.shop-sidebar {
-	color: #000;
-
-	font-variant-numeric: lining-nums proportional-nums;
-
-	font-size: 24px;
-	font-style: normal;
-	font-weight: 500;
-	line-height: 116%;
-}
-
-#shop-sidebar {
-	margin-top: -60px;
 }
 
 .checkout_coupon.woocommerce-form-coupon {

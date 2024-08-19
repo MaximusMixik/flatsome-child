@@ -1,5 +1,5 @@
 .contact-section {
-  color: #000;
+  color: var(--color-black);
 }
 
 
@@ -24,7 +24,7 @@
 }
 
 .contact-section .wpforms-container-full .wpforms-field-description {
-  color: #000;
+  color: var(--color-black);
   font-family: "Avenir Next";
   font-size: 14px;
   font-weight: 600;
@@ -86,7 +86,7 @@
 
 @media (any-hover:hover) {
   .contact-section p a:hover {
-    color: #89AF08;
+    color: var(--color-green-2);
   }
 }
 

@@ -1,7 +1,7 @@
 .promo-banner__wrapper {
   overflow: hidden;
   border-radius: 24px;
-  background: linear-gradient(246deg, #539C17 7.06%, #1D3608 87.31%);
+  background: linear-gradient(246deg, var(--color-green-1) 7.06%, #1D3608 87.31%);
 }
 
 .promo-banner__container {
@@ -9,7 +9,7 @@
 }
 
 .promo-banner__content {
-  color: #fff;
+  color: var(--color-white);
   position: relative;
   z-index: 2;
   text-align: left;
@@ -20,7 +20,7 @@
   width: 420px;
   height: 420px;
   top: 50%;
-  left: 48%;
+  left: 43%;
   transform: translateY(-50%);
   z-index: -1;
 }
@@ -35,7 +35,7 @@
   /* font-weight: 600; */
   font-weight: 400;
   line-height: 1.16;
-  color: #fff;
+  color: var(--color-white);
 }
 
 .promo-banner__image {
@@ -94,7 +94,7 @@
     border-radius: 50%;
     width: 718px;
     height: 608px;
-    background: linear-gradient(246deg, #539C17 7.06%, #1D3608 87.31%);
+    background: linear-gradient(246deg, var(--color-green-1) 7.06%, #1D3608 87.31%);
     z-index: -1;
   }
 
@@ -115,10 +115,10 @@
 }
 
 @media (max-width: 1000px) {
-  .page-title-inner.medium-flex-wrap:has(>.flex-col>.promo-banner) {
+  /* .page-title-inner.medium-flex-wrap:has(>.flex-col>.promo-banner) {
     display: flex;
     flex-direction: column-reverse;
-  }
+  } */
 
   .promo-banner {
     padding-top: 20px;

@@ -69,6 +69,7 @@ if ( $query->have_posts() ) :   ?>
                                 <path stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.25" d="M8 14 2 8l6-6"/>
                             </svg>
                         </button>
+                        <div class="navigation-swiper__pagination"></div>
                         <button aria-label="button next" type="button" class="navigation-swiper__button big-white navigation-swiper__button--next">
                             <svg xmlns="http://www.w3.org/2000/svg" width="10" height="16" fill="none">
                             <path stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.25" d="m2 14 6-6-6-6"/>

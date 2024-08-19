@@ -4,7 +4,7 @@
 } */
 
 #content .section {
-  background-color: #fff;
+  background-color: var(--color-white);
 }
 
 
@@ -41,7 +41,7 @@
 } */
 
 .page-id-5880 .page-title h1 {
-  color: #000;
+  color: var(--color-black);
   font-size: 32px;
   font-style: normal;
   font-weight: 500;
@@ -65,7 +65,7 @@
 }
 
 .page-id-5880 .cat-label {
-  color: #000;
+  color: var(--color-black);
   font-family: "Avenir Next";
   font-size: 16px;
   font-style: normal;
@@ -145,8 +145,8 @@
   place-items: center;
   padding: 6px 18px;
   border-radius: 33px;
-  background: #89AF08;
-  color: #FFF;
+  background: var(--color-green-2);
+  color: var(--color-white);
   line-height: 1;
   font-size: 12px;
   font-weight: 700;

@@ -2,7 +2,7 @@
 .account-popup .woocommerce-form-row input,
 #wpforms-6077 input,
 #wpforms-6077 textarea {
-  color: #000;
+  color: var(--color-black);
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
@@ -19,7 +19,7 @@
 .account-popup .woocommerce-form-row input:focus-visible,
 #wpforms-6077 input:focus-visible,
 #wpforms-6077 textarea:focus-visible {
-  outline: 1px solid #89AF08;
+  outline: 1px solid var(--color-green-2);
 }
 
 
@@ -27,7 +27,7 @@
 .contact-section .wpforms-container-full .wpforms-field-label,
 .woocommerce-form-row label {
   padding-left: 16px;
-  color: #000;
+  color: var(--color-black);
   font-size: 10px;
   font-weight: 500;
   line-height: 1.2;

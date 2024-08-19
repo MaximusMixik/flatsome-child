@@ -17,7 +17,7 @@
 }
 
 .single-product .product-short-description {
-    color: #000;
+    color: var(--color-black);
     font-family: "Avenir Next";
     font-size: 16px;
     line-height: 1.7;
@@ -28,20 +28,22 @@
 }
 
 .single-product .product-images {
-    background-color: #fff;
+    background-color: var(--color-white);
 }
 
-.single-product .product-page-price .woocommerce-Price-amount.amount bdi,
-.single-product .product-page-price ins .amount {
-    color: #539C17;
+
+.single-product .product-page-price {
     font-family: "Avenir Next";
-    font-size: 24px;
-    font-weight: 700;
     line-height: 1.2;
 }
 
+.single-product .price ins span.amount {
+    color: var(--color-green-1);
+    font-size: 24px;
+    font-weight: 700;
+}
 
-.price del span.amount {
+.single-product .price del span.amount {
     color: #B8B8B8;
     font-size: 14px;
     font-weight: 500;
@@ -82,7 +84,7 @@
 .single-product .product-main .quantity {
     border-radius: 33px;
     border: 1px solid rgba(0, 0, 0, 0.20);
-    background-color: #FFF;
+    background-color: var(--color-white);
     display: flex;
     width: 135px;
     height: 48px;
@@ -106,7 +108,7 @@
 }
 
 .single-product .product-main .quantity input[type=number] {
-    color: #000;
+    color: var(--color-black);
     font-family: "Avenir Next";
     font-size: 16px;
     font-style: normal;
@@ -157,7 +159,7 @@
 .single-product .thumbnails .flickity-slider>.col a {
     text-align: center;
     padding: 10px;
-    background-color: #fff;
+    background-color: var(--color-white);
     overflow: hidden;
     transform: translate(0);
     cursor: pointer;
@@ -204,34 +206,8 @@
     background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"><path stroke="%235C5C5C" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M11.9932 5.13581c-1.9994-2.33741-5.33345-2.96617-7.83851-.8258C1.64964 6.45038 1.29697 10.029 3.2642 12.5604c1.63562 2.1047 6.58557 6.5437 8.2079 7.9804.1815.1608.2723.2411.3781.2727.0924.0276.1935.0276.2859 0 .1058-.0316.1966-.1119.3781-.2727 1.6223-1.4367 6.5723-5.8757 8.2079-7.9804 1.9672-2.5314 1.6576-6.13253-.8905-8.25039-2.5481-2.11785-5.8391-1.51161-7.8384.8258Z" clip-rule="evenodd" /></svg>') center / 24px no-repeat;
 }
 
-.single-product .product-images .badge-container {
-    margin: 0;
-    top: 30px;
-    left: 32px;
-    width: max-content;
-    height: max-content;
-    font-size: initial;
-}
-
-.single-product .badge-inner.on-sale {
-    padding: 2px 10px;
-    border-radius: 16px;
-    background-color: #FFD600 !important;
-    color: #333;
-    text-align: center;
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 1.16;
-}
-
-.single-product .badge {
-    height: initial;
-    width: initial;
-    margin: 0;
-}
-
 /*! footer-product */
-.single-product .nav li:first-child {
+.single-product .product-footer .description_tab:first-child {
     margin-left: 6px !important;
     margin-right: 0;
 }
@@ -246,7 +222,7 @@
 }
 
 .single-product .tabs li a {
-    color: #000;
+    color: var(--color-black);
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -273,14 +249,14 @@
 
 .single-product .woocommerce-Tabs-panel h3,
 .single-product .woocommerce-Tabs-panel p strong {
-    color: #000;
+    color: var(--color-black);
     font-family: "Avenir Next";
     font-weight: 600;
     line-height: 1.7;
 }
 
 .single-product .woocommerce-Tabs-panel {
-    color: #000;
+    color: var(--color-black);
     font-weight: 400;
     line-height: 1.7;
 }
@@ -295,7 +271,7 @@
 .single-product .product-section-title {
     text-transform: initial;
     font-family: "Avenir Next";
-    font-size: 32px;
+    /* font-size: 32px; */
     font-weight: 500;
     line-height: 1.16;
     padding: 0;
@@ -324,6 +300,37 @@
 .single-product .related .flickity-slider>.col {
     padding: 0 6px;
 }
+
+.single-product .related .badge-container {
+    margin: 0;
+    top: 23px;
+    left: 23px;
+}
+
+.single-product .related .woocs_price_code del span.amount {
+    color: #CCC;
+    font-family: "Kanit";
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.single-product .related .woocs_price_code {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 4px;
+}
+
+/* .related .flickity-slider .badge-container {
+    display: none;
+} */
+
+/* .related .flickity-slider .price del {
+    display: none;
+} */
 
 /* ! MEDIA */
 @media (any-hover:hover) {
@@ -434,6 +441,10 @@
     .single-product .product-section-title:not(:last-child) {
         margin-bottom: 67px;
     }
+
+    .single-product .product-section-title {
+        font-size: 32px;
+    }
 }
 
 /* @media only screen and (min-width: 1152px) {
@@ -525,6 +536,10 @@
         margin-bottom: 24px;
     }
 
+    .single-product .product-section-title {
+        font-size: 24px;
+    }
+
     /* 
     .slider-nav-reveal .flickity-prev-next-button.next {
         left: auto !important;
@@ -562,7 +577,7 @@
 } */
 
 /* .widget_shopping_cart .quantity span.amount {
-    color: #89AF08;
+    color: var(--color-green-2);
     font-size: 14px;
     font-style: normal;
     font-weight: 700;

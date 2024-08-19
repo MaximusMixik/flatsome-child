@@ -1,11 +1,11 @@
-.catalog-section  .gallery-col .col-inner {
-    padding-left: 30px;
-    padding-right: 30px;
+.catalog-section .gallery-col .col-inner {
+	padding-left: 30px;
+	padding-right: 30px;
 }
 
 .category-tab-title h3,
 .catalog-section h3 {
-	color: #000;
+	color: var(--color-black);
 	font-variant-numeric: lining-nums proportional-nums;
 
 	font-size: 48px;
@@ -17,7 +17,7 @@
 .catalog-section p {
 	color: var(--color-back, #3E3E3E);
 	text-align: center;
-    font-family: 'Avenir Next', sans-serif;
+	font-family: 'Avenir Next', sans-serif;
 	font-size: 20px;
 	font-style: normal;
 	font-weight: 400;
@@ -27,44 +27,44 @@
 }
 
 @media (max-width: 1000px) {
-    .home .catalog-section .flickity-enabled.is-draggable .flickity-viewport {
+	.home .catalog-section .flickity-enabled.is-draggable .flickity-viewport {
 		width: 100% !important;
 		margin-left: 0px;
 	}
 
-    .home .catalog-section .flickity-enabled.is-draggable .flickity-viewport .box-image img {
+	.home .catalog-section .flickity-enabled.is-draggable .flickity-viewport .box-image img {
 		margin: 7px auto 0;
 		max-width: 100%;
 		width: 70%;
 		display: block;
 	}
 
-    .home .catalog-section .gallery-item,
+	.home .catalog-section .gallery-item,
 	.home .catalog-section .gallery-col {
 		padding: 0 0px;
 	}
 
-    .catalog-section h3 {
+	.catalog-section h3 {
 		font-size: 28px;
 	}
 
-    .catalog-section p {
+	.catalog-section p {
 		font-size: 16px;
 		width: 100%;
 		margin: 0 auto;
 	}
 
-    .catalog-section .slider-nav-reveal {
+	.catalog-section .slider-nav-reveal {
 		width: 100% !important;
 		margin: 0 !important;
 		max-width: initial;
 	}
 
-    .category-tab-title h3 {
+	.category-tab-title h3 {
 		font-size: 28px;
 	}
 
-    .category-tab-title p {
+	.category-tab-title p {
 		font-size: 16px;
 		width: 100%;
 		margin: 0 auto;

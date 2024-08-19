@@ -9,8 +9,21 @@
 	background: #FFF;
 	box-shadow: 1px 1px 3.14815px 0px rgba(0, 0, 0, 0.01), -5px 0px 10px 0px rgba(0, 0, 0, 0.02), -10px 1px 13px 0px rgba(0, 0, 0, 0.03), 0px 27.34815px 25.48148px 0px rgba(0, 0, 0, 0.03), 0px 0px 1px 0px rgba(0, 0, 0, 0.04), 1px 1px 12px 0px rgba(0, 0, 0, 0.05);
 	opacity: 1 !important;
-	transform: translateX(0%);
+	/* transform: translateX(0%); */
 	top: calc(50% - 45px);
+}
+
+.related .slider-nav-reveal .flickity-prev-next-button.previous,
+.related .slider-nav-reveal .flickity-prev-next-button.next {
+	transform: translateX(0%);
+}
+
+.flickity-prev-next-button.next {
+	right: 0.5%;
+}
+
+.flickity-prev-next-button.previous {
+	left: 0.5%;
 }
 
 .slider-nav-reveal .flickity-prev-next-button svg {
@@ -60,10 +73,10 @@
 	right: auto !important;
 }
 
+
 @media(max-width:1000px) {
 
-	.slider-nav-reveal .flickity-prev-next-button,
-	.slider-nav-reveal .flickity-prev-next-button:hover {
+	.slider-nav-reveal .flickity-prev-next-button {
 		margin: 0;
 	}
 
@@ -122,15 +135,47 @@
 .navigation-swiper_button--prev {}
 .navigation-swiper__button--next {} */
 
+
+.navigation-swiper .swiper-pagination-bullet {
+	height: 10px;
+	width: 10px;
+	background-color: #111;
+	border: 0;
+
+	opacity: .2;
+	transition: all 0.3s ease;
+	border-radius: 50%;
+	margin: 0 5px;
+	cursor: pointer;
+	pointer-events: all;
+	z-index: 10;
+}
+
+/* .swiper-pagination-bullet  */
+.navigation-swiper .swiper-pagination-bullet.swiper-pagination-bullet-active {
+	opacity: 1;
+}
+
+.navigation-swiper .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
+	transform: translate(0);
+}
+
+.navigation-swiper .swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+	transform: scale(1);
+}
+
+
 @media (any-hover:hover) {
 
+	.slider-nav-reveal .flickity-prev-next-button:hover,
 	.navigation-swiper__button:hover {
-		transform: scale(1.2);
+		transform: scale(1.2) !important;
 		background-color: rgba(83, 156, 23, 0.7);
 	}
 
+	.slider-nav-reveal .flickity-prev-next-button:hover:active,
 	.navigation-swiper__button:hover:active {
-		transform: scale(1);
+		transform: scale(1) !important;
 		background-color: rgba(83, 156, 23, 0.3);
 	}
 }

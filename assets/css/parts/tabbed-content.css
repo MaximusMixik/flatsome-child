@@ -1,7 +1,6 @@
-.tabbed-content .nav-pills>li
-{
-	margin-bottom:30px;
-	margin-right:5px;
+.tabbed-content .nav-pills>li {
+	margin-bottom: 30px;
+	margin-right: 5px;
 }
 
 .tabbed-content {
@@ -31,23 +30,22 @@
 
 .tabbed-content .tab.active span {
 	font-weight: 700 !important;
-	color: #000 !important;
+	color: var(--color-black) !important;
 }
 
 
 @media (max-width: 1001px) {
-    .tabbed-content .nav {
+	.tabbed-content .nav {
 		margin-bottom: 0;
 	}
 }
 
 @media (max-width: 576px) {
-    .sector-tab .tabbed-content .tab-panels .row.show-for-small, 
-    .row-products .row.show-for-small,
-    .container .related .row-small
-    {
-        margin-left: 0px;
-        margin-right: 0px
-    }
-}
 
+	.sector-tab .tabbed-content .tab-panels .row.show-for-small,
+	.row-products .row.show-for-small,
+	.container .related .row-small {
+		margin-left: 0px;
+		margin-right: 0px
+	}
+}

@@ -61,7 +61,7 @@
 
   .woocommerce-breadcrumb a:hover,
   .rank-math-breadcrumb a:hover {
-    color: #89AF08;
+    color: var(--color-green-2);
   }
 
   .woocommerce-breadcrumb a:hover+.divider,

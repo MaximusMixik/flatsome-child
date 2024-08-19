@@ -126,7 +126,7 @@ jQuery(document).ready(function ($) {
         pagination: {
             el: '.recently-viewed-products .navigation-swiper__pagination',
             clickable: true,
-            dynamicBullets: true,
+            // dynamicBullets: true,
         },
         slidesPerView: 'auto',
         spaceBetween: 8,

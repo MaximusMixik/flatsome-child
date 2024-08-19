@@ -168,25 +168,10 @@ a.button.secondary {
 }
 */
 
-label,
-legend {
-	font-weight: 500;
-}
-
 .showcoupon {
 	font-weight: 700;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	color: #1F0C01;
-	opacity: 1;
-	text-transform: inherit;
-}
 
 /*
 .banner-slider .banner-layers.container, .banner-slider-pink .banner-layers.container
@@ -208,14 +193,6 @@ h6 {
 
 .slider-size-new .flickity-prev-next-button .arrow {
 	color: #fff;
-}
-
-.flickity-prev-next-button.next {
-	right: 0.5%;
-}
-
-.flickity-prev-next-button.previous {
-	left: 0.5%;
 }
 
 /*

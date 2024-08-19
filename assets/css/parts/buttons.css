@@ -52,7 +52,7 @@ a.button.is-outline {
 }
 
 a.button.is-outline>i[class^="icon-"] {
-	color: #000000;
+	color: var(--color-black)000;
 }
 
 /* .button span{
@@ -102,7 +102,7 @@ a.white.button i:before {
 }
 
 .button.secondary span {
-	color: #000;
+	color: var(--color-black);
 	font-size: 16px;
 }
 
@@ -121,14 +121,14 @@ footer .button.white.is-outline i {
 	width: 100%;
 	height: initial;
 	min-height: 48px;
-	color: #FFF;
+	color: var(--color-white);
 	font-family: "Avenir Next";
 	font-size: 16px;
 	font-weight: 700;
 	line-height: 1.1;
 	text-transform: uppercase;
 	border-radius: 33px;
-	background-color: #539C17 !important;
+	background-color: var(--color-green-1) !important;
 	box-shadow: 0 25px 29px 0 rgba(137, 175, 8, 0.18), 0px 5px 4.713px 0px rgba(137, 175, 8, 0.09);
 	padding: 13px 20px;
 	margin: 0;
