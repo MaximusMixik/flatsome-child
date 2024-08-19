@@ -58,6 +58,7 @@
 
 .woof_container:not(:last-child):not(:first-child) {
   border-bottom: 1px solid rgba(0, 0, 0, 0.10);
+  padding-bottom: 20px;
 }
 
 .woof_container:not(:last-child) {
@@ -87,15 +88,17 @@ label[for=woof_checkbox_sales] {
 
 label[for=woof_checkbox_sales]:before {
   content: "Sale";
-  color: #FF5C00;
+  color: var(--color-orange);
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: -0.28px;
 }
 
-
-.woof_container_inner h4:not(:last-child) {
+/* .woof_container_inner h4:not(:last-child) {
   margin-bottom: 16px;
+} */
+.woof_container_inner h4 {
+  margin: 0;
 }
 
 
@@ -125,30 +128,86 @@ label[for=woof_checkbox_sales]:before {
   display: none !important;
 }
 
+.woof_container .irs--big .irs-min,
+.woof_container .irs--big .irs-max,
 .irs--big .irs-handle,
 .irs-bar,
 /* .irs--big .irs-from, */
-.irs--big .irs-to,
-.irs--big .irs-single,
+/* .irs--big .irs-to, */
+/* .irs--big .irs-single, */
 .irs--big .irs-grid-pol {
   /* background: var(--primary-color) !important; */
   background: var(--color-green-2) !important;
 }
 
+.irs--big .irs {
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+  gap: 16px 21px;
+  /* ! ? */
+  margin-top: -14px;
+}
 
-.irs--big .irs-from {
-  background-color: var(--color-green-2) !important;
+.woof_container .irs--big .irs-to,
+.woof_container .irs--big .irs-from {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  padding: 10px 16px;
+  border-radius: 24px;
+  border: 1px solid rgba(0, 0, 0, 0.20);
+  background-color: var(--color-white) !important;
+
+  color: var(--color-black);
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.42;
+  text-transform: uppercase;
+  position: static;
+}
+
+
+.woof_container .irs--big .irs-to,
+.woof_container .irs--big .irs-from {
+  visibility: visible !important;
+}
+
+.woof_container .irs--big.irs-with-grid {
+  height: initial;
+}
+
+.woof_container .irs--big .irs-line {
+  grid-column: span 2;
+}
+
+.woof_container .irs--big .irs {
+  position: relative;
+}
+
+.woof_container .irs-from::before {
+  content: '-';
+  position: absolute;
+  left: 50%;
+  bottom: 12px;
+  transform: translateX(-50%);
+
+  color: var(--color-black);
+  text-align: center;
+  font-family: "Avenir Next";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.woof_container .irs--big .irs-min,
+.woof_container .irs--big .irs-max,
+.woof_container .irs--big .irs-single {
+  display: none;
 }
 
 /* !! */
-/* .irs--big.irs-with-grid {
-  flex-direction: column-reverse;
-  display: flex;
-  height: 70px;
-} */
-
-/* .woof_container .irs-bar {} */
-
 
 /* @media (max-width: 576px) {
   label.woof_checkbox_label {
