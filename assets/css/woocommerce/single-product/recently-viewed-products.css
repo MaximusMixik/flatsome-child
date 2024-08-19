@@ -1,6 +1,8 @@
 .recently-viewed-products__title {
   color: var(--color-black);
   line-height: 1.16;
+  font-weight: 500;
+
 }
 
 .recently-viewed-products__body {
@@ -65,12 +67,13 @@
   .recently-viewed-products__navigation {
     width: 95%;
     left: 50%;
-    transform: translateX(-50%);
+    top: 0;
+    transform: translate(-50%, -15%);
   }
 
-  .recently-viewed-products .navigation-swiper {
+  /* .recently-viewed-products .navigation-swiper {
     align-items: stretch;
-  }
+  } */
 
   .navigation-swiper__pagination {
     display: none;

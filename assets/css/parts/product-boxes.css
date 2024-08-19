@@ -38,20 +38,14 @@
 	align-items: center;
 }
 
-.product-small.box .price-wrapper span.amount {
-	color: var(--color-green-1);
+/* .product-small.box .price-wrapper */
+span.amount.woocommerce-Price-amount {
+	color: var(--color-green-2);
 	font-size: 18px;
 	font-style: normal;
 	font-weight: 600;
 	line-height: normal;
 	text-align: center;
-}
-
-.product-small.box .price-wrapper del span.amount {
-	color: #CCC;
-	font-family: "Kanit";
-	font-size: 12px;
-	font-weight: 500;
 }
 
 

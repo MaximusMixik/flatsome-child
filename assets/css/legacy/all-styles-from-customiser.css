@@ -117,9 +117,9 @@ footer .menu-colum .button {
 	margin-top: 0px;
 }
 
-header .widget_shopping_cart .woocommerce-mini-cart__buttons a {
+/* header .widget_shopping_cart .woocommerce-mini-cart__buttons a {
 	background-color: var(--primary-color) !important;
-}
+} */
 
 .my-account .account-container {
 	padding: 40px 0;
@@ -133,10 +133,7 @@ header .widget_shopping_cart .woocommerce-mini-cart__buttons a {
 	color: #fff;
 }
 
-.woocommerce-mini-cart__total.total span,
-.woocommerce-mini-cart__total.total strong {
-	color: #000;
-}
+
 
 header+.message-wrapper {
 	display: block;
@@ -368,7 +365,7 @@ body.woocommerce-checkout .woocommerce-checkout .large-5 {
 	flex-basis: 400px;
 }
 
-body.woocommerce-cart .cart_totals .wc-proceed-to-checkout a,
+/* body.woocommerce-cart .cart_totals .wc-proceed-to-checkout a,
 body.woocommerce-checkout #payment button,
 .widget_shopping_cart .woocommerce-mini-cart__buttons a {
 	border-radius: 33px !important;
@@ -377,7 +374,6 @@ body.woocommerce-checkout #payment button,
 	padding: 16px 20px !important;
 	box-shadow: 0px 5px 4.7125px 0px rgba(137, 175, 8, 0.09), 0px 25px 29px 0px rgba(137, 175, 8, 0.18);
 	color: var(--color-white, #FFF) !important;
-	/*  */
 	font-size: 16px !important;
 	font-style: normal !important;
 	font-weight: 700 !important;
@@ -387,11 +383,11 @@ body.woocommerce-checkout #payment button,
 	margin: 0;
 	width: 100%;
 	margin-bottom: 20px;
-}
+} */
 
-header .widget_shopping_cart .woocommerce-mini-cart__buttons a {
+/* header .widget_shopping_cart .woocommerce-mini-cart__buttons a {
 	background-color: var(--primary-color) !important;
-}
+} */
 
 .single #main,
 .page-id-6080 #main {
@@ -533,21 +529,7 @@ body.woocommerce-checkout .woocommerce-checkout .row.pt-0 {
 }
 
 
-.product-container .single_add_to_cart_button {
-	border-radius: 33px !important;
-	background-color: var(--Green, var(--primary-color)) !important;
-	width: 90%;
-	padding: 16px 20px !important;
-	box-shadow: 0px 5px 4.7125px 0px rgba(137, 175, 8, 0.09), 0px 25px 29px 0px rgba(137, 175, 8, 0.18);
-	color: var(--color-white, #FFF) !important;
 
-	font-size: 16px !important;
-	font-style: normal !important;
-	font-weight: 700 !important;
-	line-height: normal !important;
-	text-transform: uppercase !important;
-	border: initial;
-}
 
 
 
@@ -751,9 +733,10 @@ body .header-full-width .container {
 	right: 30px;
 }
 
+/* 
 .dgwt-wcas-has-submit .dgwt-wcas-search-submit svg {
 	display: none;
-}
+} */
 
 .html.custom.html_topbar_left>div,
 .selectron23 {
@@ -982,10 +965,6 @@ footer .wpforms-submit:before {
 } */
 
 
-.widget a {
-	font-size: 24px;
-	color: #000 !important;
-}
 
 
 

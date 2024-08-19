@@ -86,7 +86,7 @@
   display: grid;
   place-items: center;
   text-align: center;
-  padding: 6px 18px;
+  padding: 6px 20px;
   border-radius: 33px;
   background: var(--color-green-2);
   color: var(--color-white);
@@ -98,6 +98,7 @@
   max-width: max-content;
   margin: 0;
   pointer-events: none;
+  min-height: 42px;
 }
 
 @media (any-hover:hover) {

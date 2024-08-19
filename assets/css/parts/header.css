@@ -55,18 +55,19 @@
    width: 100%;
  }
 
- .home .header-wrapper .dgwt-wcas-has-submit .dgwt-wcas-search-submit:after {
+ /* .home .header-wrapper .dgwt-wcas-has-submit .dgwt-wcas-search-submit:after {
    content: '';
    display: block;
    width: 24px;
    height: 24px;
    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M9.74 18.48C14.567 18.48 18.48 14.567 18.48 9.74C18.48 4.91303 14.567 1 9.74 1C4.91303 1 1 4.91303 1 9.74C1 14.567 4.91303 18.48 9.74 18.48Z" stroke="black" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" /><path d="M16.03 16.03L19 19" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /></svg>') no-repeat;
-   /* background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none"><path stroke=%23000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.5" d="M9.74 18.48c4.827 0 8.74-3.913 8.74-8.74C18.48 4.91303 14.567 1 9.74 1 4.91303 1 1 4.91303 1 9.74c0 4.827 3.91303 8.74 8.74 8.74Z" /><path stroke="2%3000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M16.03 16.03 19 19" /></svg>') no-repeat; */
-   /* background: url(/wp-content/uploads/2023/10/search-w.svg); */
-   /* background-size: 100%;
-	background-repeat: no-repeat;
-	background-position: center; */
- }
+   background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none"><path stroke=%23000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.5" d="M9.74 18.48c4.827 0 8.74-3.913 8.74-8.74C18.48 4.91303 14.567 1 9.74 1 4.91303 1 1 4.91303 1 9.74c0 4.827 3.91303 8.74 8.74 8.74Z" /><path stroke="2%3000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M16.03 16.03 19 19" /></svg>') no-repeat;
+
+   background: url(/wp-content/uploads/2023/10/search-w.svg);
+   background-size: 100%;
+   background-repeat: no-repeat;
+   background-position: center;
+ } */
 
  /* .header-wrapper.stuck .dgwt-wcas-has-submit .dgwt-wcas-search-submit:after,
 .header-wrapper .dgwt-wcas-has-submit .dgwt-wcas-search-submit:after {
@@ -227,18 +228,12 @@
   }
 */
 
-
-
  .burger-menu>.menu-item {
    color: var(--color-black);
-   font-family: "Avenir Next";
    font-size: 18px;
-   font-style: normal;
    font-weight: 500;
    display: block;
    line-height: 1.2;
-   /* padding: 10px 0;
-    width: 100%; */
  }
 
  .burger-menu>.menu-item a {

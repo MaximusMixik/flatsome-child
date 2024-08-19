@@ -207,7 +207,12 @@ label[for=woof_checkbox_sales]:before {
   display: none;
 }
 
-/* !! */
+/* spollers */
+
+.widget a {
+  font-size: 24px;
+  color: var(--color-black) !important;
+}
 
 /* @media (max-width: 576px) {
   label.woof_checkbox_label {
