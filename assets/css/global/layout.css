@@ -9,9 +9,12 @@ body {
 .header-main {
     height: initial !important;
     min-height: 90px;
-
     display: flex;
     align-items: center;
+}
+
+#section_2101748850 {
+    background-color: #F4F4F4
 }
 
 /* .home .header,
@@ -32,6 +35,14 @@ body {
 .container .container,
 .container .row {
     width: 100%;
+}
+
+@media (max-width: 1000px) {
+
+    .row-small>.flickity-viewport>.flickity-slider>.col:nth-child(2n),
+    .row-small>.flickity-viewport>.flickity-slider>.col:nth-child(odd) {
+        padding: 0 6px !important;
+    }
 }
 
 @media (max-width: 576px) {

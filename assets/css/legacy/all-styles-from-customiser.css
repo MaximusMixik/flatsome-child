@@ -1034,10 +1034,6 @@ footer .wpforms-submit:before {
 		padding: 0;
 	}
 
-	.row-small>.flickity-viewport>.flickity-slider>.col:nth-child(2n),
-	.row-small>.flickity-viewport>.flickity-slider>.col:nth-child(odd) {
-		padding: 0 10px !important;
-	}
 
 
 
