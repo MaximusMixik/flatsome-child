@@ -36,6 +36,15 @@
 
 @font-face {
   font-family: 'Avenir Next';
+  src: url('../../fonts/AvenirNextCyr-Medium.woff2') format('woff2'),
+    url('../../fonts/AvenirNextCyr-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Avenir Next';
   src: url('../../fonts/AvenirNextCyr-Demi.woff2') format('woff2'),
     url('../../fonts/AvenirNextCyr-Demi.woff') format('woff');
   font-weight: 600;

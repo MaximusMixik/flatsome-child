@@ -32,7 +32,6 @@ if ( $query->have_posts() ) :   ?>
                         <?php while ( $query->have_posts() ) : 
                             $query->the_post(); 
                             ?>
-                            <!-- style="max-width: 200px;"  -->
                             <div class="recently-viewed-products__slide swiper-slide">
                                 <?php wc_get_template_part( 'content', 'product' );?>
                             </div>
