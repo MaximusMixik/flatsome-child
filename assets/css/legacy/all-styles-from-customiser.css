@@ -246,11 +246,11 @@ body.woocommerce-checkout #main {
 
 
 /* .single #main, */
-.page-id-6080 #main,
+/* .page-id-6080 #main,
 .error404 #main {
-	/* background: #F2F2F2; */
+	background: #F2F2F2;
 	padding-top: 130px;
-}
+} */
 
 .error404 #main .searchform {
 	display: none;
@@ -389,10 +389,10 @@ body.woocommerce-checkout #payment button,
 	background-color: var(--primary-color) !important;
 } */
 
-.single #main,
+/* .single #main,
 .page-id-6080 #main {
 	padding-top: 0;
-}
+} */
 
 
 
