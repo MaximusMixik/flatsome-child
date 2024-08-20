@@ -32,8 +32,7 @@
 .promo-banner__title {
   font-family: "Avenir Next";
   font-style: normal;
-  /* font-weight: 600; */
-  font-weight: 400;
+  font-weight: 600;
   line-height: 1.16;
   color: var(--color-white);
 }

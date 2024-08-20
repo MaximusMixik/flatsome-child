@@ -178,18 +178,18 @@ h6 {
     display: grid;
     place-items: center;
 
-    padding: 10px 8px;
     border-radius: 50%;
     background-color: var(--color-white);
     color: var(--color-black);
     text-align: center;
-    font-size: 14px;
     font-weight: 600;
     line-height: 1.14;
     letter-spacing: -0.28px;
 
-    min-width: 36px;
-    height: 36px;
+    /* font-size: 14px; 
+     padding: 10px 8px; 
+      min-width: 36px;
+    height: 36px; */
     border: 0;
     transition: background-color 0.3s ease, color 0.3s ease;
 
@@ -292,4 +292,24 @@ del span.amount.woocommerce-Price-amount {
 
 .total span.amount.woocommerce-Price-amount {
     color: var(--color-black);
+}
+
+@media (min-width: 576px) {
+    .page-numbers.nav-pagination>li>.page-number {
+        padding: 10px 8px;
+        font-size: 14px;
+        min-width: 36px;
+        height: 36px;
+    }
+}
+
+@media (max-width: 576px) {
+    .page-numbers.nav-pagination>li>.page-number {
+        padding: 6px;
+        font-size: 12px;
+        min-width: 30px;
+        height: 30px;
+    }
+
+
 }
