@@ -121,7 +121,7 @@ span.amount.woocommerce-Price-amount {
 	margin-inline: auto;
 	overflow: hidden;
 	text-overflow: ellipsis;
-	max-width: 161px;
+	max-width: 120px;
 }
 
 @media(min-width: 576px) {
@@ -138,7 +138,6 @@ span.amount.woocommerce-Price-amount {
 
 	.product-small.box .category {
 		font-size: 12px;
-		max-width: 120px;
 	}
 
 	.product-small.box {

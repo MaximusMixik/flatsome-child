@@ -27,10 +27,7 @@ footer .menu-colum .button {
 
 
 
-.shop-page-title .page-title-inner {
-	display: block;
-	/* padding: 40px 16px 0; */
-}
+
 
 .footer_socials,
 .payment-methods-footer {
@@ -87,10 +84,6 @@ footer .menu-colum .button {
 	text-align: left;
 }
 
-.woof_block_html_items ul {
-	max-height: 300px;
-	overflow-x: auto;
-}
 
 /* .discount-total,
 .discount-total .woocommerce-Price-amount.amount {
@@ -186,11 +179,7 @@ header+.message-wrapper {
 	border-radius: 40px !important;
 }
 
-.button.woof_reset_search_form,
-.woof_reset_button_2 {
-	background: var(--primary-color) !important;
-	color: #fff;
-}
+
 
 #footer div.wpforms-container-full .wpforms-confirmation-container-full,
 div[submit-success]>.wpforms-confirmation-container-full:not(.wpforms-redirection-message) {
@@ -428,9 +417,6 @@ select {
 }
 
 
-.woof_list label {
-	width: calc(100% - 45px);
-}
 
 form.woocommerce-checkout label {
 	color: #000;
