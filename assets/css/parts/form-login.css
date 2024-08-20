@@ -2,7 +2,7 @@
 .account-popup .woocommerce-form-description,
 .account-popup .woocommerce-privacy-policy-text p,
 .account-popup .woocommerce-form__label,
-.account-popup .lost_password {
+.account-popup .lost_password a {
   color: var(--color-black);
   font-family: "Avenir Next";
   font-size: 14px;
