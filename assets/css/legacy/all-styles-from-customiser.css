@@ -169,16 +169,23 @@ header+.message-wrapper {
 	color: #89ad09 !important;
 }
 
-.home .header-wrapper .selectron23-container[data-opened="0"]>span {
+.home .header-wrapper .selectron23-container[data-opened="0"]>span,
+.home .header-wrapper .selectron23-container[data-opened="1"]>span {
 	border: initial !important;
 	width: 24px;
 	height: 24px;
-	background: url(/wp-content/uploads/2023/11/Arrow-Down-wh.svg);
+	background-image: url(./../../images/homepage/slider-arrow-down.svg);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	position: absolute;
+	transform: rotate(-90deg);
 	top: 8px !important;
 	right: -4px;
+}
+
+.home .header-wrapper .selectron23-container[data-opened="1"]>span {
+	margin-top: 0 !important;
+	transform: rotate(-270deg);
 }
 
 
@@ -229,9 +236,9 @@ body.woocommerce-checkout #main {
 } */
 
 
-.dgwt-wcas-style-pirx .dgwt-wcas-sf-wrapp input[type=search].dgwt-wcas-search-input::placeholder {
+/* .dgwt-wcas-style-pirx .dgwt-wcas-sf-wrapp input[type=search].dgwt-wcas-search-input::placeholder {
 	color: #fff;
-}
+} */
 
 .continue-shopping {
 	display: none;
@@ -571,13 +578,10 @@ div.wpforms-container-full .wpforms-page-button:focus:after {
 
 .header:not(.transparent) .header-nav-main.nav>li>a,
 .selectron23-option-title {
-	color: #fff !important;
-
+	color: #333333 !important;
+	font-family: Kanit, sans-serif !important;
 	font-size: 16px !important;
-	font-style: normal;
-	font-weight: 600 !important;
-	line-height: normal !important;
-	text-transform: uppercase;
+	font-weight: 500 !important;
 }
 
 .dgwt-wcas-style-pirx .dgwt-wcas-sf-wrapp {
@@ -723,12 +727,6 @@ body .header-full-width .container {
 	max-height: 30px !important;
 }
 
-
-.home .header-wrapper .dgwt-wcas-style-pirx .dgwt-wcas-sf-wrapp input[type=search].dgwt-wcas-search-input {
-	background: rgba(221, 221, 221, 0.15) !important;
-	color: #fff;
-}
-
 .header-wrapper.stuck .dgwt-wcas-style-pirx .dgwt-wcas-sf-wrapp input[type=search].dgwt-wcas-search-input,
 .header-wrapper .dgwt-wcas-style-pirx .dgwt-wcas-sf-wrapp input[type=search].dgwt-wcas-search-input {
 	background: rgba(221, 221, 221, 0.30) !important;
@@ -737,7 +735,10 @@ body .header-full-width .container {
 }
 
 .home .header-wrapper .dgwt-wcas-style-pirx .dgwt-wcas-sf-wrapp input[type=search].dgwt-wcas-search-input::placeholder {
-	color: #fff;
+	color: #00000066;
+	font-family: Kanit, sans-serif;
+	font-size: 16px;
+	font-weight: 400;
 }
 
 .header-wrapper.stuck .dgwt-wcas-style-pirx .dgwt-wcas-sf-wrapp input[type=search].dgwt-wcas-search-input::placeholder,
@@ -773,27 +774,9 @@ body .header-full-width .container {
 	background-position: center;
 }
 
-.home .header-wrapper .account-item .icon-user:before {
-	content: '';
-	display: block;
-	width: 24px;
-	height: 24px;
-	background: url(/nutri-pure-health/wp-content/uploads/2023/10/user-w.svg);
-	background-size: 100%;
-	background-repeat: no-repeat;
-	background-position: center;
-}
 
-.home .header-wrapper .icon-shopping-cart:before {
-	content: '';
-	display: block;
-	width: 24px;
-	height: 24px;
-	background: url(/wp-content/uploads/2023/10/cart-w.svg);
-	background-size: 100%;
-	background-repeat: no-repeat;
-	background-position: center;
-}
+
+
 
 .header-wrapper.stuck .account-item .icon-user:before,
 .header-wrapper .account-item .icon-user:before {
