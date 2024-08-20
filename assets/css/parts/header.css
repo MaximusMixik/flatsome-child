@@ -160,27 +160,11 @@
    margin-bottom: 48px;
  }
 
-
-
- .home .header-wrapper .menuburger-btn {
+.menuburger-btn {
    display: block;
    width: 24px;
    height: 24px;
-   background: url(/wp-content/uploads/2023/11/burger.svg);
-   background-repeat: no-repeat;
-   background-position: center;
-   background-size: 100%;
-   margin: 0 40px 0 0;
-   cursor: pointer;
-   filter: invert(0) !important;
- }
-
- .header-wrapper.stuck .menuburger-btn,
- .header-wrapper .menuburger-btn {
-   display: block;
-   width: 24px;
-   height: 24px;
-   background: url(/wp-content/uploads/2023/11/burger.svg);
+   background: url(./../../images/global/burger.svg);
    background-repeat: no-repeat;
    background-position: center;
    background-size: 100%;
@@ -189,6 +173,28 @@
    filter: invert(1) !important;
  }
 
+ .header-wrapper .account-item .icon-user:before {
+	content: '';
+	display: block;
+	width: 24px;
+	height: 24px;
+	background-image: url(./../../images/homepage/icon-account.svg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.header-wrapper .icon-shopping-cart:before {
+	content: '';
+	display: block;
+	width: 24px;
+	height: 24px;
+	background-image: url(./../../images/homepage/icon-cart.svg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
 
  .mobile-nav-login-icon,
  .valu,
@@ -196,12 +202,6 @@
  .close-menu-burger {
    display: none;
  }
-
-
- /* !!! */
- /* .home #header {
-    background: initial;
-  } */
 
 
  #header .header-main .nav-left {
@@ -316,10 +316,6 @@
    color: #5dc10b;
  }
 
- /* .home-link a,
-  .shop-link a {
-    color: var(--color-black);
-  } */
  .active-burger-menu .burger-menu-section {
    border-right: 1px solid #DBDBDB;
  }
