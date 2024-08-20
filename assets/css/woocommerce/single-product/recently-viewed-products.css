@@ -104,6 +104,8 @@
     position: static;
     justify-content: center;
     padding: 12px;
+    width: max-content;
+    margin-inline: auto;
   }
 
   .navigation-swiper__button {

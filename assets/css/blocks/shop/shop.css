@@ -1,3 +1,10 @@
+.archive .header,
+.archive .header-wrapper,
+.archive .shop-page-title,
+.archive #main {
+  background-color: #F2F2F2;
+}
+
 /* select */
 .woocommerce-page .orderby {
   color: var(--color-black);
