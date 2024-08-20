@@ -32,8 +32,7 @@
 .promo-banner__title {
   font-family: "Avenir Next";
   font-style: normal;
-  /* font-weight: 600; */
-  font-weight: 400;
+  font-weight: 600;
   line-height: 1.16;
   color: var(--color-white);
 }
@@ -75,6 +74,11 @@
 
 
 @media (min-width:1000px) {
+
+  .shop-page-title .page-title-inner {
+    display: block;
+  }
+
   .promo-banner {
     padding-top: 38px;
     padding-bottom: 100px;
@@ -115,10 +119,17 @@
 }
 
 @media (max-width: 1000px) {
+
   /* .page-title-inner.medium-flex-wrap:has(>.flex-col>.promo-banner) {
     display: flex;
     flex-direction: column-reverse;
   } */
+  .shop-page-title .page-title-inner {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: stretch;
+    align-items: stretch;
+  }
 
   .promo-banner {
     padding-top: 20px;

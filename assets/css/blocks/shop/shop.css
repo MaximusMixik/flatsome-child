@@ -1,3 +1,10 @@
+.archive .header,
+.archive .header-wrapper,
+.archive .shop-page-title,
+.archive #main {
+  background-color: #F2F2F2;
+}
+
 /* select */
 .woocommerce-page .orderby {
   color: var(--color-black);
@@ -20,37 +27,30 @@
 /* sidebar */
 #shop-sidebar {
   margin-top: -64px;
+  position: relative;
+}
+
+.widget-title.shop-sidebar,
+.woof_container_inner h4 {
+  color: var(--color-black);
+  font-family: "Kanit";
+  font-weight: 400;
 }
 
 .widget-title.shop-sidebar {
   font-size: 24px;
-  font-weight: 500;
   line-height: 1.16;
 }
 
 .woof_container_inner h4 {
   font-size: 16px;
-  font-weight: 600;
   line-height: 1.5;
-}
-
-.widget-title.shop-sidebar,
-.woof_container_inner h4 {
-  font-family: "Avenir Next";
-  color: var(--color-black);
 }
 
 .widget_text.widget:not(:last-child) {
   margin-bottom: 28px;
 }
 
-/* .woof_container {
-  padding-bottom: 10px;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  padding-top: 10px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.10);
-} */
 .woof_container {
   padding: 0;
   margin: 0;
@@ -73,14 +73,15 @@
   border: 1px solid rgba(0, 0, 0, 0.20);
   background-color: var(--color-white);
   border-radius: 7px;
-  background-image: url(/wp-content/uploads/2023/11/orange@2x.png);
-  /* -webkit-background-size: 240px 24px;
-  background-size: 240px 24px; */
-  -webkit-background-size: 233px 22px;
-  background-size: 233px 22px;
-  margin-right: 4px;
+  background-image: none;
+  margin: 0 !important;
 }
 
+.icheckbox_square-orange.checked {
+  background-image: url(/wp-content/uploads/2023/11/orange@2x.png);
+  -webkit-background-size: 233px 22px;
+  background-size: 233px 22px;
+}
 
 label[for=woof_checkbox_sales] {
   font-size: 0;
@@ -92,15 +93,8 @@ label[for=woof_checkbox_sales]:before {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: -0.28px;
+  transition: color 0.3s ease;
 }
-
-/* .woof_container_inner h4:not(:last-child) {
-  margin-bottom: 16px;
-} */
-.woof_container_inner h4 {
-  margin: 0;
-}
-
 
 /*! range */
 .woof_container .irs--big .irs-line {
@@ -119,7 +113,6 @@ label[for=woof_checkbox_sales]:before {
 
 .woof_container .irs--big .irs-bar {
   border: 0 !important;
-  ;
   height: 4px !important;
   background-color: var(--color-green-2) !important;
 }
@@ -207,12 +200,140 @@ label[for=woof_checkbox_sales]:before {
   display: none;
 }
 
-/* !! */
+/* spollers */
+.woof_container_inner h4 {
+  margin: 0;
+  position: relative;
+  padding-right: 30px;
+  transition: color 0.3s ease;
+}
 
-/* @media (max-width: 576px) {
-  label.woof_checkbox_label {
-    font-size: 13px;
-    width: 83%;
+.woof_block_html_items {
+  padding-top: 16px;
+}
+
+.widget .woof_front_toggle {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  font-size: 0;
+
+}
+
+.widget .woof_front_toggle::before,
+.widget .woof_front_toggle::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  width: 14px;
+  height: 2px;
+  border-radius: 5px;
+  background-color: var(--color-black);
+  transition: transform 0.2s linear;
+
+}
+
+.widget a::after {
+  transform: translateY(-50%);
+}
+
+.widget a::before {
+  transform: translateY(-50%) rotate(90deg);
+}
+
+.woof_front_toggle.woof_front_toggle_opened::before {
+  transform: translateY(-50%) rotate(0deg);
+}
+
+/*   spoller list */
+.woof_block_html_items ul {
+  max-height: 300px;
+  overflow-x: auto;
+}
+
+.woof_list .woof_checkbox_label {
+  color: var(--color-black);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.14;
+  letter-spacing: -0.28px;
+  width: calc(100% - 45px);
+  transition: color 0.3s ease;
+  margin: 0 0 0 10px !important;
+  padding: 0;
+}
+
+.woof_list.woof_list_checkbox>:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+/* reset button */
+.woof_submit_search_form_container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button.woof_reset_search_form {
+  flex: 0 0 40%;
+  background-color: transparent;
+  color: var(--color-black);
+  font-family: "Avenir Next";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.28px;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  box-shadow: none !important;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+
+  position: absolute;
+  width: max-content;
+  height: max-content;
+  top: 0;
+  right: 0;
+}
+
+.button.woof_reset_search_form::after {
+  content: "";
+  width: 24px;
+  height: 24px;
+  flex: 0 0 24px;
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path stroke="%23000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M20.453 12.8932c-.2778 2.6099-1.7566 5.0556-4.2036 6.4684-4.0655 2.3472-9.26401.9542-11.61122-3.1113l-.25-.433m-.84205-4.7102c.2778-2.60987 1.75659-5.05559 4.20358-6.46836 4.06549-2.34721 9.26399-.95427 11.61119 3.11121l.25.43302M3.49316 18.0662l.73205-2.7321 2.73206.7321M17.0424 7.93413l2.732.73205.7321-2.73205" /></svg>') center / contain no-repeat;
+  transition: transform 0.3s ease;
+
+}
+
+@media (any-hover:hover) {
+
+  .woof_list_checkbox li:hover .woof_checkbox_label,
+  .woof_container_inner:hover label[for=woof_checkbox_sales]:before {
+    color: var(--color-green-2);
   }
 
-} */
+  .woof_container_inner:hover h4 {
+    color: var(--color-green-2);
+  }
+
+  .woof_container_inner:hover .woof_front_toggle::after,
+  .woof_container_inner:hover .woof_front_toggle::before {
+    background-color: var(--color-green-2);
+  }
+
+  .button.woof_reset_search_form:hover {
+    background-color: transparent;
+  }
+
+
+  .button.woof_reset_search_form:hover:after {
+    transform: rotate(180deg);
+  }
+}

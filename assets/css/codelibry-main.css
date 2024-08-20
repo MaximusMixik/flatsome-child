@@ -1,3 +1,5 @@
+@import url(./global/fonts.css);
+
 @import url(./legacy/all-styles-from-customiser.css);
 @import url(./legacy/all-screens-advanced-tab.css);
 @import url(./legacy/tablet-and-down.css);

@@ -47,8 +47,7 @@
 
 .slide-poster__button.button.button--green {
   font-size: 12px;
-  /* font-weight: 600; */
-  font-weight: 400;
+  font-weight: 600;
   padding: 6px 15px;
   display: grid;
   place-items: center;
@@ -90,5 +89,10 @@
 
   .slide-poster__wrapper {
     flex-direction: column;
+  }
+
+  .slide-poster__title {
+    font-size: 16px;
+    text-align: center;
   }
 }

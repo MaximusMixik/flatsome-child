@@ -32,9 +32,6 @@
 
 
 
-    .row.category-page-row .row-small>.col {
-        padding: 0 9.8px 19.6px;
-    }
 
     .button#place_order,
     .dashboard-links a,
@@ -71,10 +68,10 @@
         width: 100%;
     }
 
-    span.amount,
+    /* span.amount,
     p.name.product-title.woocommerce-loop-product__title a {
         line-height: 100% !important;
-    }
+    } */
 
 
 

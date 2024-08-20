@@ -3,6 +3,10 @@
   background-color: var(--color-white);
 }
 
+.blog-single .poster {
+  display: none;
+}
+
 .blog-single .entry-title {
   color: var(--color-black);
   font-weight: 500;
@@ -10,10 +14,13 @@
   text-align: left;
   font-family: "Avenir Next";
   margin-bottom: 0;
+
 }
 
 .blog-single .col {
   padding-bottom: 0;
+  flex-basis: 100%;
+  max-width: 100%;
 }
 
 .blog-single .entry-header-text {
@@ -115,6 +122,7 @@
   font-size: 14px;
   font-weight: 500;
   line-height: 1.2;
+  text-align: center;
 
   display: -webkit-box;
   -webkit-box-orient: vertical;

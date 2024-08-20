@@ -178,25 +178,25 @@ h6 {
     display: grid;
     place-items: center;
 
-    padding: 10px 8px;
     border-radius: 50%;
     background-color: var(--color-white);
     color: var(--color-black);
     text-align: center;
-    font-size: 14px;
     font-weight: 600;
     line-height: 1.14;
     letter-spacing: -0.28px;
 
-    min-width: 36px;
-    height: 36px;
+    /* font-size: 14px; 
+     padding: 10px 8px; 
+      min-width: 36px;
+    height: 36px; */
     border: 0;
     transition: background-color 0.3s ease, color 0.3s ease;
 
 }
 
 .page-numbers.nav-pagination>li>.current {
-    background-color: var(--color-green-2);
+    background-color: var(--color-green-2) !important;
     color: var(--color-white);
     pointer-events: none;
 }
@@ -247,6 +247,11 @@ h6 {
         transform: scale(1.3) rotate(180deg);
     }
 
+    .page-numbers.nav-pagination>li>.prev:hover,
+    .page-numbers.nav-pagination>li>.next:hover {
+        background-color: transparent !important;
+    }
+
     .page-number.next:hover:before {
         transform: scale(1.3);
     }
@@ -254,4 +259,40 @@ h6 {
 
 .nav-column>li>a, .nav-dropdown>li>a, .nav-vertical-fly-out>li>a, .nav>li>a {
     color: #333333;
+}
+/* price mark */
+ins span.amount.woocommerce-Price-amount {
+    color: var(--color-green-1);
+}
+
+/* .product-small.box .price-wrapper */
+del span.amount.woocommerce-Price-amount {
+    color: #CCC;
+    font-family: "Kanit";
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.total span.amount.woocommerce-Price-amount {
+    color: var(--color-black);
+}
+
+@media (min-width: 576px) {
+    .page-numbers.nav-pagination>li>.page-number {
+        padding: 10px 8px;
+        font-size: 14px;
+        min-width: 36px;
+        height: 36px;
+    }
+}
+
+@media (max-width: 576px) {
+    .page-numbers.nav-pagination>li>.page-number {
+        padding: 6px;
+        font-size: 12px;
+        min-width: 30px;
+        height: 30px;
+    }
+
+
 }
