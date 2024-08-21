@@ -1,9 +1,3 @@
-.blog .header-main,
-.blog__header,
-.blog .blog-wrapper {
-  background-color: #F2F2F2;
-}
-
 .blog .container,
 .blog .row {
   max-width: 1412px;

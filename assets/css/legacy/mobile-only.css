@@ -21,10 +21,7 @@
         padding-top: calc(790px + (600 - 500) * (100vw - 400px) / (1200 - 400)) !important;
     }
 
-    .showcoupon {
-        width: 100%;
-        display: block;
-    }
+
 
     .logo-slider-main .slider-nav-outside .flickity-page-dots {
         bottom: -30px;

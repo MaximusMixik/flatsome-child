@@ -1,0 +1,178 @@
+.message-wrapper {
+  padding: 0;
+}
+
+.message-wrapper .container.message-container {
+  width: 100%;
+  max-width: 1424px;
+  padding: 0;
+
+  color: rgba(0, 0, 0, 0.80);
+  font-family: "Avenir Next";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+/*! add main title */
+/* .title {
+  content: "Checkout Details";
+  color: var(--color-black);
+  font-family: "Avenir Next";
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.16;
+}
+
+.title::before:not(:last-child) {
+  margin-bottom: 40px;
+} */
+
+.showcoupon {
+  color: var(--color-black);
+  font-family: "Kanit";
+  /* font-weight: 500; */
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.woocommerce-checkout .woocommerce-info.message-wrapper {
+  padding-bottom: 0;
+}
+
+.woocommerce-form-coupon-toggle:not(:last-child) {
+  margin-bottom: 36px;
+}
+
+.woocommerce-checkout .woocommerce-billing-fields {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.woocommerce-checkout form.checkout h3 {
+  color: var(--color-black);
+  font-family: "Avenir Next";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.4;
+  text-transform: uppercase;
+  padding-top: 0;
+}
+
+.woocommerce-checkout form.checkout h3:not(:last-child) {
+  margin-bottom: 18px;
+}
+
+
+/* form */
+.woocommerce-checkout .form-row-first {
+  margin-right: 16px;
+}
+
+.woocommerce-checkout .form-row-first,
+.woocommerce-checkout .form-row-last {
+  width: calc(50% - 8px);
+}
+
+.select2-container .select2-selection {
+  background-position: right 16px top 50%;
+}
+
+/*! STOP */
+
+.checkout_coupon.woocommerce-form-coupon {
+  border-color: var(--primary-color);
+}
+
+body.woocommerce-checkout .woocommerce-checkout .row.pt-0 {
+  margin: 0;
+}
+
+/* body.woocommerce-cart .cart-auto-refresh, */
+body.woocommerce-checkout .woocommerce-checkout .large-7 {
+  max-width: calc(100% - 400px);
+  flex-basis: calc(100% - 400px);
+}
+
+body.woocommerce-checkout .woocommerce-checkout .large-7 {
+  padding: 0 20px 0 0;
+}
+
+form.woocommerce-checkout input,
+form.woocommerce-checkout textarea {
+  color: #000;
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  border-radius: var(--Box-Spacing, 24px);
+  padding: 10px 15px;
+  border: 1px solid rgba(0, 0, 0, 0.20);
+  background: var(--color-white, #FFF);
+  line-height: 20px;
+  height: auto;
+}
+
+form.woocommerce-checkout label {
+  color: #000;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 12px;
+  padding-left: 15px;
+}
+
+.select2-container .select2-selection,
+select {
+  color: rgba(0, 0, 0, 0.25);
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  border-radius: var(--Box-Spacing, 24px);
+  padding: 10px 15px;
+  border: 1px solid rgba(0, 0, 0, 0.20);
+  line-height: 20px;
+  height: auto;
+}
+
+.select2-container .select2-selection--single .select2-selection__rendered {
+  line-height: normal;
+}
+
+body.woocommerce-checkout .woocommerce-checkout .col-inner {
+  /* background: var(--color-white, #FFF);
+   */
+  background-color: initial;
+  padding: 24px;
+  max-width: 400px;
+  flex-basis: 400px;
+  border: initial;
+}
+
+body.woocommerce-checkout .woocommerce-checkout .large-5 {
+  max-width: 400px;
+  flex-basis: 400px;
+}
+
+@media(max-width:1000px) {
+
+  body.woocommerce-checkout .woocommerce-checkout .large-7 {
+    max-width: 100%;
+    flex-basis: 100%;
+    padding: 20px 30px !important;
+  }
+
+  body.woocommerce-checkout .woocommerce-checkout .col-inner {
+    max-width: 100%;
+    flex-basis: 100%;
+    padding: 20px 30px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .showcoupon {
+    width: 100%;
+    display: block;
+  }
+}

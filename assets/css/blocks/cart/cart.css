@@ -180,6 +180,14 @@ body.woocommerce-cart .cart-auto-refresh {
   border-left: none;
 }
 
+body.woocommerce-cart .cart-collaterals {
+  background: initial;
+  padding: 24px;
+  max-width: 400px;
+  flex-basis: 400px;
+  border: initial;
+}
+
 /*cart media */
 
 @media (any-hover:hover) {
@@ -276,6 +284,11 @@ body.woocommerce-cart .cart-auto-refresh {
     font-size: 14px;
   }
 
+  body.woocommerce-cart .cart-collaterals {
+    max-width: 100%;
+    flex-basis: 100%;
+    padding: 20px 30px !important;
+  }
 }
 
 @media(max-width: 550px) {

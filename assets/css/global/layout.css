@@ -17,6 +17,22 @@ body {
     background-color: #F4F4F4
 }
 
+.archive .header,
+.archive .header-wrapper,
+.archive .shop-page-title,
+.archive #main,
+.page-id-6080 .header .header-wrapper,
+.page-id-6080 #main,
+.blog .header-main,
+.blog__header,
+.blog .blog-wrapper,
+.woocommerce-cart .header,
+.woocommerce-checkout .header,
+.woocommerce-cart #main,
+.woocommerce-checkout #main {
+    background-color: #F2F2F2;
+}
+
 /* .home .header,
 .home .header-wrapper {
     background-color: transparent !important;
