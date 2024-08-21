@@ -47,3 +47,61 @@
 .woocommerce-form-row label:not(:last-child) {
   margin-bottom: 2px;
 }
+
+
+/* quantity */
+
+.quantity {
+  border-radius: 33px;
+  border: 1px solid rgba(0, 0, 0, 0.20);
+  background-color: var(--color-white);
+  display: flex;
+  width: 135px;
+  height: 48px;
+  padding: 10px 8px;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+
+.quantity.buttons_added .button {
+  background-color: #F0F0F0;
+  width: 36px;
+  height: 36px !important;
+  padding: 0;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  font-size: 14px;
+  border: initial !important;
+  /* border-radius: 50% !important; */
+  transition: background-color 0.3s ease;
+
+}
+
+.quantity.buttons_added .button.minus,
+.quantity.buttons_added .button.plus {
+  border-bottom-right-radius: 50% !important;
+  border-top-right-radius: 50% !important;
+  border-bottom-left-radius: 50% !important;
+  border-top-left-radius: 50% !important;
+}
+
+.quantity input[type=number] {
+  color: var(--color-black);
+  font-family: "Avenir Next";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1;
+  border: initial;
+  outline: initial;
+  box-shadow: initial;
+}
+
+@media (any-hover:hover) {
+  .quantity.buttons_added .button:hover {
+    background-color: #d1ff3a;
+  }
+}

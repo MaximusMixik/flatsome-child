@@ -124,6 +124,8 @@ ul.product_list_widget .woocommerce-mini-cart-item.mini_cart_item {
   padding: 0;
   opacity: 1;
   height: max-content;
+  border: 0;
+
 }
 
 .product_list_widget .mini_cart_item img {

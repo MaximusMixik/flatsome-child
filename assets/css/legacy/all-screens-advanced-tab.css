@@ -172,17 +172,12 @@ form.woocommerce-widget-layered-nav-dropdown {
 	font-weight: 700;
 }
 
-
 /*
 .banner-slider .banner-layers.container, .banner-slider-pink .banner-layers.container
 {
 	max-width: 100%;
 }
 */
-.container {
-	padding-left: 22px;
-	padding-right: 22px;
-}
 
 .slider-nav-circle .flickity-prev-next-button svg {
 	background: #47474A;

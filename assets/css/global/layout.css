@@ -21,6 +21,10 @@ body {
 .home .header-wrapper {
     background-color: transparent !important;
 } */
+.container {
+    padding-left: 22px;
+    padding-right: 22px;
+}
 
 .container-width,
 .full-width .ubermenu-nav,
@@ -52,6 +56,11 @@ body {
     .container,
     .row {
         width: 95%;
+    }
+
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
     }
 }
 

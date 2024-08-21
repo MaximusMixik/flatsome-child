@@ -42,10 +42,6 @@
         width: 100% !important;
     }
 
-    .container {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
 
     .dashboard-links a,
     .woocommerce-address-fields .button.wp-element-button {
