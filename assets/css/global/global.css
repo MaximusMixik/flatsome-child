@@ -5,6 +5,7 @@
     --color-black: #000;
 
     --color-orange: #FF5C00;
+    --color-gray: #CFCFCF;
 }
 
 label,
@@ -257,9 +258,13 @@ h6 {
     }
 }
 
-.nav-column>li>a, .nav-dropdown>li>a, .nav-vertical-fly-out>li>a, .nav>li>a {
+.nav-column>li>a,
+.nav-dropdown>li>a,
+.nav-vertical-fly-out>li>a,
+.nav>li>a {
     color: #333333;
 }
+
 /* price mark */
 ins span.amount.woocommerce-Price-amount {
     color: var(--color-green-1);

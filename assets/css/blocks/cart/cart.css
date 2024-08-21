@@ -1,0 +1,107 @@
+/* cart header */
+.checkout-page-title .container.page-title-inner {
+  width: 100%;
+  max-width: 1424px;
+  padding: 0 22px;
+}
+
+.checkout-page-title .breadcrumbs {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  padding: 0;
+}
+
+.breadcrumbs>* {
+  margin-bottom: -1px;
+}
+
+.checkout-page-title .breadcrumbs a {
+  border-bottom: 4px solid transparent;
+  transition: border 0.3s ease;
+}
+
+.checkout-page-title .breadcrumbs a.current {
+  border-bottom-color: var(--color-green-2);
+  pointer-events: none;
+  color: var(--color-black);
+}
+
+.checkout-page-title .breadcrumbs a {
+  width: 33.33%;
+  padding: 18px 0 14px;
+
+  color: rgba(0, 0, 0, 0.35);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1;
+
+  text-align: center;
+  display: inline-grid;
+  gap: 12px;
+
+  transition: color 0.3s ease;
+}
+
+.breadcrumb-step {
+  font-size: 0;
+  width: 24px;
+  height: 24px;
+  background-color: var(--color-white) !important;
+  box-shadow: inset 0 0 0 8px var(--color-gray);
+  margin-inline: auto;
+}
+
+.checkout-page-title .breadcrumbs a.current .breadcrumb-step {
+  background-color: var(--color-white) !important;
+  box-shadow: inset 0 0 0 8px var(--color-green-2);
+  transition: box-shadow 0.3s ease;
+}
+
+.checkout-page-title .breadcrumbs .divider {
+  display: none;
+}
+
+/* cart body */
+
+
+
+/*cart media */
+
+@media (any-hover:hover) {
+  .checkout-page-title .breadcrumbs a:hover {
+    border-bottom-color: var(--color-green-2);
+    color: var(--color-black);
+  }
+
+  .checkout-page-title .breadcrumbs a:hover .breadcrumb-step {
+    background-color: var(--color-white) !important;
+    box-shadow: inset 0 0 0 8px var(--color-green-2);
+  }
+
+  /* cart body */
+}
+
+@media(min-width:1000px) {
+  .checkout-page-title {
+    padding-top: 48px;
+  }
+}
+
+@media(max-width:1000px) {
+  .checkout-page-title {
+    padding-top: 30px;
+  }
+
+  .checkout-page-title .breadcrumbs a {
+    font-size: 12px;
+  }
+
+  /* cart body */
+}
+
+@media(max-width: 550px) {
+  .checkout-page-title .breadcrumbs a.hide-for-small {
+    display: block !important;
+  }
+
+  /* cart body */
+}
