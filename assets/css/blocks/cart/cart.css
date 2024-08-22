@@ -29,6 +29,8 @@
   border-bottom-color: var(--color-green-2);
   pointer-events: none;
   color: var(--color-black);
+  transition: all 0.3s ease;
+
 }
 
 .checkout-page-title .breadcrumbs a {
@@ -44,7 +46,7 @@
   display: inline-grid;
   gap: 12px;
 
-  transition: color 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .breadcrumb-step {
@@ -59,7 +61,7 @@
 .checkout-page-title .breadcrumbs a.current .breadcrumb-step {
   background-color: var(--color-white) !important;
   box-shadow: inset 0 0 0 8px var(--color-green-2);
-  transition: box-shadow 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .checkout-page-title .breadcrumbs .divider {
@@ -189,18 +191,109 @@ body.woocommerce-cart .cart-collaterals {
   border: initial;
 }
 
+
+
+/*!!! new */
+.cart-collaterals table:first-child {
+  display: none;
+}
+
+.cart-collaterals .cart_totals h2 {
+  display: block;
+  color: var(--color-black);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.cart-collaterals .cart_totals h2:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.cart-collaterals .widget-title i {
+  color: var(--color-green-2);
+  opacity: 1;
+}
+
+.cart-collaterals .shop_table tbody td {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.cart-collaterals .shop_table .cart-subtotal .amount,
+.cart-collaterals .shop_table .discount-total .amount {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.cart-collaterals .shop_table .cart-subtotal>* {
+  padding: 0;
+}
+
+.cart-collaterals .shop_table .discount-total>* {
+  padding-top: 0;
+  padding-bottom: 18px;
+}
+
+.cart-collaterals .shop_table .order-total>* {
+  padding-top: 18px;
+  padding-bottom: 0;
+}
+
+.shop_table .order-total th,
+.cart-collaterals .shop_table .order-total td .amount,
+.cart-collaterals .shop_table .cart-subtotal .amount,
+.cart-collaterals .shop_table .amount {
+  color: var(--color-black);
+}
+
+.cart-collaterals .shop_table th,
+.cart-collaterals .shop_table td {
+  border-bottom: 0;
+}
+
+.cart-collaterals .shop_table .discount-total th,
+.cart-collaterals .shop_table .discount-total td {
+  border-bottom: 1px solid var(--color-gray);
+}
+
+.cart-collaterals .shop_table .discount-total .amount,
+.cart-collaterals .shop_table .discount-total {
+  color: var(--color-orange);
+  font-weight: 600;
+}
+
+.shop_table .order-total th {
+  font-family: "Avenir Next";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.shop_table .order-total td .amount {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.16;
+}
+
+.cart-collaterals .shop_table:not(:last-child) {
+  margin-bottom: 24px;
+}
+
 /*cart media */
 
 @media (any-hover:hover) {
-  .checkout-page-title .woocommerce-cart-form .breadcrumbs a:hover {
+  .checkout-page-title .breadcrumbs a:hover {
     border-bottom-color: var(--color-green-2);
     color: var(--color-black);
   }
 
-  .checkout-page-title .woocommerce-cart-form .breadcrumbs a:hover .breadcrumb-step {
+  .checkout-page-title .breadcrumbs a:hover .breadcrumb-step {
     background-color: var(--color-white) !important;
     box-shadow: inset 0 0 0 8px var(--color-green-2);
   }
+
 
   /* cart body */
 

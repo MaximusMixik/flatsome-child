@@ -27,14 +27,11 @@
         bottom: -30px;
     }
 
-
-
-
     /* .button#place_order, */
     /* #place_order, */
+    /* a.checkout-button.button, */
     .dashboard-links a,
     .woocommerce-Button.button,
-    a.checkout-button.button,
     input[type="submit"].button {
         width: 100% !important;
     }

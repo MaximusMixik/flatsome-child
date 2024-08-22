@@ -331,22 +331,6 @@ body.woocommerce-checkout #payment button,
 	line-height: normal;
 }
 
-body.woocommerce-cart .coupon button {
-	border-radius: 33px !important;
-	background-color: #BDBDBD !important;
-	width: 90%;
-	padding: 16px 20px !important;
-	color: var(--color-white, #FFF) !important;
-
-	font-size: 16px !important;
-	font-style: normal !important;
-	font-weight: 700 !important;
-	line-height: normal !important;
-	text-transform: uppercase !important;
-	border: initial;
-	text-shadow: initial !important;
-}
-
 
 
 
@@ -800,9 +784,7 @@ footer .wpforms-submit:before {
 }
 
 
-.page-checkout .coupon .button.expand {
-	background-color: var(--Green, var(--primary-color)) !important;
-}
+
 
 .footer-text {
 	text-align: left;

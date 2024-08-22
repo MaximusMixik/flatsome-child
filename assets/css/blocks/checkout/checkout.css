@@ -151,6 +151,9 @@
   border-bottom: 0;
 }
 
+.checkout-sidebar .shop_table .order-total th {
+  text-transform: initial;
+}
 
 .checkout-sidebar .adress_inf,
 .checkout-sidebar .adress_inf p,
@@ -184,7 +187,7 @@
   margin-bottom: 24px;
 }
 
-.checkout-sidebar .payment_methods :not(:last-child) {
+.checkout-sidebar .payment_methods:not(:last-child) {
   margin-bottom: 24px;
 }
 
@@ -219,15 +222,12 @@
   margin-top: -205px;
 }
 
-.checkout-sidebar .woocommerce-terms-and-conditions-checkbox-text {
-  cursor: pointer;
-}
-
 .checkout-sidebar .woocommerce-form__label.woocommerce-form__label-for-checkbox {
   display: flex;
   align-items: flex-start;
   gap: 10px;
   position: relative;
+  cursor: pointer;
 }
 
 .woocommerce-terms-and-conditions-checkbox-text+b {
@@ -258,7 +258,7 @@
 }
 
 .checkout-sidebar .woocommerce-validated .woocommerce-form__label-for-checkbox::before {
-  background: var(--color-green-1) url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="7" fill="none"><path stroke="%23fff" d="m1 2.5 3 3 5-5" /></svg>') center / 10px 7px no-repeat;
+  background: var(--color-green-2) url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="7" fill="none"><path stroke="%23fff" d="m1 2.5 3 3 5-5" /></svg>') center / 10px 7px no-repeat;
 }
 
 

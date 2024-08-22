@@ -115,6 +115,8 @@ footer .button.white.is-outline i {
 	margin-left: 15px;
 }
 
+a.checkout-button.button,
+.woocommerce-cart .coupon button,
 .checkout-sidebar .button,
 .single_add_to_cart_button.button.alt,
 .wpforms-container-full button[type=submit].wpforms-submit,
@@ -140,10 +142,13 @@ footer .button.white.is-outline i {
 
 	/* .checkout-sidebar .button.alt:hover, */
 	.checkout-sidebar .button#place_order:hover,
+	a.checkout-button.button:hover,
+	.woocommerce-cart .coupon .button.is-form:hover,
 	.checkout-sidebar .button.alt:hover,
 	.single_add_to_cart_button.button.alt:hover,
 	div.wpforms-container-full button[type=submit].wpforms-submit:hover,
 	.button.button--green:hover {
+		color: var(--color-white);
 		background-color: #60ba16 !important;
 	}
 

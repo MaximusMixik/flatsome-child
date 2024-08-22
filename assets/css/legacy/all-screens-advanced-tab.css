@@ -318,9 +318,9 @@ input[type="submit"].button {
 
 /* .button#place_order, */
 /* #place_order, */
+/* a.checkout-button.button, */
 .dashboard-links a,
 .woocommerce-Button.button,
-a.checkout-button.button,
 input[type="submit"].button,
 .nav-pagination>li>.current,
 .nav-pagination>li>a:hover,
@@ -402,13 +402,6 @@ form.searchform .button.wp-element-button,
 	}
 
 
-
-	.col-inner h2 {
-		font-weight: 700;
-		font-size: 40px;
-		line-height: 140%;
-		text-transform: capitalize;
-	}
 
 	.row.row-small {
 		max-width: 1110px;

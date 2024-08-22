@@ -1,4 +1,5 @@
 /* input */
+.coupon input.input-text,
 form.woocommerce-checkout input,
 form.woocommerce-checkout textarea,
 .account-popup .woocommerce-form-row input[type=password],
