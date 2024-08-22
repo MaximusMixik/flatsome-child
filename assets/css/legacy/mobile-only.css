@@ -30,12 +30,12 @@
 
 
 
-    .button#place_order,
+    /* .button#place_order, */
+    /* #place_order, */
     .dashboard-links a,
     .woocommerce-Button.button,
     a.checkout-button.button,
-    input[type="submit"].button,
-    #place_order {
+    input[type="submit"].button {
         width: 100% !important;
     }
 

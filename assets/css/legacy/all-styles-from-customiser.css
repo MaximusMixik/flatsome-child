@@ -280,11 +280,6 @@ div[submit-success]>.wpforms-confirmation-container-full:not(.wpforms-redirectio
 
 
 
-body.woocommerce-checkout .woocommerce-checkout .large-5 {
-	max-width: 400px;
-	flex-basis: 400px;
-}
-
 /* body.woocommerce-cart .cart_totals .wc-proceed-to-checkout a,
 body.woocommerce-checkout #payment button,
 .widget_shopping_cart .woocommerce-mini-cart__buttons a {
@@ -314,13 +309,7 @@ body.woocommerce-checkout #payment button,
 	padding-top: 0;
 } */
 
-.woocommerce-terms-and-conditions-checkbox-text {
-	color: #000;
-	font-size: 14px;
-	font-style: normal;
-	font-weight: 600;
-	line-height: normal;
-}
+
 
 
 .select-resize-ghost,
@@ -369,18 +358,6 @@ body.woocommerce-cart .coupon button {
 	font-weight: 600;
 	line-height: normal;
 } */
-
-.adress_inf,
-.adress_inf p {
-	position: initial;
-	margin-top: initial;
-	color: #000;
-
-	font-size: 14px;
-	font-style: normal;
-	font-weight: 600;
-	line-height: normal;
-}
 
 .zoom-button {
 	display: none !important;

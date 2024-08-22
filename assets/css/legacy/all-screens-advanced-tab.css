@@ -299,12 +299,11 @@ input#button-subscribe {
 	border-color: #47474A;
 }
 
-
+/* #place_order */
 .dashboard-links a,
 .woocommerce-Button.button,
 .woocommerce-address-fields .button.wp-element-button,
-input[type="submit"].button,
-#place_order {
+input[type="submit"].button {
 	justify-content: center;
 	align-items: center;
 	width: 194px;
@@ -317,12 +316,12 @@ input[type="submit"].button,
 	color: #fff;
 }
 
-.button#place_order,
+/* .button#place_order, */
+/* #place_order, */
 .dashboard-links a,
 .woocommerce-Button.button,
 a.checkout-button.button,
 input[type="submit"].button,
-#place_order,
 .nav-pagination>li>.current,
 .nav-pagination>li>a:hover,
 .nav-pagination>li>span:hover,
