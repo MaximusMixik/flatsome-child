@@ -2,9 +2,10 @@
     content: "";
     display: block;
     width: 24px;
+    margin-top: 2px;
     height: 24px;
     background: url(./../../images/homepage/arrow-narrow-right.svg);
-	background-size: 100%;
-	background-repeat: no-repeat;
-	background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
 }

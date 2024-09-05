@@ -93,7 +93,10 @@ span.amount.woocommerce-Price-amount {
 
 	color: #292929;
 	text-align: center;
-	font-family: "Kanit";
+	/* font-family: "Kanit"; */
+
+	font-family: "Avenir";
+	font-weight: 500;
 }
 
 @media (any-hover:hover) {

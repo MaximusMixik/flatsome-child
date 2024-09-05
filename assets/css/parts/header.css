@@ -81,7 +81,7 @@
   background-position: center;
 } */
 
- .home .header-wrapper .selectron23-container:before {
+ /*  .home .header-wrapper .selectron23-container:before {
    content: '';
    display: block;
    width: 24px;
@@ -93,7 +93,7 @@
    position: absolute;
    left: 0px;
    top: 6px;
- }
+ } */
 
  /* .header-wrapper .category-burger-menu-section .dgwt-wcas-has-submit .dgwt-wcas-search-submit:after {
     background: url(/wp-content/uploads/2023/10/search-b.svg) !important;
@@ -160,7 +160,7 @@
    margin-bottom: 48px;
  }
 
-.menuburger-btn {
+ .menuburger-btn {
    display: block;
    width: 24px;
    height: 24px;
@@ -174,26 +174,26 @@
  }
 
  .header-wrapper .account-item .icon-user:before {
-	content: '';
-	display: block;
-	width: 24px;
-	height: 24px;
-	background-image: url(./../../images/homepage/icon-account.svg);
-	background-size: 100%;
-	background-repeat: no-repeat;
-	background-position: center;
-}
+   content: '';
+   display: block;
+   width: 24px;
+   height: 24px;
+   background-image: url(./../../images/homepage/icon-account.svg);
+   background-size: 100%;
+   background-repeat: no-repeat;
+   background-position: center;
+ }
 
-.header-wrapper .icon-shopping-cart:before {
-	content: '';
-	display: block;
-	width: 24px;
-	height: 24px;
-	background-image: url(./../../images/homepage/icon-cart.svg);
-	background-size: 100%;
-	background-repeat: no-repeat;
-	background-position: center;
-}
+ .header-wrapper .icon-shopping-cart:before {
+   content: '';
+   display: block;
+   width: 24px;
+   height: 24px;
+   background-image: url(./../../images/homepage/icon-cart.svg);
+   background-size: 100%;
+   background-repeat: no-repeat;
+   background-position: center;
+ }
 
 
  .mobile-nav-login-icon,
@@ -229,15 +229,16 @@
 */
 
  .burger-menu>.menu-item {
-   color: var(--color-black);
    font-size: 18px;
    font-weight: 500;
    display: block;
    line-height: 1.2;
+   font-family: "Avenir Next";
  }
 
  .burger-menu>.menu-item a {
    padding: 10px 0;
+   color: var(--color-black);
  }
 
  .menu-item a {
@@ -249,8 +250,17 @@
  .burger-menu .shop-link,
  .burger-menu .sale-link {
    font-size: 24px;
-   font-weight: 700;
    text-transform: uppercase;
+ }
+
+ .burger-menu .home-link,
+ .burger-menu .shop-link {
+   font-family: "Kanit";
+   font-weight: 600;
+ }
+
+ .burger-menu .sale-link {
+   font-weight: 700;
  }
 
  .burger-menu .home-link a,
@@ -271,7 +281,7 @@
  }
 
  /* .shop-link a, */
- .sale-link a {
+ .burger-menu .sale-link a {
    color: var(--color-green-1);
  }
 
@@ -313,7 +323,7 @@
 
 
  .active-burger-menu-category .shop-link a {
-   color: #5dc10b;
+   color: var(--color-green-1);
  }
 
  .active-burger-menu .burger-menu-section {
@@ -378,10 +388,12 @@
  }
 
  .menu-item-object-category>a {
-   font-weight: 600;
-   font-family: inherit;
    color: var(--color-black);
    text-transform: uppercase;
+   font-family: "Kanit";
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 1;
  }
 
  .menu-item-object-category>a:not(:last-child) {
@@ -393,12 +405,12 @@
  }
 
  .menu-item-object-category .menu-item a {
-   font-family: inherit;
-   /* color: #808080; */
    color: rgba(0, 0, 0, 0.50);
    font-weight: 500;
    line-height: 1.14;
    letter-spacing: -0.28px;
+   font-family: "Kanit";
+   font-size: 14px;
  }
 
  .menu-item-object-category .menu-item:not(:last-child) {
@@ -421,10 +433,10 @@
  .shop-btn {
    flex: 0 0 auto;
    color: var(--color-black);
-   font-family: 'Avenir Next';
+   font-family: 'Kanit';
    font-size: 16px;
    font-style: normal;
-   font-weight: 600;
+   font-weight: 500;
    line-height: normal;
    text-transform: uppercase;
    border-radius: 24px;

@@ -21,7 +21,7 @@
     top: 5%;
     background-image: url(./../../../images/homepage/hero-leaf-1.png);
     background-position: right;
-    
+
 }
 
 .home-hero::before {
@@ -36,7 +36,29 @@
     background-position: left;
 }
 
+.home-hero h1 {
+    font-weight: 400;
+}
+
+.home-hero h1,
+.home-hero p {
+    color: #333;
+    font-family: 'Kanit';
+}
+
+.home-hero p {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.5;
+
+}
+
+.home-hero .button {
+    text-transform: uppercase;
+}
+
 @media (max-width: 1240px) {
+
     .home-hero::after,
     .home-hero::before {
         display: none;

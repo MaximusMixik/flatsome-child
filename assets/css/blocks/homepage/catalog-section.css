@@ -6,11 +6,12 @@
 .category-tab-title h3,
 .catalog-section h3 {
 	color: var(--color-black);
-	font-variant-numeric: lining-nums proportional-nums;
-
+	text-align: center;
+	font-family: "Avenir Next";
+	font-weight: 600;
 	font-size: 48px;
 	font-style: normal;
-	line-height: 116%;
+	line-height: 1.16;
 }
 
 .category-tab-title p,

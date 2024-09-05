@@ -179,10 +179,12 @@
     color: var(--color-black);
     font-size: 16px;
     font-style: normal;
-    font-weight: 500;
     line-height: 1.7;
     text-transform: uppercase;
     padding: 16px 18px;
+
+    font-family: "Avenir Next";
+    font-weight: 600;
 }
 
 .single-product .tabs.nav-line>li>a:before {
@@ -204,12 +206,13 @@
 .single-product .woocommerce-Tabs-panel h3,
 .single-product .woocommerce-Tabs-panel p strong {
     color: var(--color-black);
-    font-family: "Avenir Next";
+    /* font-family: "Avenir Next"; */
     font-weight: 600;
     line-height: 1.7;
 }
 
 .single-product .woocommerce-Tabs-panel {
+    font-family: "Avenir Next";
     color: var(--color-black);
     font-weight: 400;
     line-height: 1.7;
@@ -221,9 +224,10 @@
 
 /* related */
 .single-product .product-section-title {
+    color: var(--color-black);
     text-transform: initial;
     font-family: "Avenir Next";
-    font-weight: 600;
+    font-weight: 500;
     line-height: 1.16;
     padding: 0;
     margin: 0;

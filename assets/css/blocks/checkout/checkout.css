@@ -319,8 +319,6 @@ select {
     padding: 10px 15px !important;
   }
 
-
-
   .woocommerce-checkout .large-5 {
     max-width: 100%;
     flex-basis: 100%;
@@ -329,8 +327,11 @@ select {
 
 @media (max-width: 576px) {
   .page-checkout .woocommerce-checkout .col-inner {
-    background-color: initial;
-    padding: 0 !important;
+    padding: 15px !important;
+  }
+
+  .page-checkout .woocommerce-checkout .large-5.col {
+    padding: 0;
   }
 
   .showcoupon {

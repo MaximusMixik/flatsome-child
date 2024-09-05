@@ -44,7 +44,8 @@ a.white.button.is-outline:hover span {
 }
 
 a.white.button span {
-	color: white
+	color: white;
+	text-transform: uppercase;
 }
 
 a.button.is-outline {
@@ -104,6 +105,9 @@ a.white.button i:before {
 .button.secondary span {
 	color: var(--color-black);
 	font-size: 16px;
+	font-family: "Avenir Next";
+	font-weight: 600;
+	text-transform: uppercase;
 }
 
 footer .button.white.is-outline {

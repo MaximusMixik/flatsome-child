@@ -2,9 +2,6 @@ ul.product-tabs li a {
 	text-transform: uppercase;
 }
 
-#footer div.payment-icons.inline-block {
-	width: 135px;
-}
 
 .h3,
 h3 {
@@ -214,17 +211,7 @@ form.woocommerce-widget-layered-nav-dropdown {
 
 
 /******Tabs***/
-li.tab.has-icon a span {
-	font-style: normal;
-	font-weight: 500;
-	font-size: 14px;
-	line-height: 150%;
-	margin: 0 auto;
-}
 
-li.tab.has-icon.active a span {
-	color: #1D1D1F;
-}
 
 .nav-pills>li.active>a {
 	color: #fff;

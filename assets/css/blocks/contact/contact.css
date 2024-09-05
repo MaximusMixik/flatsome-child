@@ -10,6 +10,7 @@
 
 .contact-action h1:not(:last-child) {
   margin-bottom: 44px;
+  color: var(--color-black);
 }
 
 /* !!! form items */
@@ -48,8 +49,13 @@
   padding: 0;
 }
 
+.contact-action__form .wpforms-field-container:not(:last-child) {
+  margin-bottom: 20px;
+}
+
 /*! contact info*/
 .contact-section h4 {
+  color: var(--color-black);
   font-size: 14px;
   font-weight: 600;
   line-height: 1.2;

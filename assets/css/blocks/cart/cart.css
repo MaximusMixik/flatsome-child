@@ -152,8 +152,9 @@ body.woocommerce-cart .cart-auto-refresh {
 /*  name */
 .cart-container .woocommerce-cart-form .shop_table .product-name {
   color: #292929;
+  font-family: "Kanit";
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1.4;
   width: 270px;
 }
@@ -265,10 +266,12 @@ body.woocommerce-cart .cart-collaterals {
 }
 
 .shop_table .order-total th {
-  font-family: "Avenir Next";
+  /* font-family: "Avenir Next"; */
   font-size: 16px;
   font-weight: 600;
   line-height: 1.4;
+  color: var(--color-black);
+  font-family: "Kanit";
 }
 
 .shop_table .order-total td .amount {

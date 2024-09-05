@@ -1,0 +1,263 @@
+#footer div.payment-icons.inline-block {
+  width: 135px;
+}
+
+#footer input[type=email]::placeholder {
+  color: #fff;
+}
+
+#footer div.wpforms-container-full .wpforms-confirmation-container-full {
+  background: initial !important;
+}
+
+footer .sub-colum .col-inner {
+  align-items: stretch;
+  width: 100%;
+}
+
+.footer-form {
+  position: relative;
+  padding-right: 40px;
+  overflow: hidden;
+  min-height: 48px;
+  width: 100%;
+}
+
+.footer-form .wpforms-submit-container {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+}
+
+.form-footer {
+  flex: 1 1 auto;
+}
+
+.footer-form input.wpforms-field-required {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.footer-form button[type=submit].wpforms-submit.footer-button {
+
+  position: absolute;
+  top: -10px;
+  right: 35px;
+  padding: 0;
+  background-color: transparent !important;
+  height: max-content;
+  display: grid;
+  place-items: center;
+  font-size: 0;
+}
+
+footer .is-border {
+  max-width: 1360px;
+  margin: 0 auto !important;
+}
+
+footer .ux-menu-title {
+  color: var(--color-white, #FFF);
+
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  min-height: initial;
+  padding: 0 0 46px !important;
+}
+
+footer .ux-menu-link__link {
+  color: rgba(255, 255, 255, 0.90);
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: -0.36px;
+  min-height: initial;
+  padding: 0 0 24px;
+}
+
+footer .menu-colum .button {
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 50px;
+}
+
+footer .wpforms-container {
+  margin: 0 !important;
+}
+
+footer .wpforms-container .wpforms-field {
+  padding: 0 !important;
+}
+
+footer .wpforms-container .wpforms-field input {
+  border-radius: 50px !important;
+  background: rgba(255, 255, 255, 0.26) !important;
+  color: rgba(255, 255, 255, 0.88) !important;
+
+  font-size: 16px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: normal !important;
+  padding: 13px 54px 13px 20px !important;
+  max-width: 100% !important;
+  max-height: initial !important;
+  height: auto;
+}
+
+footer .wpforms-submit-container {
+  position: absolute !important;
+  top: 52px;
+  right: -15px;
+  padding: 0 !important;
+  box-shadow: initial !important;
+  margin: initial !important;
+}
+
+footer .wpforms-submit {
+  background: initial !important;
+  color: rgba(0, 0, 0, 0) !important;
+  box-shadow: initial !important;
+}
+
+footer .wpforms-submit:before {
+  content: '';
+  content: '';
+  display: block;
+  width: 24px;
+  height: 24px;
+  background: url(/wp-content/uploads/2023/10/send.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.footer_socials,
+.payment-methods-footer {
+  margin-top: auto;
+}
+
+
+.footer-main-section {
+  padding-bottom: 82px;
+  position: relative;
+}
+
+.footer-main-section .row {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.footer-main-section .row::after {
+  content: '';
+  height: 1px;
+  width: calc(100% - 20px);
+  background: #FFFFFF66;
+  position: absolute;
+  left: 10px;
+  bottom: 0;
+}
+
+@media (min-width: 1001px) {
+
+  footer .menu-colum .col-inner,
+  footer .sub-colum .col-inner {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .menu-colum {
+    flex-basis: 20%;
+    max-width: 20%;
+  }
+
+  .sub-colum {
+    flex-basis: 40%;
+    max-width: 40%;
+  }
+}
+
+@media (max-width: 1001px) {
+
+  .footer-form .wpforms-container .wpforms-field input,
+  .footer-form {
+    border-radius: 50px !important;
+    background: rgba(255, 255, 255, 0.26) !important;
+    color: rgba(255, 255, 255, 0.88) !important;
+  }
+
+  footer .hide-for-small {
+    display: none !important;
+  }
+
+  footer .ux-menu-link__link {
+    color: rgba(255, 255, 255, 0.90);
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: -0.36px;
+    min-height: initial;
+    padding: 0 0 21px;
+    text-align: center;
+    display: block;
+  }
+
+  footer .ux-menu-title {
+    color: var(--color-white, #FFF);
+
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    min-height: initial;
+    padding: 0 0 20px !important;
+    text-align: center;
+    display: block;
+  }
+
+  footer .section.dark {
+    padding-bottom: 30px !important;
+  }
+
+  footer .menu-colum:nth-child(2),
+  footer .menu-colum:nth-child(3) {
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+
+  #footer .payment-mob-margin {
+    margin-left: calc(100vw - 340px);
+  }
+
+  .footer_socials {
+    text-align: center;
+  }
+
+  .menu-colum .col-inner {
+    text-align: center;
+  }
+
+  .payment-methods-footer .img-inner {
+    text-align: center;
+  }
+}
+
+@media(max-width:576px) {
+
+  footer .menu-colum:nth-child(2),
+  footer .menu-colum:nth-child(3) {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+}
