@@ -195,7 +195,6 @@
    background-position: center;
  }
 
-
  .mobile-nav-login-icon,
  .valu,
  .back-btn-menu,
@@ -497,6 +496,56 @@
    font-size: 12px;
    font-weight: 500;
    line-height: 1.17;
+ }
+
+
+
+ /* .header-wrapper .burger-menu-section .selectron23-container {
+   overflow: visible !important;
+ } */
+ .selectron23 {
+   position: relative;
+ }
+
+ .selectron23 img {
+   display: none;
+ }
+
+ .selectron23::after {
+   content: "";
+   position: absolute;
+   width: 20px;
+   height: 20px;
+   top: 53%;
+   transform: translateY(-50%);
+   left: 0;
+   pointer-events: none;
+   background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none"><path stroke="%23333" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M14 1a10 10 0 1 0 6 5m-4-1h0m-6 16v-3l2-3s0 0 0 0l-3-2s0 0 0 0l-2-3V9l-6 1m19-5c0 2-2 4-4 6-2-2-4-4-4-6a4 4 0 0 1 8 0Zm-4 0h0Z" /></svg>') center / contain no-repeat;
+ }
+
+ .selectron23-container[data-opened="1"] {
+   max-height: initial !important;
+   min-height: initial !important;
+   overflow: visible !important;
+ }
+
+ .home .header-wrapper .selectron23-container[data-opened="0"]>span,
+ .home .header-wrapper .selectron23-container[data-opened="1"]>span {
+   border: initial !important;
+   width: 24px;
+   height: 24px;
+   background-image: url(./../../images/homepage/slider-arrow-down.svg);
+   background-size: 100%;
+   background-repeat: no-repeat;
+   position: absolute;
+   transform: rotate(-90deg);
+   top: 8px !important;
+   right: -4px;
+ }
+
+ .home .header-wrapper .selectron23-container[data-opened="1"]>span {
+   margin-top: 0 !important;
+   transform: rotate(-270deg);
  }
 
  @media (any-hover:hover) {

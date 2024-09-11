@@ -138,6 +138,7 @@ a.checkout-button.button,
 	background-color: var(--color-green-1) !important;
 	box-shadow: 0 25px 29px 0 rgba(137, 175, 8, 0.18), 0px 5px 4.713px 0px rgba(137, 175, 8, 0.09);
 	padding: 13px 20px;
+	text-shadow: none;
 	margin: 0;
 	transition: background-color 0.3s ease;
 }

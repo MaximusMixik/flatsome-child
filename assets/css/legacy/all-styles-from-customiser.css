@@ -73,24 +73,7 @@ header+.message-wrapper {
 	color: #89ad09 !important;
 }
 
-.home .header-wrapper .selectron23-container[data-opened="0"]>span,
-.home .header-wrapper .selectron23-container[data-opened="1"]>span {
-	border: initial !important;
-	width: 24px;
-	height: 24px;
-	background-image: url(./../../images/homepage/slider-arrow-down.svg);
-	background-size: 100%;
-	background-repeat: no-repeat;
-	position: absolute;
-	transform: rotate(-90deg);
-	top: 8px !important;
-	right: -4px;
-}
 
-.home .header-wrapper .selectron23-container[data-opened="1"]>span {
-	margin-top: 0 !important;
-	transform: rotate(-270deg);
-}
 
 .button,
 .btn.btn-logout,
@@ -507,10 +490,6 @@ body .header-full-width .container {
 	min-height: 40px !important;
 }
 
-.selectron23-container[data-opened="1"] {
-	max-height: initial !important;
-	min-height: initial !important;
-}
 
 
 .form-footer p {
