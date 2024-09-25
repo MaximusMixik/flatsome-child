@@ -117,7 +117,7 @@
 
 .account-popup .woocommerce-form__label:has(:checked)::before {
   border: 1px solid #6D8A07;
-  background: #88AD09 url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 7" fill="none"><path stroke="%23fff" d="m1 3 3 3 5-5" /></svg>') center / 10px 7px no-repeat;
+  background: var(--color-green-1) url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 7" fill="none"><path stroke="%23fff" d="m1 3 3 3 5-5" /></svg>') center / 10px 7px no-repeat;
 }
 
 .account-popup .woocommerce-form__input-checkbox {
@@ -160,16 +160,16 @@
 /*all popup media */
 @media (any-hover:hover) {
   .account-popup__button:hover {
-    background-color: #88AD09;
+    background-color: var(--color-green-1);
   }
 
   .account-popup .woocommerce-form__label:hover::before {
-    box-shadow: inset 0 0 6px 0 #88AD09;
+    box-shadow: inset 0 0 6px 0 var(--color-green-1);
   }
 
   .account-popup .woocommerce-privacy-policy-link:hover,
   .account-popup .lost_password a:hover {
-    color: #88AD09;
+    color: var(--color-green-1);
   }
 }
 
@@ -194,7 +194,7 @@
 
 /*! tabs action */
 .account-popup__button.active-tab {
-  border-bottom: 4px solid #88AD09;
+  border-bottom: 4px solid var(--color-green-1);
   pointer-events: none;
 }
 

@@ -82,7 +82,8 @@ label[for=woof_checkbox_sales] {
 
 label[for=woof_checkbox_sales]:before {
   content: "Sale";
-  color: var(--color-orange);
+  /* color: var(--color-orange); */
+  color: var(--color-green-2);
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: -0.28px;
@@ -307,9 +308,12 @@ label[for=woof_checkbox_sales]:before {
 
 @media (any-hover:hover) {
 
-  .woof_list_checkbox li:hover .woof_checkbox_label,
-  .woof_container_inner:hover label[for=woof_checkbox_sales]:before {
+  .woof_list_checkbox li:hover .woof_checkbox_label {
     color: var(--color-green-2);
+  }
+
+  .woof_container_inner:hover label[for=woof_checkbox_sales]:before {
+    color: var(--color-green-1);
   }
 
   .woof_container_inner:hover h4 {

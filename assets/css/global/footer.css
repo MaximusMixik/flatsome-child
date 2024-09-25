@@ -110,6 +110,8 @@ footer .wpforms-container .wpforms-field input {
   max-width: 100% !important;
   max-height: initial !important;
   height: auto;
+  position: relative;
+  z-index: 5;
 }
 
 footer .wpforms-submit-container {
@@ -190,7 +192,7 @@ footer .wpforms-submit:before {
   .footer-form .wpforms-container .wpforms-field input,
   .footer-form {
     border-radius: 50px !important;
-    background: rgba(255, 255, 255, 0.26) !important;
+    /* background: rgba(255, 255, 255, 0.26) !important; */
     color: rgba(255, 255, 255, 0.88) !important;
   }
 
@@ -259,5 +261,11 @@ footer .wpforms-submit:before {
   footer .menu-colum:nth-child(3) {
     flex-basis: 100%;
     max-width: 100%;
+  }
+}
+
+@media (any-hover:hover) {
+  footer .ux-menu-link__link:hover {
+    color: var(--color-yellow) !important;
   }
 }

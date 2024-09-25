@@ -53,7 +53,8 @@
 
 /* .product-small.box .price-wrapper */
 span.amount.woocommerce-Price-amount {
-	color: var(--color-green-2);
+	/* color: var(--color-green-2); */
+	color: var(--color-green-1);
 	font-size: 18px;
 	font-style: normal;
 	font-weight: 600;

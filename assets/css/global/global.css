@@ -5,6 +5,7 @@
     --color-black: #000;
 
     --color-orange: #FF5C00;
+    --color-yellow: #FFD600;
     --color-gray: #CFCFCF;
 }
 
@@ -129,8 +130,8 @@ h6 {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    margin-bottom: 56px;
 }
+
 
 .blog-section .box-text {
     padding-left: 0;
@@ -152,10 +153,10 @@ h6 {
 .badge-inner.on-sale {
     padding: 2px 10px;
     border-radius: 16px;
-    background-color: #FFD600 !important;
-    color: #333;
+    background-color: var(--color-yellow) !important;
+    color: #333 !important;
     text-align: center;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 500;
     line-height: 1.16;
 }
@@ -277,11 +278,13 @@ h6 {
 
 /* price mark */
 ins span.amount.woocommerce-Price-amount {
-    color: var(--color-green-1);
+    /* color: var(--color-green-1); */
+    color: var(--color-green-2);
 }
 
 /* .product-small.box .price-wrapper */
 del span.amount.woocommerce-Price-amount {
+    text-decoration: line-through;
     color: #CCC;
     font-family: "Kanit";
     font-size: 12px;
@@ -299,6 +302,10 @@ del span.amount.woocommerce-Price-amount {
         min-width: 36px;
         height: 36px;
     }
+
+    .blog-section .post-title:not(:last-child) {
+        margin-bottom: 56px;
+    }
 }
 
 @media (max-width: 576px) {
@@ -309,5 +316,7 @@ del span.amount.woocommerce-Price-amount {
         height: 30px;
     }
 
-
+    .blog-section .post-title:not(:last-child) {
+        margin-bottom: 24px;
+    }
 }

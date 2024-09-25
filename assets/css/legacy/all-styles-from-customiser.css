@@ -174,11 +174,6 @@ div[submit-success]>.wpforms-confirmation-container-full:not(.wpforms-redirectio
 	display: none;
 }
 
-/* .menu-item:hover a */
-.ux-menu-link__link:hover,
-.post-title:hover a {
-	color: #FF5C00 !important;
-}
 
 .woocommerce-product-gallery__wrapper .flickity-prev-next-button {
 	width: 70px !important;

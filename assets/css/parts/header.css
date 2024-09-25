@@ -488,7 +488,7 @@
    content: "Sale!";
    padding: 2px 4px;
    border-radius: 13px;
-   background: #FFD600;
+   background: var(--color-yellow);
    color: #333;
    text-align: center;
    font-weight: 600;

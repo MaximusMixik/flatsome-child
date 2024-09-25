@@ -142,7 +142,7 @@
 
     padding: 2px 10px;
     border-radius: 16px;
-    background-color: #FFD600;
+    background-color: var(--color-yellow);
     color: #333;
     text-align: center;
     font-size: 15px;
@@ -279,6 +279,11 @@
     gap: 4px;
 }
 
+.single-product .entry-content h3 strong {
+    font-weight: 600;
+    font-family: "Avenir Next";
+}
+
 /* MEDIA */
 @media (any-hover:hover) {
     .single-product .flickity-slider>.col a:hover img {
@@ -374,7 +379,8 @@
     }
 
     .single-product .entry-content h3 strong {
-        font-weight: 600;
+        font-weight: 700;
+        font-family: "Avenir Next";
     }
 
     .single-product .row.item-row+.row.item-row {
