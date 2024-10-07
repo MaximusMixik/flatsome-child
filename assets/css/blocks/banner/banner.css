@@ -9,6 +9,9 @@
   position: relative;
   z-index: 2;
   min-height: 56px;
+
+  display: flex;
+  align-items: center;
 }
 
 .poster__slider {
@@ -34,25 +37,28 @@
 
 .slide-poster__wrapper {
   display: flex;
+  /* align-items: center; */
 }
 
 .slide-poster__title {
   flex: 1 1 auto;
+  text-align: center;
   color: #333;
   font-family: "Avenir Next";
   font-size: 18px;
   font-weight: 600;
   line-height: 1.16;
+  margin-bottom: 0;
 }
 
-.slide-poster__button.button.button--green {
+/* .slide-poster__button.button.button--green {
   font-size: 12px;
   font-weight: 600;
   padding: 6px 15px;
   display: grid;
   place-items: center;
   min-height: 36px;
-}
+} */
 
 
 
@@ -67,18 +73,18 @@
     margin-inline: auto;
   }
 
-  .slide-poster__wrapper {
+  /* .slide-poster__wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 36px;
-  }
+  } */
 
-  .slide-poster__button.button.button--green {
+  /* .slide-poster__button.button.button--green {
     flex-shrink: 0;
     flex-grow: 0;
     max-width: max-content;
-  }
+  } */
 }
 
 @media (max-width: 500px) {

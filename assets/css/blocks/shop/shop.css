@@ -306,6 +306,10 @@ label[for=woof_checkbox_sales]:before {
 
 }
 
+.widget.WOOF_Widget {
+  position: relative;
+}
+
 @media (any-hover:hover) {
 
   .woof_list_checkbox li:hover .woof_checkbox_label {

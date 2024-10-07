@@ -168,6 +168,13 @@ footer .wpforms-submit:before {
   bottom: 0;
 }
 
+@media (min-width: 900px) {
+  .ux-menu:not(:has(.ux-menu-title))>:first-child {
+    /* .ux-menu-link.menu-item*/
+    margin-top: 85px !important;
+  }
+}
+
 @media (min-width: 1001px) {
 
   footer .menu-colum .col-inner,
@@ -186,6 +193,8 @@ footer .wpforms-submit:before {
     max-width: 40%;
   }
 }
+
+
 
 @media (max-width: 1001px) {
 
@@ -262,7 +271,13 @@ footer .wpforms-submit:before {
     flex-basis: 100%;
     max-width: 100%;
   }
+
+  .footer-main-section .col.menu-colum .button.white.is-outline {
+    margin: 0 !important;
+  }
 }
+
+
 
 @media (any-hover:hover) {
   footer .ux-menu-link__link:hover {

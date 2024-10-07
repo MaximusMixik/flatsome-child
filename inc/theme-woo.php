@@ -51,3 +51,14 @@ remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_singl
 
 // Re-add the function with your desired priority, e.g., 15
 add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_price', 25 );
+
+// test task 11
+add_action('woocommerce_before_thankyou', 'redirect_failed_order', 10, 1);
+
+function redirect_failed_order($order_id) {
+    $order = wc_get_order($order_id);
+    if ($order->get_status() == 'failed') {
+        wp_redirect(home_url());
+        exit;
+    }
+}

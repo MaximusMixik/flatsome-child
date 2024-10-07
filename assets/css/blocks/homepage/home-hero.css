@@ -64,3 +64,17 @@
         display: none;
     }
 }
+
+@media (max-width: 768px) {
+    .home-hero.section {
+        padding-top: 90px !important;
+    }
+
+    .home-hero h1 {
+        font-size: 34px !important;
+    }
+
+    .home-hero p {
+        font-size: 20px !important;
+    }
+}

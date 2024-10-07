@@ -6,6 +6,7 @@
   margin: 0;
 }
 
+
 .message-wrapper .container.message-container {
   width: 100%;
   max-width: 1424px;
@@ -283,6 +284,21 @@ select {
 
 .select2-container .select2-selection--single .select2-selection__rendered {
   line-height: normal;
+}
+
+
+.woocommerce-error.message-wrapper {
+  outline: none;
+}
+
+.woocommerce-error.message-wrapper .message-container.alert-color {
+  color: red;
+}
+
+.page-id-10 .page-checkout>:nth-child(1).woocommerce-info.message-wrapper .message-container.container {
+  font-weight: 700;
+  text-align: center;
+  font-size: 24px;
 }
 
 @media (min-width: 1000px) {

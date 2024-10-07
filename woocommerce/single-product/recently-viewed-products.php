@@ -1,6 +1,6 @@
 <?php
 if ( ! isset( $_COOKIE['user_viewed_products'] ) ) {
-    echo '<p>You haven\'t viewed any products yet.</p>';
+    // echo '<p>You haven\'t viewed any products yet.</p>';
     return;
 }
 
