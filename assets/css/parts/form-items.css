@@ -73,6 +73,7 @@ form.woocommerce-checkout textarea {
 }
 
 
+
 .quantity.buttons_added .button {
   background-color: #F0F0F0;
   width: 36px;
@@ -106,6 +107,25 @@ form.woocommerce-checkout textarea {
   border: initial;
   outline: initial;
   box-shadow: initial;
+}
+
+@media (max-width: 350px) {
+  .quantity {
+    border-radius: 26px;
+    width: 90px;
+    height: 40px;
+    padding: 4px;
+  }
+
+  .quantity.buttons_added .button {
+    background-color: #F0F0F0;
+    width: 28px !important;
+    height: 28px !important;
+    padding: 0;
+    font-size: 12px;
+    border: initial !important;
+    transition: background-color 0.3s ease;
+  }
 }
 
 @media (any-hover:hover) {
