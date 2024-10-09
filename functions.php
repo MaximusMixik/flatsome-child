@@ -549,3 +549,9 @@ function wf_pklist_add_values_for_custom_placeholders($find_replace,$template_ty
 	return $find_replace;
 }
 //company_email invoice
+
+// Change category link in menu
+// function my_custom_category_link( $link, $category_id ) {
+//     return get_home_url() . '/shop';
+// }
+// add_filter( 'category_link', 'my_custom_category_link', 10, 2 );
