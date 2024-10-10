@@ -93,26 +93,26 @@ if ( flatsome_option( 'facebook_login_checkout' ) && get_option( 'woocommerce_en
 							<div id="order_review" class="woocommerce-checkout-review-order">
 								<?php do_action( 'woocommerce_checkout_order_review' ); ?>
 							</div>
-
+							<div class="adress_inf">
+								<p>
+									SELLER: Digimatic OÜ 
+								</p>
+								<p>
+								registration number: 16728353
+								</p>
+								<p>
+								address: Harju maakond,
+								</p>
+								<p>
+								Tallinn, Kesklinna linnaosa,
+								</p>
+								<p>
+								Tornimäe tn 3, 10145
+								</p>
+							</div>
 							<?php do_action( 'woocommerce_checkout_after_order_review' ); ?>
 						</div>
-						<div class="adress_inf">
-							<p>
-								SELLER: Digimatic OÜ 
-							</p>
-							<p>
-							registration number: 16728353
-							</p>
-							<p>
-							address: Harju maakond,
-							</p>
-							<p>
-							Tallinn, Kesklinna linnaosa,
-							</p>
-							<p>
-							Tornimäe tn 3, 10145
-							</p>
-						</div>
+
 
 					</div>
 
