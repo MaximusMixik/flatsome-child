@@ -1,157 +1,168 @@
 .contact-section {
-  color: var(--color-black);
+	color: var(--color-black);
 }
 
 .contact-action h1 {
-  font-family: "Avenir Next";
-  font-weight: 500;
-  line-height: 1.16;
+	font-family: "Avenir Next";
+	font-weight: 500;
+	line-height: 1.16;
 }
 
 .contact-action h1:not(:last-child) {
-  margin-bottom: 44px;
-  color: var(--color-black);
+	margin-bottom: 44px;
+	color: var(--color-black);
 }
 
 /* !!! form items */
 .contact-section .wpforms-field {
-  display: grid;
+	display: grid;
 }
 
 .wpforms-field-container {
-  display: grid;
-  gap: 18px;
+	display: grid;
+	gap: 18px;
 }
 
 .contact-section .wpforms-container-full .wpforms-field-description {
-  color: var(--color-black);
-  font-family: "Avenir Next";
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 1.2;
-  text-transform: uppercase;
-  margin-bottom: 18px;
-  margin-top: 0;
-  order: -1;
+	color: var(--color-black);
+	font-family: "Avenir Next";
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 1.2;
+	text-transform: uppercase;
+	margin-bottom: 18px;
+	margin-top: 0;
+	order: -1;
 }
 
 .contact-section .wpforms-container .wpforms-field {
-  padding: 0;
+	padding: 0;
 }
 
 .contact-section .wpforms-container-full .wpforms-form .wpforms-submit-container,
 .contact-section .wpforms-container.wpforms-container-full {
-  margin: 0;
+	margin: 0;
 }
 
 .contact-section .wpforms-container-full .wpforms-submit-container {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 .contact-action__form .wpforms-field-container:not(:last-child) {
-  margin-bottom: 20px;
+	margin-bottom: 20px;
+}
+
+/* .contact-section div.wpforms-container-full .wpforms-confirmation-container-full {
+	background: initial !important;
+	border: none !important;
+} */
+
+.contact-section div.wpforms-container-full .wpforms-confirmation-container-full p {
+	color: var(--color-black) !important;
+	font-size: 18px;
+	text-align: center;
 }
 
 /*! contact info*/
 .contact-section h4 {
-  color: var(--color-black);
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 1.2;
-  text-transform: uppercase;
-  font-family: "Avenir Next";
+	color: var(--color-black);
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 1.2;
+	text-transform: uppercase;
+	font-family: "Avenir Next";
 }
 
 .contact-section h4:not(:last-child) {
-  margin-bottom: 18px;
+	margin-bottom: 18px;
 }
 
 .contact-section p {
-  color: rgba(0, 0, 0, 0.80);
-  font-family: "Avenir Next";
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
+	color: rgba(0, 0, 0, 0.80);
+	font-family: "Avenir Next";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.5;
 }
 
 .contact-section h4+p {
-  margin-bottom: 0;
+	margin-bottom: 0;
 }
 
 .contact-section p+p {
-  margin-top: 6px;
+	margin-top: 6px;
 }
 
 .contact-section p a {
-  text-decoration: underline;
-  transition: color 0.3s ease;
+	text-decoration: underline;
+	transition: color 0.3s ease;
 }
 
 
 @media (any-hover:hover) {
-  .contact-section p a:hover {
-    color: var(--color-green-2);
-  }
+	.contact-section p a:hover {
+		color: var(--color-green-2);
+	}
 }
 
 @media (min-width: 1000px) {
-  .section.contact-section {
-    padding-top: 50px;
-    padding-bottom: 120px;
-  }
+	.section.contact-section {
+		padding-top: 50px;
+		padding-bottom: 120px;
+	}
 
-  .contact-section .section-content .row {
-    margin-inline: auto;
-    max-width: 975px;
-  }
+	.contact-section .section-content .row {
+		margin-inline: auto;
+		max-width: 975px;
+	}
 
-  .contact-section .col.medium-8.large-8 {
-    padding-right: 24px;
-    padding-bottom: 0;
-  }
+	.contact-section .col.medium-8.large-8 {
+		padding-right: 24px;
+		padding-bottom: 0;
+	}
 
-  .contact-section .col.medium-4.large-4 {
-    padding-top: 80px;
-    padding-left: 24px;
-  }
+	.contact-section .col.medium-4.large-4 {
+		padding-top: 80px;
+		padding-left: 24px;
+	}
 
-  .contact-action h1 {
-    font-size: 32px;
-  }
+	.contact-action h1 {
+		font-size: 32px;
+	}
 
-  .contact-action h1:not(:last-child) {
-    margin-bottom: 44px;
-  }
+	.contact-action h1:not(:last-child) {
+		margin-bottom: 44px;
+	}
 }
 
 @media (max-width: 1000px) {
-  .section.contact-section {
-    padding-top: 30px;
-    padding-bottom: 40px;
-  }
+	.section.contact-section {
+		padding-top: 30px;
+		padding-bottom: 40px;
+	}
 
-  .contact-action h1 {
-    font-size: 24px;
-  }
+	.contact-action h1 {
+		font-size: 24px;
+	}
 
-  /* .contact-section .row {
+	/* .contact-section .row {
     flex-direction: column-reverse;
   } */
-  .contact-action h1:not(:last-child) {
-    margin-bottom: 24px;
-  }
+	.contact-action h1:not(:last-child) {
+		margin-bottom: 24px;
+	}
 
-  .contact-section .col.medium-4.large-4,
-  .contact-section .col.medium-8.large-8 {
-    margin: 0;
-  }
+	.contact-section .col.medium-4.large-4,
+	.contact-section .col.medium-8.large-8 {
+		margin: 0;
+	}
 
-  .breadcrumbs-section:not(:last-child) {
-    margin-bottom: 20px;
-  }
+	.breadcrumbs-section:not(:last-child) {
+		margin-bottom: 20px;
+	}
 
-  .contact-section h4 {
-    margin-top: 0;
-  }
+	.contact-section h4 {
+		margin-top: 0;
+	}
 }
